@@ -1,0 +1,50 @@
+{
+	id: "6CF1E30626605582"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "create:cogwheel"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "create:large_cogwheel"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "createdeco:andesite_sheet"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "createdeco:zinc_sheet"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "create:brass_sheet"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "create:brass_ingot"
+				tag: { }
+			}
+		}
+	]
+	title: "Create"
+}

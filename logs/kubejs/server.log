@@ -1,0 +1,16 @@
+[19:52:49] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[19:52:49] [INIT] Loaded plugins:
+[19:52:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[19:52:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[19:52:49] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[19:52:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[19:52:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[19:52:49] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[19:52:49] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[19:52:49] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
+[19:52:49] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[19:52:49] [INIT] - com.probejs.ProbeJSPlugin
+[19:52:50] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[19:52:50] [INFO] Loaded script server_scripts:example.js in 0.001 s
+[19:52:50] [INFO] Loaded 1/1 KubeJS server scripts in 0.01 s with 0 errors and 0 warnings
+[19:52:50] [INFO] Scripts loaded

@@ -1,0 +1,336 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vehicle"
+	group: "43862802AE1531B5"
+	icon: {
+		Count: 1
+		id: "immersive_aircraft:biplane"
+		tag: { }
+	}
+	id: "61F5DEFE6AC6F1CE"
+	images: [
+		{
+			height: 5.0d
+			image: "immersive_aircraft:item/biplane"
+			rotation: 0.0d
+			width: 5.0d
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			height: 10.0d
+			image: "quark:block/paper_wall_big"
+			rotation: 0.0d
+			width: 10.0d
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			height: 5.0d
+			image: "immersive_aircraft:item/gyrodyne"
+			rotation: 0.0d
+			width: 5.0d
+			x: -4.0d
+			y: 2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6E9D597620EC26AE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "172334A07FAFBFAD"
+					table_id: 7850305241036641666L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D4D35E4FD46934D"
+					table_id: 2607083274660358887L
+					type: "choice"
+				}
+				{
+					id: "401C4620B8ED20ED"
+					item: {
+						Count: 1
+						id: "immersive_aircraft:propeller"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Explore the world"
+			tasks: [{
+				id: "06E6B0B901F8477D"
+				title: "Transport"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E9D597620EC26AE"]
+			id: "111EC1A767B2C264"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "630A5E7956B9D3C9"
+					table_id: 7850305241036641666L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FE44426B00ED42B"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			subtitle: "Touch the Sky"
+			tasks: [{
+				id: "0C49B4CD0D839BA0"
+				item: {
+					Count: 1
+					id: "immersive_aircraft:airship"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E9D597620EC26AE"]
+			id: "5243C75321C9255F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "397553B5ECD06138"
+					table_id: 889562493663810026L
+					type: "random"
+				}
+				{
+					id: "7F462FA687EA2B0F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Touch the Sky"
+			tasks: [{
+				id: "3A368C9F1A97B354"
+				item: {
+					Count: 1
+					id: "immersive_aircraft:cargo_airship"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E9D597620EC26AE"]
+			id: "1BBD4716DBA7052F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35E07494D49419F3"
+				table_id: 2017195838720307771L
+				type: "choice"
+			}]
+			subtitle: "Touch the Sky"
+			tasks: [{
+				id: "1067A11C64B64614"
+				item: {
+					Count: 1
+					id: "immersive_aircraft:biplane"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E9D597620EC26AE"]
+			id: "28B6CD55BD763E41"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C1752993C086215"
+					table_id: 7850305241036641666L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16D52A0BCE1B3C2A"
+					table_id: 889562493663810026L
+					type: "choice"
+				}
+			]
+			subtitle: "Touch the Sky"
+			tasks: [{
+				id: "2D346986DBE66668"
+				item: {
+					Count: 1
+					id: "immersive_aircraft:gyrodyne"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E9D597620EC26AE"]
+			id: "16379AF831474C0B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33C31C3DCE83AA4B"
+					table_id: 7850305241036641666L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63D605F258AE1C85"
+					table_id: 1711122350367171003L
+					type: "choice"
+				}
+			]
+			subtitle: "Touch the Sky"
+			tasks: [{
+				id: "7B7B9638D0319D20"
+				item: {
+					Count: 1
+					id: "immersive_aircraft:quadrocopter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "13666197BEEB0F23"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0AACBCAF5C8F8DE9"
+					table_id: 7850305241036641666L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27032AD0648CF685"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05DA43E7F0E1435E"
+					table_id: 889562493663810026L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "353FD5E62F720B7E"
+				item: {
+					Count: 1
+					id: "immersive_aircraft:engine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "2A5BCC3D70F96320"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38788F9F66BABFFA"
+					table_id: 28026836370523306L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62425BAB3725B891"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "40319ECEB60ADF7A"
+				item: {
+					Count: 1
+					id: "immersive_aircraft:boiler"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "1DDFB297180FBE35"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26CFEE6CE75A376F"
+					table_id: 28026836370523306L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13E7B5168BFD12E2"
+					table_id: 1511897575099731575L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "13B05CACB0AAA78F"
+				item: {
+					Count: 1
+					id: "immersive_aircraft:eco_engine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "18348319376ABD6A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A8E7A45D4CE2B11"
+					table_id: 5738888593157037498L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "038934DAC9378662"
+					table_id: 7850305241036641666L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3908D6B6B3F0E8DF"
+				item: {
+					Count: 1
+					id: "immersive_aircraft:nether_engine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+	]
+	title: " &2Tranport"
+}

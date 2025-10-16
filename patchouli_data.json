@@ -1,0 +1,16 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [
+        "apotheosis:garden/cactus",
+        "apotheosis:potion/charms/charm",
+        "apotheosis:potion/charms/curios",
+        "apotheosis:village/wandering_trader"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

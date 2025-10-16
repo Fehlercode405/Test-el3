@@ -1,0 +1,379 @@
+{
+	autofocus_id: "2B698A2497144772"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_mobs"
+	group: "60B33EC1FE7EA932"
+	icon: {
+		Count: 1
+		id: "minecraft:dragon_head"
+		tag: { }
+	}
+	id: "69474A57A69AA657"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B698A2497144772"]
+			id: "21D92AEB025A25BC"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "17FFAF9A53B793DD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "76141CA723730F86"
+					item: {
+						Count: 1
+						id: "minecraft:dragon_breath"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "12FE17781B28E85F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2B698A2497144772"]
+			id: "6AB46C57D94D112D"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "4A3AB7743A059C62"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "660D1B26C4E12DA5"
+					item: {
+						Count: 1
+						id: "minecraft:shulker_shell"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "0BC670435208BFED"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2B698A2497144772"]
+			id: "517857CA85325E4A"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "0529A8BC3541B674"
+				item: {
+					Count: 1
+					id: "minecraft:ender_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "641D02F6B57CF2A4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["21D92AEB025A25BC"]
+			id: "77D0B83305339702"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "403CCBF5B4171164"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "222100F6742FD626"
+					item: {
+						Count: 1
+						id: "minecraft:dragon_breath"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "643B8143090D14CF"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77D0B83305339702"]
+			id: "238CF5A0D7634BC0"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "07984516069EFDE4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "3CC9BE3A8DA9E0F1"
+					item: {
+						Count: 1
+						id: "minecraft:dragon_breath"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "5CEF81FFBAFD1EF6"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["238CF5A0D7634BC0"]
+			id: "6A5ED5B5FE2B8A2F"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "25271D5D0F9E99F0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "70B172FAFDFF4FE4"
+					item: {
+						Count: 1
+						id: "minecraft:dragon_breath"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "19DBDC093DD92944"
+				type: "kill"
+				value: 20L
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6AB46C57D94D112D"]
+			id: "4A5D31B1994C50C7"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "6147709CBE6F2B82"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "77A6FC40F4E8F649"
+					item: {
+						Count: 1
+						id: "minecraft:shulker_shell"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "0601171E40E69944"
+				type: "kill"
+				value: 5L
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A5D31B1994C50C7"]
+			id: "3960734C54AD13CA"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "125A55B10D0F8135"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "40569088A0AFC042"
+					item: {
+						Count: 1
+						id: "minecraft:shulker_shell"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "68CE41BBEFD1347C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3960734C54AD13CA"]
+			id: "310A664AED0D21E0"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "2CEE759E7F6C9459"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "02C21EF28062F945"
+					item: {
+						Count: 1
+						id: "minecraft:shulker_shell"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "53793D5AF81A72B4"
+				type: "kill"
+				value: 25L
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["517857CA85325E4A"]
+			id: "1986FE4BA7289F82"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 2
+				id: "6CA48130C444B7EE"
+				item: {
+					Count: 1
+					id: "minecraft:ender_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "59F06D506227E387"
+				type: "kill"
+				value: 5L
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1986FE4BA7289F82"]
+			id: "5A5A630E2E6CB0EE"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 3
+				id: "5EDD1E237CB31964"
+				item: {
+					Count: 1
+					id: "minecraft:ender_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "219D01C6B26A08D9"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A5A630E2E6CB0EE"]
+			id: "0EDC3B872CE697B3"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "681D9ED08D89E184"
+				item: {
+					Count: 1
+					id: "minecraft:ender_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "2523D91D744CD6D2"
+				type: "kill"
+				value: 25L
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			icon: "minecraft:end_portal_frame"
+			id: "2B698A2497144772"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "5A846FACA8C01708"
+				type: "dimension"
+			}]
+			title: "End"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B698A2497144772"]
+			id: "3E2074CA7B2226E4"
+			repeatable: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40198E041D7A12BE"
+				table_id: 2645938118790146101L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				icon: "draconicevolution:large_chaos_frag"
+				id: "5F8B535D6EED48C0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "End Mobs"
+}

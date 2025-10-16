@@ -1,0 +1,30 @@
+{
+	id: "45675CE5A54BE754"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "sophisticatedbackpacks:xp_pump_upgrade", weight: 0.3f }
+		{ count: 5, item: "create:experience_block" }
+		{
+			count: 12
+			item: {
+				Count: 1
+				id: "create:experience_nugget"
+				tag: { }
+			}
+		}
+		{
+			type: "xp"
+			xp: 100
+		}
+		{
+			type: "xp"
+			xp: 500
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
+	]
+	title: "xp"
+}

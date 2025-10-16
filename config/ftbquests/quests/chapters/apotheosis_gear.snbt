@@ -1,0 +1,765 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis_gear"
+	group: "44BE48AC7FEC4E5A"
+	icon: {
+		Count: 1
+		id: "apotheosis:mythic_material"
+		tag: { }
+	}
+	id: "6693050B0EE71CEB"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5A0305BB1F8EA932"]
+			description: [""]
+			id: "40926361B5A17F74"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "258DF51B8FE5DB7D"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E773EE5BFDEB878"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19FF1FA267462921"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2610766334068246"
+				item: {
+					Count: 1
+					id: "apotheosis:gem_dust"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["40926361B5A17F74"]
+			description: [""]
+			id: "6BB9490E23CBD287"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69CA5DD44EF1B570"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "089026C3F4E807EB"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01F7A8C09E30D495"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "472F56378989C26F"
+				title: "Vials and Sigils"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BB9490E23CBD287"]
+			description: [""]
+			id: "6631947900DB54E9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21888D080F9CF582"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BBAD6BB797B27C9"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "724962E91D01C8EA"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6518962A5B0E9512"
+				item: "apotheosis:vial_of_expulsion"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6BB9490E23CBD287"]
+			description: [""]
+			id: "3FC0042D2284242B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3ED70BDFF720FE9E"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0539A1D0D04B88AF"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78D5AEFE78CEB5D8"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "78DC43B1B647D02E"
+				item: "apotheosis:vial_of_extraction"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BB9490E23CBD287"]
+			description: [""]
+			id: "1124A964E1B8E0EE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "153F973AFD6A0DA7"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CE9A69963D58139"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B7D93C4C70B0BA0"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "59D07BFACCEB130D"
+				item: "apotheosis:vial_of_unnaming"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BB9490E23CBD287"]
+			description: [""]
+			id: "482190A9DBE834BE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "60918353221FD6DB"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B4F91C7FA81100C"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E1557408B9E23F3"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1354E0A2E840D42D"
+				item: {
+					Count: 1
+					id: "apotheosis:sigil_of_socketing"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["482190A9DBE834BE"]
+			description: [""]
+			id: "1770FF93638B3F22"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63091E987E9B2F9F"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5833553D8D03D9F8"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6855F4EADB646A11"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "528DE40DB533970E"
+				item: "apotheosis:superior_sigil_of_socketing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			id: "5A0305BB1F8EA932"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59E1EE5EBA3EB0FF"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0270E904348A4369"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3605AE1DC4844144"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				advancement: "apotheosis:affix/gem"
+				criterion: ""
+				id: "61A0FDFECECB6FFF"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["40926361B5A17F74"]
+			description: [""]
+			id: "1A507E77BF750F60"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "560530674FA22A73"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6772EF81217A2E3F"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FA1D1B33334FE15"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "14B79330933FD83E"
+				item: {
+					Count: 1
+					id: "apotheosis:salvaging_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1A507E77BF750F60"]
+			id: "70D60687AAB145FE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43D0ABEB9AE8ACA9"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B924CF3B4788189"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B2D930B72C80CF0"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "650CAE5254152FB9"
+				item: {
+					Count: 1
+					id: "apotheosis:common_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1A507E77BF750F60"]
+			id: "0A70CC1A0F4F1CD1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "192FA7712CC82973"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "171263E5C8AE1215"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AAE99BA78680B62"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "70594E0D8666EB60"
+				item: {
+					Count: 1
+					id: "apotheosis:uncommon_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1A507E77BF750F60"]
+			id: "40C8A9DF4581FF8C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DA03878E5425360"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25589FF6E932D391"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69712B099EA7DC6A"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "71D7450548341CEB"
+				item: {
+					Count: 1
+					id: "apotheosis:rare_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1A507E77BF750F60"]
+			id: "061244C38F05CBFE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A52B0DA634CFCD6"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19A3162EFA0124E9"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D6C01BDB291B583"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6BED70FB7EF343B8"
+				item: {
+					Count: 1
+					id: "apotheosis:epic_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1A507E77BF750F60"]
+			id: "738FB4AC92679507"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3FFCAB55387A0A87"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4273E79FF330BAA2"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "271A8F01FE466BBC"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "68C43D5FAB4FB1FB"
+				item: {
+					Count: 1
+					id: "apotheosis:mythic_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0A70CC1A0F4F1CD1"]
+			description: [""]
+			id: "375359043E71349C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00B9117223E466B7"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0064CAAA059F23F7"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DD34CD7B9F3FC76"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2D2CA0A0899233C5"
+				item: {
+					Count: 1
+					id: "apotheosis:simple_reforging_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"375359043E71349C"
+				"061244C38F05CBFE"
+			]
+			description: [""]
+			id: "166DF03D93BC11F1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A0AE95B44C418AE"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F58A74EF4947DA2"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "616A634F59B44CB6"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "34D325EA464BEEEC"
+				item: {
+					Count: 1
+					id: "apotheosis:reforging_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["359E1FFAB18FE50F"]
+			description: [""]
+			id: "544011D1C48D8E65"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "383EE85E5D23885A"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03404B4B90B7953A"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E25BEF2DFA8EA5A"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4241A0F3897E9DF0"
+				item: {
+					Count: 1
+					id: "apotheosis:gem_cutting_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["40926361B5A17F74"]
+			description: [""]
+			id: "359E1FFAB18FE50F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A683F5359FD6652"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62535E33DE394C74"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69CF954185CE368B"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "69CF59A7A4E03D1F"
+				item: {
+					Count: 1
+					id: "minecraft:smithing_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["544011D1C48D8E65"]
+			description: [""]
+			id: "47317516A98016C0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "66AE07E9AA7E680A"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "488EB512E182512D"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75607F1556DAE737"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				advancement: "apotheosis:affix/mythic_gem"
+				criterion: ""
+				id: "2CA5B077B6357FB0"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["40926361B5A17F74"]
+			description: [""]
+			id: "67422A235EBAD4CF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "46CF53D4E6D34807"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E74F7A19A1BD631"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0382EDD303C144C6"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				advancement: "apotheosis:affix/root"
+				criterion: ""
+				id: "1129E77C7FCEC1CA"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67422A235EBAD4CF"]
+			description: [""]
+			id: "68DD99B788216006"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7AF59B11E29A15FD"
+					table_id: 5738888593157037498L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78D8A134FCB0BDCF"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75107BE2E15BF95E"
+					table_id: 2607083274660358887L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				advancement: "apotheosis:affix/mythic"
+				criterion: ""
+				id: "2FF1889B361964B9"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+	]
+	title: " Reforge Gears"
+}

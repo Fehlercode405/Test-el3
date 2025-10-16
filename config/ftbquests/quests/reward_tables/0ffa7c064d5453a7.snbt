@@ -1,0 +1,24 @@
+{
+	id: "0FFA7C064D5453A7"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 10
+			item: {
+				Count: 1
+				id: "create:cogwheel"
+				tag: { }
+			}
+		}
+		{ count: 5, item: "ae2:printed_silicon" }
+		{ count: 12, item: "ae2:fluix_glass_cable" }
+		{ count: 5, item: "ae2:printed_logic_processor" }
+		{ item: "ae2:logic_processor" }
+		{ count: 5, item: "ae2:printed_calculation_processor" }
+		{ count: 5, item: "ae2:printed_engineering_processor" }
+		{ item: "ae2:calculation_processor" }
+		{ item: "ae2:engineering_processor" }
+	]
+	title: "ae"
+}

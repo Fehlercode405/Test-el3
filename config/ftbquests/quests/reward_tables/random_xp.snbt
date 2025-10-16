@@ -1,0 +1,30 @@
+{
+	id: "006392425A0B04AA"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:experience_bottle"
+				tag: { }
+			}
+			title: "&a+3 XP Levels"
+			type: "xp_levels"
+			weight: 0.3f
+			xp_levels: 3
+		}
+		{
+			icon: {
+				Count: 1
+				id: "create_enchantment_industry:hyper_experience_bottle"
+				tag: { }
+			}
+			title: "&a+10 XP Levels"
+			type: "xp_levels"
+			weight: 0.2f
+			xp_levels: 10
+		}
+	]
+	title: "&6Random Experience Points"
+}

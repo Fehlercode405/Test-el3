@@ -1,0 +1,290 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "chipped"
+	group: "23EBBC84E608A955"
+	icon: {
+		Count: 1
+		id: "chipped:carpenters_table"
+		tag: { }
+	}
+	id: "10BB09AFF092D042"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "52FB1C854913DF6D"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "267711DC1D0C4590"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The nature work table"
+			tasks: [{
+				id: "5849EE3DCF769C47"
+				item: {
+					Count: 1
+					id: "chipped:botanist_workbench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "2E159F21FFAA8235"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "6FCE416F33D68E9A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The glass workers table"
+			tasks: [{
+				id: "7FD9F666136C210D"
+				item: {
+					Count: 1
+					id: "chipped:glassblower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "148846E470D751DC"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "5173619B78535158"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The wood workers table"
+			tasks: [{
+				id: "78F5D7B7D09724BA"
+				item: {
+					Count: 1
+					id: "chipped:carpenters_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "4168CF372904BF17"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "5475E85D0FA831FF"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The shepherd work table"
+			tasks: [{
+				id: "59380129E2F1EC7E"
+				item: {
+					Count: 1
+					id: "chipped:loom_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "4CA5A79AAB5F1717"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "0A0BEC39A9B0F5B6"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The stone workers table"
+			tasks: [{
+				id: "1AA1C00B2C5914EB"
+				item: {
+					Count: 1
+					id: "chipped:mason_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "5A9B051E3E783BA8"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "265056103B5EFAD9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The gem workers table"
+			tasks: [{
+				id: "538DA2D4181A5163"
+				item: {
+					Count: 1
+					id: "chipped:alchemy_bench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BB52BECAC00A7A4"]
+			id: "1A34DF0FA24D3EB9"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "6D299BE646405DC6"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The light workers table"
+			tasks: [{
+				id: "36E90A2F104A580C"
+				item: {
+					Count: 1
+					id: "chipped:tinkering_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "7BB52BECAC00A7A4"
+			progression_mode: "flexible"
+			subtitle: "The different way to add variety to the game"
+			tasks: [{
+				id: "3A98B047AE8F3153"
+				title: "Chipped Workbenches"
+				type: "checkmark"
+			}]
+			title: "Adding variety to blocks"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["The defalt Keybind to open the Menu is z"]
+			id: "506E843F754DF076"
+			subtitle: "Won't drop vlocks, need exp"
+			tasks: [{
+				id: "3C098853393B676B"
+				title: "Bildingswands"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["506E843F754DF076"]
+			description: [
+				"(re-)place/destroy: do wath they say and (re-)place/destroy blocks in the select area."
+				"Use: use the selceted tool on the selcteted Blocks. Its like right clicking on the blocks with your tool. E.g. it changes dirt to farmland if your tool is a how. "
+			]
+			id: "69556E664FD60A10"
+			subtitle: "What the wand should do."
+			tasks: [{
+				id: "7F98201132DF6C2F"
+				title: "Actions"
+				type: "checkmark"
+			}]
+			title: "Actions"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["506E843F754DF076"]
+			description: ["Klick on the tools button in the menu and put your tools in or out of the inventor go back with esc. The tool in the right will be used first. They still loss durability, but they won´t get used if they would break. If there is no valid to for the block threr will be a popup."]
+			id: "50DD630B7E7F9D12"
+			subtitle: "adding your tool"
+			tasks: [{
+				id: "49E48B9438CBCE04"
+				title: "Tools"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["506E843F754DF076"]
+			id: "2105E0383BE7DFF8"
+			subtitle: "mostly self explaning. Just try them out."
+			tasks: [{
+				id: "68D7799CC1024D2F"
+				title: "Modes"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["506E843F754DF076"]
+			description: ["Randemeizes palachment. (Randam or Pattern)"]
+			id: "6B250FD4CF86E34A"
+			tasks: [{
+				id: "449164FB3E4C35E6"
+				item: {
+					Count: 1
+					id: "wands:palette"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["506E843F754DF076"]
+			id: "687B9D51C66A24E8"
+			subtitle: "What you'll place"
+			tasks: [{
+				id: "6917349F697BD5C4"
+				title: "Offhand"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["506E843F754DF076"]
+			id: "53A58F3A5B5CBB36"
+			subtitle: "How much you want to rotat some thing and along wich axes"
+			tasks: [{
+				id: "207DFB026F7C936E"
+				title: "Rotation"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["506E843F754DF076"]
+			id: "3F66266E0D5BA3A3"
+			subtitle: "Mostly self explaining"
+			tasks: [{
+				id: "0A4733484E07E582"
+				title: "Other Things"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+	]
+	title: " &3Workbenches/Tools"
+}

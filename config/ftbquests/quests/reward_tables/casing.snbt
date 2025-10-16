@@ -1,0 +1,15 @@
+{
+	icon: "createarmory:five_five_six"
+	id: "17BF20B634DDE1BB"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ item: "createarmory:fifty_cal_casing" }
+		{ item: "createarmory:fifty_cal_mold_complete" }
+		{ item: "createarmory:unfinished_five_five_six_casing" }
+		{ item: "createarmory:unfinished_shotgun_shell" }
+		{ item: "createarmory:nine_mm" }
+		{ item: "createarmory:unfinished_nine_mm" }
+	]
+	title: "CASING"
+}

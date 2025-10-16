@@ -1,0 +1,23 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.OptionsScreen {
+}
+
+net.minecraft.client.gui.screens.DeathScreen {
+}
+
+net.minecraft.client.gui.screens.LevelLoadingScreen {
+}
+
+journeymap.client.ui.fullscreen.Fullscreen {
+}
+
+net.minecraft.client.gui.screens.ConnectScreen {
+}
+

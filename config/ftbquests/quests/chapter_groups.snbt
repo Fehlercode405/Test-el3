@@ -1,0 +1,13 @@
+{
+	chapter_groups: [
+		{ id: "59F6A6B40F15A816", title: "&4Dimensions" }
+		{ id: "315C3F3029478ED7", title: "&4Create" }
+		{ id: "2C849B900379E1C5", title: "&4Storage" }
+		{ id: "7BE3EE51CC4C6473", title: "&4Power" }
+		{ id: "44BE48AC7FEC4E5A", title: "&4Apotheosis" }
+		{ id: "43862802AE1531B5", title: "&4Gears" }
+		{ id: "23EBBC84E608A955", title: "&4Building" }
+		{ id: "6981D7E878DEC9BC", title: "&4Food" }
+		{ id: "60B33EC1FE7EA932", title: "&4Mob" }
+	]
+}

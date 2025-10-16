@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_2"
+	group: "59F6A6B40F15A816"
+	icon: {
+		Count: 1
+		id: "minecraft:end_portal_frame"
+		tag: { }
+	}
+	id: "6EA362357DC00663"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "252DF3DDC4ABA305"
+			shape: "square"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					Count: 1
+					id: "minecraft:end_stone"
+					tag: { }
+				}
+				id: "201182E0C542B800"
+				title: "Enter &ethe End"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["252DF3DDC4ABA305"]
+			dependency_requirement: "all_started"
+			icon: {
+				Count: 1
+				id: "minecraft:dragon_head"
+				tag: { }
+			}
+			id: "38A28A6BCA401D6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F564DA05E234AE1"
+				table_id: 1511897575099731575L
+				type: "random"
+			}]
+			subtitle: "Respawned the same way as normal - placing an &cend crystal&r on all four cardinal directions on the exit portal's outer rim."
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					Count: 1
+					id: "minecraft:dragon_head"
+					tag: { }
+				}
+				id: "74278AF6C738017C"
+				title: "Kill The Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8&lEnder Dragon"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["38A28A6BCA401D6F"]
+			id: "534103944AABD09A"
+			shape: "square"
+			tasks: [{
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				id: "5FE31259434B7318"
+				title: "Discover a &eEnd City"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["534103944AABD09A"]
+			description: ["Evrey one gets a Elytra thanks to Lootr."]
+			id: "738F637AE5C1ECB6"
+			rewards: [
+				{
+					id: "047569971AFD64FE"
+					item: {
+						Count: 1
+						id: "minecraft:dragon_head"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E4BB3B46552FE3D"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "45D0C7B72B17DD51"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": { }
+					}
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Craft &bElytra"
+				type: "item"
+			}]
+			title: "Obtain an &bElytra&r"
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["534103944AABD09A"]
+			id: "020781DCBCE5AA49"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CEA822E19DE87DC"
+					table_id: 1511897575099731575L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3417E55F937EAE74"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "4F9D24441EE40604"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:shulker_shell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "72DC1A2F3C48DD85"
+					item: {
+						Count: 1
+						id: "minecraft:shulker_box"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -9.0d
+		}
+	]
+	title: "  &6End"
+}

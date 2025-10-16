@@ -1,0 +1,55 @@
+{
+	icon: {
+		Count: 1
+		id: "create:zinc_ingot"
+		tag: { }
+	}
+	id: "242E386CE5FE2AE7"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "createdeco:zinc_sheet"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:waxed_weathered_cut_copper_stairs"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:copper_ingot"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "create:andesite_alloy"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "createdeco:andesite_sheet"
+				tag: { }
+			}
+		}
+	]
+	title: "ingot"
+}

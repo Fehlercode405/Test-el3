@@ -1,0 +1,14 @@
+{
+	id: "5660E810A2F1CE37"
+	loot_size: 2
+	order_index: 1
+	rewards: [
+		{ item: "numismatics:cog" }
+		{
+			type: "xp"
+			xp: 100
+		}
+	]
+	title: "Normal"
+	use_title: true
+}

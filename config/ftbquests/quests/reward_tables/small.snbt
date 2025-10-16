@@ -1,0 +1,13 @@
+{
+	id: "3B86266E6E005845"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ item: "numismatics:bevel" }
+		{
+			type: "xp"
+			xp: 10
+		}
+	]
+	title: "small"
+}

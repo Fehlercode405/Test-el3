@@ -1,0 +1,98 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether_2"
+	group: "59F6A6B40F15A816"
+	icon: {
+		Count: 1
+		id: "minecraft:crying_obsidian"
+		tag: { }
+	}
+	id: "0110D8011BD7DB63"
+	order_index: 1
+	quest_links: [{
+		id: "0E1C27672E602416"
+		linked_quest: "27B28A53F0EFE604"
+		x: 0.0d
+		y: -4.0d
+	}]
+	quests: [
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "63797CC6D4459760"
+			rewards: [
+				{
+					id: "2D57298BF11FA43D"
+					item: "handcrafted:blaze_trophy"
+					type: "item"
+				}
+				{
+					id: "1748750FF4A40F0C"
+					item: "handcrafted:wither_skeleton_trophy"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "New Overhauled Nether Fortress"
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "2E0D15CFA9367D96"
+				title: "Find a &4Fortress"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "7C94371FDD9759B8"
+			rewards: [{
+				id: "6CB70AB43957FAD9"
+				item: {
+					Count: 1
+					id: "minecraft:music_disc_pigstep"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "382F43C90FF509A4"
+				title: "Discover a Bastion Remenant"
+				type: "advancement"
+			}]
+			title: "Discover a &8Bastion Remnant"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["63797CC6D4459760"]
+			id: "0E9196B464FCA51A"
+			rewards: [{
+				id: "6F36E30C5AAE5F7D"
+				table_id: 1511897575099731575L
+				type: "random"
+			}]
+			subtitle: "You can use &dSoul Sand/Soil&r or &5Soul Stone &rfrom the Bygone Nether mod. Make sure there are no obstructions like snow or grass under the arms when spawning."
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					Count: 1
+					id: "minecraft:wither_skeleton_skull"
+					tag: { }
+				}
+				id: "3FFEC068D3F53D63"
+				title: "Kill The Wither"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &8&lThe Wither"
+			x: 0.0d
+			y: -7.5d
+		}
+	]
+	title: "  &6Nether"
+}

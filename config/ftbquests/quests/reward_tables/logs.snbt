@@ -1,0 +1,64 @@
+{
+	id: "436E1E4EDDC89767"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:oak_log"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:birch_log"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:spruce_log"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:jungle_log"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:acacia_log"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:dark_oak_log"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:mangrove_log"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cherry_log"
+				tag: { }
+			}
+		}
+	]
+	title: "Logs"
+}

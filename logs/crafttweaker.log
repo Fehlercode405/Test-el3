@@ -1,0 +1,23 @@
+[18:45:37.771][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production client modded with platform Forge
+[18:45:37.819][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[18:45:37.936][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[18:45:37.938][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[18:45:37.943][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin mekanism:crt_plugin
+[18:45:37.950][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[18:45:40.404][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[18:45:40.408][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.59'
+[18:45:40.408][INFO][CraftTweaker]: - 'farmersdelight' at version '1.20.1-1.2.9'
+[18:45:40.408][INFO][CraftTweaker]: - 'gamestages' at version '15.0.2'
+[18:45:40.408][INFO][CraftTweaker]: - 'mekanism' at version '10.4.16'
+[18:45:52.946][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'mekanismcontent'
+[18:45:53.312][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[18:45:54.290][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[18:45:54.429][INFO][CraftTweaker-ZenCode]: Execution for loader 'mekanismcontent' completed successfully
+[18:45:54.430][INFO][Mekanism]: Registering 0 custom gases.
+[18:45:54.439][INFO][Mekanism]: Registering 0 custom infuse types.
+[18:45:54.462][INFO][Mekanism]: Registering 0 custom pigments.
+[18:45:54.479][INFO][Mekanism]: Registering 0 custom slurries.
+[18:46:05.448][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[18:46:05.505][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[18:46:05.505][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[18:46:05.520][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully

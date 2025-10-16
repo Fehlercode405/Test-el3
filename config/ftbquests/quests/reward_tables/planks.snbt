@@ -1,0 +1,72 @@
+{
+	id: "4FA4A0C500AA9DBA"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "minecraft:oak_planks"
+				tag: { }
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "minecraft:birch_planks"
+				tag: { }
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "minecraft:spruce_planks"
+				tag: { }
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "minecraft:jungle_planks"
+				tag: { }
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "minecraft:acacia_planks"
+				tag: { }
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "minecraft:dark_oak_planks"
+				tag: { }
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "minecraft:mangrove_planks"
+				tag: { }
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "minecraft:cherry_planks"
+				tag: { }
+			}
+		}
+	]
+	title: "Planks"
+}

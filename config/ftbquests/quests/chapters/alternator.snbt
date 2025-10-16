@@ -1,0 +1,146 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alternator"
+	group: "7BE3EE51CC4C6473"
+	icon: {
+		Count: 1
+		id: "createaddition:alternator"
+		tag: { }
+	}
+	id: "28AA40BF747C5DB9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["714F8265F43B7EB0"]
+			id: "125C1B72258B20FE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D628EAE3CAC2B5D"
+					table_id: 7850305241036641666L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67B2A05A148FF2CA"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			subtitle: "The Electric motor generates kinetic energy from &cFE&r"
+			tasks: [{
+				id: "6094B2726EE5B198"
+				item: {
+					Count: 1
+					id: "createaddition:electric_motor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft &cElectric Motor and Alternator"
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"- &6Small Connectors&r connect &bForge Energy Compatible&r blocks with &dwires&r to transfer &9FE&r."
+				""
+				"- &6Copper Spool&r can be connected to &alow current connectors&r."
+			]
+			id: "53BC23A56A1080A0"
+			rewards: [{
+				count: 4
+				id: "215E99FAE3611D63"
+				item: {
+					Count: 1
+					id: "createaddition:copper_spool"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Click"
+			tasks: [
+				{
+					id: "6D4A1A0809A2C469"
+					item: {
+						Count: 1
+						id: "createaddition:copper_spool"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "14447E562655F9DE"
+					item: {
+						Count: 1
+						id: "createaddition:connector"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Craft &cConnectors"
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			id: "4C476592AA64996B"
+			size: 2.0d
+			subtitle: "Charges electric items, and can also be used to inflict damage to &cPlayers&r and &cMobs&r.&r"
+			tasks: [{
+				id: "464C14102739B60F"
+				item: {
+					Count: 1
+					id: "createaddition:tesla_coil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft &cTesla Coil"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "27BCC7C61D5BD336"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02356DD604F9428D"
+					table_id: 1511897575099731575L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A8DF3827ABFB5D0"
+					table_id: 7850305241036641666L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7777F370E7ECD49C"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			subtitle: "Multiblock Battery Can hold 9M FE"
+			tasks: [{
+				count: 32L
+				id: "02DC819AB2B6C86A"
+				item: {
+					Count: 32
+					id: "createaddition:modular_accumulator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+	]
+	title: " &eAlternator"
+}

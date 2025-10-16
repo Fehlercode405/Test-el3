@@ -1,0 +1,505 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farming_and_food"
+	group: "6981D7E878DEC9BC"
+	icon: {
+		Count: 1
+		id: "farmersdelight:cooking_pot"
+		tag: { }
+	}
+	id: "3B8EDC63EF2C7047"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3972BE6E6685E97E"]
+			id: "6BE6C72136C5B2E7"
+			tasks: [{
+				id: "514A7A25148C25D1"
+				item: {
+					Count: 1
+					id: "farmersdelight:rice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3972BE6E6685E97E"]
+			id: "6D493EB03029B4C4"
+			tasks: [{
+				id: "6D703F511EC5B1CA"
+				item: {
+					Count: 1
+					id: "farmersdelight:onion"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3972BE6E6685E97E"]
+			id: "3F17A52298ED5B0A"
+			tasks: [{
+				id: "10F317F3A7BC6EDD"
+				item: {
+					Count: 1
+					id: "farmersdelight:tomato"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3972BE6E6685E97E"]
+			id: "7FF1EBC3CAF09799"
+			tasks: [{
+				id: "677BF60C0AA285DA"
+				item: {
+					Count: 1
+					id: "farmersdelight:cabbage"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3972BE6E6685E97E"]
+			id: "0A2A6591DC83835D"
+			tasks: [{
+				id: "05B478C7CD53BF32"
+				item: {
+					Count: 1
+					id: "minecraft:beetroot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3972BE6E6685E97E"]
+			id: "28C4449FF360EFBC"
+			tasks: [{
+				id: "738D62CA27FB0D7F"
+				item: {
+					Count: 1
+					id: "minecraft:carrot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3972BE6E6685E97E"]
+			id: "6B4CD90CAAB506BD"
+			tasks: [{
+				id: "204C510729266C4E"
+				item: {
+					Count: 1
+					id: "minecraft:potato"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3972BE6E6685E97E"]
+			id: "3D7A5C8461900703"
+			tasks: [{
+				id: "37EBEBFEB8548351"
+				item: {
+					Count: 1
+					id: "minecraft:wheat"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "3972BE6E6685E97E"
+			tasks: [{
+				id: "1E5E4166B13535EF"
+				type: "checkmark"
+			}]
+			title: "Crops"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7ED274FAF6138F13"]
+			id: "4A870C4840BCE3F0"
+			subtitle: "Used to cook meals. Click the arrow to see all &e&lrecipes&r.&r"
+			tasks: [{
+				advancement: "farmersdelight:main/place_cooking_pot"
+				criterion: ""
+				id: "4C20864B9BA1175D"
+				title: "Put down a &5Cooking Pot"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73154E99297677A1"]
+			id: "1BDAD50E5F4EBC11"
+			subtitle: "You can &c&lcut, break or chop&r items on this &e&lChopping Board&r.&r"
+			tasks: [{
+				id: "7B1FEFDBF45AFFFB"
+				item: {
+					Count: 1
+					id: "farmersdelight:cutting_board"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7ED274FAF6138F13"]
+			id: "73154E99297677A1"
+			subtitle: "Used on &e&lCutting Board&r to cut crops etc or tall grass. Also guarantees a secondary drop from animals.&r"
+			tasks: [{
+				advancement: "farmersdelight:main/craft_knife"
+				criterion: ""
+				id: "354C935E7700A259"
+				title: "Craft a &9Knife"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["73154E99297677A1"]
+			id: "1E16EC7519387411"
+			subtitle: "Obtained by cutting &a&lTall Grass&r with a &c&lKnife&r.&r"
+			tasks: [{
+				advancement: "farmersdelight:main/harvest_straw"
+				criterion: ""
+				id: "541B44CC472C6CDC"
+				title: "Harvest Grass"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E16EC7519387411"]
+			id: "61157EAD05B7BEF7"
+			tasks: [{
+				advancement: "farmersdelight:main/place_organic_compost"
+				criterion: ""
+				id: "2798F4271E3AE2EF"
+				title: "Place down Organic Compost"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61157EAD05B7BEF7"]
+			id: "3B2766CE93DCB42E"
+			subtitle: "Place down &e&lrich soil&r. It will change faster with &d&lsunlight, and water&r"
+			tasks: [{
+				advancement: "farmersdelight:main/get_rich_soil"
+				criterion: ""
+				id: "0CD6FC12FD81914C"
+				title: "Obtain Rich Soil"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1BDAD50E5F4EBC11"]
+			id: "09CD138931E8FC61"
+			tasks: [{
+				advancement: "farmersdelight:main/eat_comfort_food"
+				criterion: ""
+				id: "171B4AD67193B6D5"
+				title: "Cook a Bowl Meal"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09CD138931E8FC61"]
+			id: "08967471DC2A253D"
+			tasks: [{
+				advancement: "farmersdelight:main/eat_nourishing_food"
+				criterion: ""
+				id: "5C297CE647762CD4"
+				title: "Cook a Plated Meal"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08967471DC2A253D"]
+			id: "4BCD611B86666C7D"
+			tasks: [{
+				advancement: "farmersdelight:main/place_feast"
+				criterion: ""
+				id: "4C5664274BFDE542"
+				title: "Cook a Big Meal"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A95C2FEBBE87637"]
+			id: "6B1460D750A9CA9E"
+			tasks: [{
+				id: "7D7426A4F87A1B8C"
+				item: {
+					Count: 1
+					id: "minecraft:mutton"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A95C2FEBBE87637"]
+			id: "78E00BCC3DD4B14D"
+			tasks: [{
+				id: "478ECBE0169C88DE"
+				item: {
+					Count: 1
+					id: "minecraft:beef"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A95C2FEBBE87637"]
+			id: "296335505920080D"
+			tasks: [{
+				id: "3E96D864A79856E6"
+				item: {
+					Count: 1
+					id: "minecraft:chicken"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A95C2FEBBE87637"]
+			id: "09CA2DD3BA48DB8D"
+			tasks: [{
+				id: "04E9F0E9438FFE26"
+				item: {
+					Count: 1
+					id: "minecraft:rabbit"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A95C2FEBBE87637"]
+			id: "07C021012331A374"
+			tasks: [{
+				id: "4FCEE9D4A320EA7C"
+				item: {
+					Count: 1
+					id: "farmersdelight:bacon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A95C2FEBBE87637"]
+			id: "47FA0D854F6C9318"
+			tasks: [{
+				id: "1B00A84EBDE204D4"
+				item: {
+					Count: 1
+					id: "farmersdelight:chicken_cuts"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A95C2FEBBE87637"]
+			id: "1E0DD9F2E242633E"
+			tasks: [{
+				id: "531BC9856BB07230"
+				item: {
+					Count: 1
+					id: "farmersdelight:salmon_slice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A95C2FEBBE87637"]
+			id: "0FD0FB991B2480F8"
+			tasks: [{
+				id: "59D5F002C1D46630"
+				item: {
+					Count: 1
+					id: "minecraft:porkchop"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A95C2FEBBE87637"]
+			id: "0A29BB4BD15041CB"
+			tasks: [{
+				id: "3F29374B9A12C662"
+				item: {
+					Count: 1
+					id: "minecraft:salmon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A95C2FEBBE87637"]
+			id: "12063802F3CC70D2"
+			tasks: [{
+				id: "073B0E03BD253B21"
+				item: {
+					Count: 1
+					id: "minecraft:cod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A95C2FEBBE87637"]
+			id: "41701AFFBFA080A6"
+			tasks: [{
+				id: "7322BD479703E5FD"
+				item: {
+					Count: 1
+					id: "farmersdelight:cod_slice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A95C2FEBBE87637"]
+			id: "7C264A4206D900E2"
+			tasks: [{
+				id: "15C86378E219DE0A"
+				item: {
+					Count: 1
+					id: "farmersdelight:mutton_chops"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			id: "4A95C2FEBBE87637"
+			tasks: [{
+				id: "2FA710ED5AFBF05F"
+				type: "checkmark"
+			}]
+			title: "Meat"
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A870C4840BCE3F0"]
+			id: "5DF5D88625C2AC31"
+			subtitle: "&c&lCooking on the go&r. Hold near a &e&lheatsource&r and hold food in your &e&loffhand&r then right click the &6&lSkillet&r.&r"
+			tasks: [{
+				advancement: "farmersdelight:main/use_skillet"
+				criterion: ""
+				id: "244AF50526DA588F"
+				title: "Craft a &4Skillet"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "7ED274FAF6138F13"
+			rewards: [{
+				id: "0BFAD02FBA700BF3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_central_kitchen:cooking_guide"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "By itself can cook &e&l6 items&r like a &6&lcampfire&r. You can place a &b&lCooking Pot&r or &6&lSkillet&r on top.&r"
+			tasks: [{
+				id: "7BFD74C86980200B"
+				item: {
+					Count: 1
+					id: "farmersdelight:stove"
+					tag: { }
+				}
+				title: "Craft a &dStove"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+	]
+	title: " &9Farming \\& Food"
+}

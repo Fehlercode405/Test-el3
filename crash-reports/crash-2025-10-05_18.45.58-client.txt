@@ -1,0 +1,326 @@
+---- Minecraft Crash Report ----
+
+// Hi. I'm Connector, and I'm a crashaholic
+=========================
+SINYTRA CONNECTOR IS PRESENT!
+Please verify issues are not caused by Connector before reporting them to mod authors.
+If you're unsure, file a report on Connector's issue tracker found at https://github.com/Sinytra/Connector/issues.
+=========================
+
+// Don't be sad, have a hug! <3
+
+Time: 2025-10-05 18:45:58
+Description: Initializing game
+
+net.minecraftforge.fml.loading.EarlyLoadingException: Could not execute entrypoint stage 'main' due to errors, provided by 'incombat' at 'eagleseye.incombat.InCombat'!
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createLoadingException(ConnectorEarlyLoader.java:81) ~[Connector-1.0.0-beta.46+1.20.1.jar%23377!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createGenericLoadingException(ConnectorEarlyLoader.java:77) ~[Connector-1.0.0-beta.46+1.20.1.jar%23377!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:55) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23381!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading}
+	at net.minecraft.client.Minecraft.handler$eon000$connectormod$earlyInit(Minecraft.java:31924) ~[client-1.20.1-20230612.114412-srg.jar%23602!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:424) ~[client-1.20.1-20230612.114412-srg.jar%23602!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:182) ~[forge-47.4.0.jar:?] {re:mixin,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:notenoughcrashes.forge.mixins.json:client.MixinMain from mod notenoughcrashes,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.4.0.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+Caused by: java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'incombat' at 'eagleseye.incombat.InCombat'!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:133) ~[Connector-1.0.0-beta.46+1.20.1.jar%23377!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33) ~[Connector-1.0.0-beta.46+1.20.1.jar%23377!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:131) ~[Connector-1.0.0-beta.46+1.20.1.jar%23377!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:44) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23381!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading}
+	... 18 more
+Caused by: java.lang.NoClassDefFoundError: io/wispforest/owo/config/ConfigWrapper
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?] {}
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?] {}
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:119) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+	at eagleseye.incombat.InCombat.<clinit>(InCombat.java:25) ~[incombat-1.0.1_mapped_srg_1.20.1.jar%231080!/:?] {re:mixin,re:classloading}
+	at java.lang.Class.forName0(Native Method) ~[?:?] {re:mixin}
+	at java.lang.Class.forName(Unknown Source) ~[?:?] {re:mixin}
+	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:49) ~[Connector-1.0.0-beta.46+1.20.1.jar%23377!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:126) ~[Connector-1.0.0-beta.46+1.20.1.jar%23377!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[Connector-1.0.0-beta.46+1.20.1.jar%23377!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:129) ~[Connector-1.0.0-beta.46+1.20.1.jar%23377!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:44) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23381!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading}
+	... 18 more
+Caused by: java.lang.ClassNotFoundException: io.wispforest.owo.config.ConfigWrapper
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?] {}
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?] {}
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?] {}
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:119) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+	at eagleseye.incombat.InCombat.<clinit>(InCombat.java:25) ~[incombat-1.0.1_mapped_srg_1.20.1.jar%231080!/:?] {re:mixin,re:classloading}
+	at java.lang.Class.forName0(Native Method) ~[?:?] {re:mixin}
+	at java.lang.Class.forName(Unknown Source) ~[?:?] {re:mixin}
+	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:49) ~[Connector-1.0.0-beta.46+1.20.1.jar%23377!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:126) ~[Connector-1.0.0-beta.46+1.20.1.jar%23377!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[Connector-1.0.0-beta.46+1.20.1.jar%23377!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:129) ~[Connector-1.0.0-beta.46+1.20.1.jar%23377!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:44) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23381!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading}
+	... 18 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mods: NONE
+Stacktrace:
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createLoadingException(ConnectorEarlyLoader.java:81) ~[Connector-1.0.0-beta.46+1.20.1.jar%23377!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createGenericLoadingException(ConnectorEarlyLoader.java:77) ~[Connector-1.0.0-beta.46+1.20.1.jar%23377!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:55) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23381!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading}
+	at net.minecraft.client.Minecraft.handler$eon000$connectormod$earlyInit(Minecraft.java:31924) ~[client-1.20.1-20230612.114412-srg.jar%23602!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:424) ~[client-1.20.1-20230612.114412-srg.jar%23602!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+-- Initialization --
+Details:
+	Modules: 
+		ADVAPI32.dll:Erweiterte Windows 32 Base-API:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		COMCTL32.dll:Bibliothek für Steuerelemente zum Benutzererlebnis:6.10 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPT32.dll:Krypto-API32:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTBASE.DLL:Base cryptographic API DLL:10.0.22621.4746 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTSP.dll:Cryptographic Service Provider API:10.0.22621.5415 (WinBuild.160101.0800):Microsoft Corporation
+		CoreMessaging.dll:Microsoft CoreMessaging Dll:10.0.22621.5415 (WinBuild.160101.0800):Microsoft Corporation
+		CoreUIComponents.dll:Microsoft Core UI Components Dll:10.0.22621.5415:Microsoft Corporation
+		D3DCOMPILER_47.dll:Direct3D HLSL Compiler for Redistribution:10.0.22621.3233 (WinBuild.160101.0800):Microsoft Corporation
+		DBGHELP.DLL:Windows Image Helper:10.0.22621.5471 (WinBuild.160101.0800):Microsoft Corporation
+		DEVOBJ.dll:Device Information Set DLL:10.0.22621.2506 (WinBuild.160101.0800):Microsoft Corporation
+		DNSAPI.dll:DNS-Client-API-DLL:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		GDI32.dll:GDI Client DLL:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		GLU32.dll:OpenGL-Hilfsprogrammbibliotheks-DLL:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		IMM32.DLL:Multi-User Windows IMM32 API Client DLL:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		IPHLPAPI.DLL:IP-Hilfs-API:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		KERNEL32.DLL:Client-DLL für Windows NT-Basis-API:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		KERNELBASE.dll:Client-DLL für Windows NT-Basis-API:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		MSASN1.dll:ASN.1 Runtime APIs:10.0.22621.2506 (WinBuild.160101.0800):Microsoft Corporation
+		MSCTF.dll:MSCTF-Server-DLL:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		MpOav.dll:IOfficeAntiVirus Module:4.18.25080.5 (aec027e97d1d7ab25370672d0fb4548480483a83):Microsoft Corporation
+		NSI.dll:NSI User-mode interface DLL:10.0.22621.4746 (WinBuild.160101.0800):Microsoft Corporation
+		NTASN1.dll:Microsoft ASN.1 API:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		OLEAUT32.dll:OLEAUT32.DLL:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		OWClient.dll:Overlay:2.2.280.2:Overwolf LTD
+		OWExplorer.dll:Overlay:2.2.280.0:Overwolf LTD
+		OWUtils.dll:Overlay:2.2.280.0:Overwolf LTD
+		Ole32.dll:Microsoft OLE für Windows:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		POWRPROF.dll:Power Profile Helper DLL:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		PSAPI.DLL:Process Status Helper:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		Pdh.dll:Windows Unterstützungs-DLL für Leistungsdaten:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		RPCRT4.dll:Remoteprozeduraufruf-Laufzeitumgebung:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		SETUPAPI.dll:Windows Setup-API:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		SHCORE.dll:SHCORE:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		SHELL32.dll:Allgemeine Windows-Shell-DLL:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		UMPDC.dll:User Mode Power Dependency Coordinator:10.0.22621.5124 (WinBuild.160101.0800):Microsoft Corporation
+		USER32.dll:Client-DLL für Windows USER-API (mehrere Benutzer):10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		USERENV.dll:Userenv:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		VCRUNTIME140.dll:Microsoft® C Runtime Library:14.27.29016.0 built by: vcwrkspc:Microsoft Corporation
+		VERSION.dll:Version Checking and File Installation Libraries:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		WINHTTP.dll:Windows HTTP-Dienste:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		WINMM.dll:MCI API-DLL:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		WINNSI.DLL:Network Store Information RPC interface:10.0.22621.4746 (WinBuild.160101.0800):Microsoft Corporation
+		WINTRUST.dll:Microsoft Trust Verification APIs:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		WS2_32.dll:Windows Socket 2.0-32-Bit-DLL:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		WSOCK32.dll:Windows Socket 32-Bit DLL:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		amdihk64.dll:Radeon Settings: Host Service:2,00,00,1788:Advanced Micro Devices, Inc.
+		amsi.dll:Anti-Malware Scan Interface:10.0.22621.3527 (WinBuild.160101.0800):Microsoft Corporation
+		atig6pxx.dll:atiglpxx.dll:8.14.01.6564:Advanced Micro Devices, Inc. 
+		atio6axx.dll:AMD OpenGL Driver:25.06.230729_569461f:Advanced Micro Devices, Inc
+		bcrypt.dll:Bibliothek mit kryptografischen Primitiven von Windows:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		bcryptPrimitives.dll:Windows Cryptographic Primitives Library:10.0.22621.4317 (WinBuild.160101.0800):Microsoft Corporation
+		cfgmgr32.dll:Configuration Manager DLL:10.0.22621.2506 (WinBuild.160101.0800):Microsoft Corporation
+		clbcatq.dll:COM+ Configuration Catalog:2001.12.10941.16384 (WinBuild.160101.0800):Microsoft Corporation
+		combase.dll:Microsoft COM für Windows:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		cryptnet.dll:Crypto Network Related API:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		dbgcore.DLL:Windows Core Debugging Helpers:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc.DLL:DHCP Clientdienst:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc6.DLL:DHCPv6-Client:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		dinput8.dll:Microsoft DirectInput:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		directxdatabasehelper.dll:DirectXDatabaseHelper:10.0.22621.5840 (WinBuild.160101.0800):Microsoft Corporation
+		dwmapi.dll:Microsoft Desktopfenster-Manager-API:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		dxcore.dll:DXCore:10.0.22621.5415 (WinBuild.160101.0800):Microsoft Corporation
+		fwpuclnt.dll:FWP/IPsec Benutzermodus-API:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		gdi32full.dll:GDI Client DLL:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		glfw.dll:GLFW 3.4.0 DLL:3.4.0:GLFW
+		gpapi.dll:Gruppenrichtlinienclient-API:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		imagehlp.dll:Windows NT Image Helper:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		inputhost.dll:InputHost:10.0.22621.5415 (WinBuild.160101.0800):Microsoft Corporation
+		java.dll:OpenJDK Platform binary:17.0.8.0:Eclipse Adoptium
+		javaw.exe:OpenJDK Platform binary:17.0.8.0:Eclipse Adoptium
+		jemalloc.dll
+		jimage.dll:OpenJDK Platform binary:17.0.8.0:Eclipse Adoptium
+		jli.dll:OpenJDK Platform binary:17.0.8.0:Eclipse Adoptium
+		jna11478892912276178041.dll:JNA native library:6.1.4:Java(TM) Native Access (JNA)
+		jsvml.dll:OpenJDK Platform binary:17.0.8.0:Eclipse Adoptium
+		jvm.dll:OpenJDK 64-Bit server VM:17.0.8.0:Eclipse Adoptium
+		kernel.appcore.dll:AppModel API Host:10.0.22621.3958 (WinBuild.160101.0800):Microsoft Corporation
+		lwjgl.dll
+		lwjgl_opengl.dll
+		lwjgl_stb.dll
+		management.dll:OpenJDK Platform binary:17.0.8.0:Eclipse Adoptium
+		management_ext.dll:OpenJDK Platform binary:17.0.8.0:Eclipse Adoptium
+		msvcp140.dll:Microsoft® C Runtime Library:14.27.29016.0 built by: vcwrkspc:Microsoft Corporation
+		msvcp_win.dll:Microsoft® C Runtime Library:10.0.22621.3374 (WinBuild.160101.0800):Microsoft Corporation
+		msvcrt.dll:Windows NT CRT DLL:7.0.22621.2506 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Microsoft Windows Sockets 2.0-Dienstanbieter:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		napinsp.dll:E-Mail-Namenshimanbieter:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		ncrypt.dll:Windows NCrypt-Router:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		net.dll:OpenJDK Platform binary:17.0.8.0:Eclipse Adoptium
+		nio.dll:OpenJDK Platform binary:17.0.8.0:Eclipse Adoptium
+		nlansp_c.dll:NLA Namespace Service Provider DLL:10.0.22621.5331 (WinBuild.160101.0800):Microsoft Corporation
+		ntdll.dll:DLL für NT-Layer:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		ntmarta.dll:Windows NT MARTA-Anbieter:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		opengl32.dll:OpenGL Client DLL:10.0.22621.5415 (WinBuild.160101.0800):Microsoft Corporation
+		perfos.dll:DLL für Windows-Systemleistungsobjekte:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		pfclient.dll:SysMain Client:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		pnrpnsp.dll:PNRP-Namespaceanbieter:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		profapi.dll:User Profile Basic API:10.0.22621.5840 (WinBuild.160101.0800):Microsoft Corporation
+		rasadhlp.dll:Remote Access AutoDial Helper:10.0.22621.5909 (WinBuild.160101.0800):Microsoft Corporation
+		rsaenh.dll:Microsoft Enhanced Cryptographic Provider:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		sechost.dll:Host for SCM/SDDL/LSA Lookup APIs:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		shlwapi.dll:Shell Light-weight-Hilfsprogrammbibliothek:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		sunmscapi.dll:OpenJDK Platform binary:17.0.8.0:Eclipse Adoptium
+		textinputframework.dll:"TextInputFramework.DYNLINK":10.0.22621.5840 (WinBuild.160101.0800):Microsoft Corporation
+		ucrtbase.dll:Microsoft® C Runtime Library:10.0.22621.3593 (WinBuild.160101.0800):Microsoft Corporation
+		uxtheme.dll:Microsoft UxTheme-Bibliothek:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		vcruntime140_1.dll:Microsoft® C Runtime Library:14.27.29016.0 built by: vcwrkspc:Microsoft Corporation
+		verify.dll:OpenJDK Platform binary:17.0.8.0:Eclipse Adoptium
+		win32u.dll:Win32u:10.0.22621.5840 (WinBuild.160101.0800):Microsoft Corporation
+		windows.storage.dll:Microsoft WinRT Storage-API:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		winrnr.dll:LDAP RnR Provider DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		wintypes.dll:Windows-Basistypen-DLL:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		wshbth.dll:Windows Sockets Helper DLL:10.0.22621.5840 (WinBuild.160101.0800):Microsoft Corporation
+		wshunix.dll:AF_UNIX Winsock2 Helper DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		xinput1_4.dll:API für Microsoft Common Controller:10.0.22621.5697 (WinBuild.160101.0800):Microsoft Corporation
+		zip.dll:OpenJDK Platform binary:17.0.8.0:Eclipse Adoptium
+Stacktrace:
+	at net.minecraft.client.main.Main.main(Main.java:182) ~[forge-47.4.0.jar:?] {re:mixin,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:notenoughcrashes.forge.mixins.json:client.MixinMain from mod notenoughcrashes,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.4.0.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.8, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 520817472 bytes (496 MiB) / 1623195648 bytes (1548 MiB) up to 4462739456 bytes (4256 MiB)
+	CPUs: 8
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 3 5300U with Radeon Graphics         
+	Identifier: AuthenticAMD Family 23 Model 104 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): 2.60
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: AMD Radeon(TM) Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. (0x1002)
+	Graphics card #0 VRAM (MB): 2048.00
+	Graphics card #0 deviceId: 0x164c
+	Graphics card #0 versionInfo: DriverVersion=31.0.21923.11000
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 4096.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 24813.33
+	Virtual memory used (MB): 14913.71
+	Swap memory total (MB): 14727.59
+	Swap memory used (MB): 766.82
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx4256m -Xms256m
+	Launched Version: forge-47.4.0
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: Unknown
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	CPU: <unknown>
+	Sinytra Connector: 1.0.0-beta.46+1.20.1
+		SINYTRA CONNECTOR IS PRESENT!
+		Please verify issues are not caused by Connector before reporting them to mod authors. If you're unsure, file a report on Connector's issue tracker.
+		Connector's issue tracker can be found at https://github.com/Sinytra/Connector/issues.
+		Installed Fabric mods:
+		| ================================================== | ============================== | ============================== | ==================== |
+		| better-nether-9.0.10_mapped_srg_1.20.1.jar         | Better Nether                  | betternether                   | 9.0.10               |
+		| incombat-1.0.1$owo-sentinel-0.11.2+1.20_mapped_srg | oωo-sentinel                   | owo_sentinel                   | 0.11.21.20           |
+		| bclib-3.0.14$wunderlib-1.1.5_mapped_srg_1.20.1.jar | WunderLib                      | wunderlib                      | 1.1.5                |
+		| bclib-3.0.14_mapped_srg_1.20.1.jar                 | BCLib                          | bclib                          | 3.0.14               |
+		| mob-ai-tweaks-1.8.4-1.20.1_mapped_srg_1.20.1.jar   | Mob AI Tweaks                  | mob_ai_tweaks                  | 1.8.4                |
+		| incombat-1.0.1_mapped_srg_1.20.1.jar               | In Combat                      | incombat                       | 1.0.1                |
+	Suspected Mods: java.lang.NullPointerException: Cannot invoke "net.minecraftforge.fml.ModList.getMods()" because the return value of "net.minecraftforge.fml.ModList.get()" is null
+    at TRANSFORMER/notenoughcrashes@4.4.9+1.20.1/fudge.notenoughcrashes.forge.platform.ForgePlatform.getAllMods(ForgePlatform.java:84)
+    at TRANSFORMER/notenoughcrashes@4.4.9+1.20.1/fudge.notenoughcrashes.stacktrace.ModIdentifier.lambda$identifyFromMixin$8(ModIdentifier.java:154)
+    at java.base/java.util.HashMap.computeIfAbsent(Unknown Source)
+    at TRANSFORMER/notenoughcrashes@4.4.9+1.20.1/fudge.notenoughcrashes.stacktrace.ModIdentifier.identifyFromMixin(ModIdentifier.java:151)
+    at TRANSFORMER/notenoughcrashes@4.4.9+1.20.1/fudge.notenoughcrashes.stacktrace.ModIdentifier.identifyFromThrowable(ModIdentifier.java:76)
+    at TRANSFORMER/notenoughcrashes@4.4.9+1.20.1/fudge.notenoughcrashes.stacktrace.ModIdentifier.lambda$identifyFromStacktrace$2(ModIdentifier.java:42)
+    at TRANSFORMER/notenoughcrashes@4.4.9+1.20.1/fudge.notenoughcrashes.stacktrace.ModIdentifier.visitChildrenThrowables(ModIdentifier.java:52)
+    at TRANSFORMER/notenoughcrashes@4.4.9+1.20.1/fudge.notenoughcrashes.stacktrace.ModIdentifier.identifyFromStacktrace(ModIdentifier.java:41)
+    at TRANSFORMER/notenoughcrashes@4.4.9+1.20.1/fudge.notenoughcrashes.stacktrace.ModIdentifier.lambda$getSuspectedModsOf$0(ModIdentifier.java:34)
+    at java.base/java.util.HashMap.computeIfAbsent(Unknown Source)
+    at TRANSFORMER/notenoughcrashes@4.4.9+1.20.1/fudge.notenoughcrashes.stacktrace.ModIdentifier.getSuspectedModsOf(ModIdentifier.java:34)
+    at TRANSFORMER/minecraft@1.20.1/net.minecraft.CrashReport.mddd5e07$notenoughcrashes$lambda$beforeSystemDetailsAreWritten$1$0(CrashReport.java:535)
+    at TRANSFORMER/minecraft@1.20.1/net.minecraft.SystemReport.m_143522_(SystemReport.java:66)
+    at TRANSFORMER/minecraft@1.20.1/net.minecraft.CrashReport.handler$dda000$notenoughcrashes$beforeSystemDetailsAreWritten(CrashReport.java:533)
+    at TRANSFORMER/minecraft@1.20.1/net.minecraft.CrashReport.m_127519_(CrashReport.java:71)
+    at TRANSFORMER/minecraft@1.20.1/net.minecraft.CrashReport.m_127526_(CrashReport.java:114)
+    at TRANSFORMER/minecraft@1.20.1/net.minecraft.CrashReport.m_127512_(CrashReport.java:135)
+    at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.Minecraft.m_91332_(Minecraft.java:846)
+    at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.main.Main.main(Main.java:192)
+    at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+    at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+    at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+    at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
+    at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99)
+    at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25)
+    at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+    at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+    at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+    at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
+    at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
+    at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+    at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+    at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)

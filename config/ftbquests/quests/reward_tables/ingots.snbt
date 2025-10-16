@@ -1,0 +1,41 @@
+{
+	id: "4C51FE85086A8C36"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "minecraft:iron_ingot"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "minecraft:copper_ingot"
+				tag: { }
+			}
+		}
+		{
+			count: 10
+			item: {
+				Count: 1
+				id: "create:zinc_ingot"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "create:brass_ingot"
+				tag: { }
+			}
+		}
+		{ count: 8, item: "mekanism:ingot_tin" }
+	]
+	title: "Ingots"
+}

@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Philipp/curseforge/minecraft/Instances/Test el3/saves/New World (2)
+}
+
