@@ -1,16 +1,73 @@
-[19:52:49] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[19:52:49] [INIT] Loaded plugins:
-[19:52:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[19:52:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[19:52:49] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[19:52:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[19:52:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[19:52:49] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[19:52:49] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
-[19:52:49] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
-[19:52:49] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[19:52:49] [INIT] - com.probejs.ProbeJSPlugin
-[19:52:50] [INFO] example.js#5: Hello, World! (Loaded server scripts)
-[19:52:50] [INFO] Loaded script server_scripts:example.js in 0.001 s
-[19:52:50] [INFO] Loaded 1/1 KubeJS server scripts in 0.01 s with 0 errors and 0 warnings
-[19:52:50] [INFO] Scripts loaded
+[17:24:38] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[17:24:38] [INIT] Loaded plugins:
+[17:24:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[17:24:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[17:24:38] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[17:24:38] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[17:24:38] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[17:24:38] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[17:24:38] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[17:24:38] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
+[17:24:38] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[17:24:38] [INIT] - com.probejs.ProbeJSPlugin
+[17:24:38] [INFO] Loaded script server_scripts:creat.js in 0.002 s
+[17:24:38] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[17:24:38] [INFO] Loaded script server_scripts:example.js in 0.0 s
+[17:24:38] [INFO] Loaded 2/2 KubeJS server scripts in 0.011 s with 0 errors and 0 warnings
+[17:24:38] [INFO] Scripts loaded
+[17:24:38] [INFO] Initializing recipe event...
+[17:24:41] [INFO] Processing recipes...
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:rotary/hydrofluoric_acid[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:rotary/sulfuric_acid[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanismgenerators:rotary/tritium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:rotary/hydrogen_chloride[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:rotary/superheated_sodium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:processing/copper/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:processing/gold/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:rotary/sulfur_trioxide[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:processing/lategame/polonium_pellet/from_reaction[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:processing/lategame/plutonium_pellet/from_reaction[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/wooden_slabs[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/blocks_coals[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekaweapons:module_arrowvelocity_unit[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[17:24:41] [WARN] Failed to parse recipe 'mekanismgenerators:separator/heavy_water[mekanism:separating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:rotary/chlorine[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/dusts_coals[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:processing/osmium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:rotary/steam[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/coals[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:rotary/hydrogen[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:rotary/water_vapor[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:rotary/uranium_oxide[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:processing/lead/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'meadow:limestone_bricks_stairs[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/ethene_oxygen[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:rotary/ethene[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:rotary/sulfur_dioxide[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:41] [WARN] Failed to parse recipe 'mekanism:rotary/oxygen[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:separator/water[mekanism:separating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/water_hydrogen[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:evaporating/lithium[mekanism:evaporating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/wooden_stairs[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:rotary/brine[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:rotary/lithium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanismgenerators:rotary/deuterium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/planks[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/rods_wooden[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanismgenerators:rotary/fusion_fuel[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:processing/uranium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/dusts_wood[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:rotary/uranium_hexafluoride[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:separator/brine[mekanism:separating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:processing/iron/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:evaporating/brine[mekanism:evaporating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/water_ethene[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:rotary/sodium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/logs[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [WARN] Failed to parse recipe 'mekanism:processing/tin/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17:24:42] [INFO] Found 15323 recipes in 310.7 ms
+[17:24:42] [INFO] Posted recipe events in 8.939 ms
+[17:24:42] [WARN] Error parsing recipe mekaweapons:module_arrowvelocity_unit[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","result":{"item":"mekaweapons:module_arrowvelocity_unit"},"pattern":["sbs","ama","ppp"],"key":{"m":{"item":"mekanism:module_base"},"p":{"item":"mekanism:pellet_polonium"},"b":{"item":"minecraft:arrow"},"a":{"item":"mekanism:alloy_reinforced"},"s":{"item":"mekanism:upgrade_speed"}}}: Unknown item 'mekaweapons:module_arrowvelocity_unit'
+[17:24:42] [WARN] Error parsing recipe createcasing:crafting/chain_drive/creative_from_zinc[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"create:creative_casing"},{"tag":"forge:nuggets/zinc"},{"tag":"forge:nuggets/zinc"},{"tag":"forge:nuggets/zinc"}],"result":{"item":"createcasing:creative_encased_chain_drive"}}: Unknown item 'create:creative_casing'
+[17:24:42] [INFO] Added 2 recipes, removed 0 recipes, modified 0 recipes, with 2 failed recipes in 258.4 ms
+[17:24:44] [INFO] Server resource reload complete!
