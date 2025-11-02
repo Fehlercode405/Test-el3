@@ -1,12 +1,5 @@
 ServerEvents.recipes(event => {
   event.shaped(
-    Item.of(, ), // Output
-    [
-    ],
-    {
-    }
-  )
-  event.shaped(
   Item.of('minecraft:stone', 3), // arg 1: output
   [
     'A B',
