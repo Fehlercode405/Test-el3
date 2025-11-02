@@ -1,15 +1,15 @@
-[18:45:43] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[18:45:43] [INIT] Loaded plugins:
-[18:45:43] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[18:45:43] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[18:45:43] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[18:45:43] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[18:45:43] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[18:45:43] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[18:45:43] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
-[18:45:43] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
-[18:45:43] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[18:45:43] [INIT] - com.probejs.ProbeJSPlugin
-[18:45:44] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
-[18:45:44] [INFO] Loaded script startup_scripts:example.js in 0.122 s
-[18:45:44] [INFO] Loaded 1/1 KubeJS startup scripts in 1.352 s with 0 errors and 0 warnings
+[19:58:33] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[19:58:33] [INIT] Loaded plugins:
+[19:58:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[19:58:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[19:58:33] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[19:58:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[19:58:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[19:58:33] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[19:58:33] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[19:58:33] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
+[19:58:33] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[19:58:33] [INIT] - com.probejs.ProbeJSPlugin
+[19:58:35] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[19:58:35] [INFO] Loaded script startup_scripts:example.js in 0.118 s
+[19:58:35] [INFO] Loaded 1/1 KubeJS startup scripts in 1.229 s with 0 errors and 0 warnings
