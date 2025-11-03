@@ -37,18 +37,5 @@
       "type": "url",
       "value": "https://spark.lucko.me/n8pkxLnZFf"
     }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "ERROR__405",
-      "uniqueId": "2fb773a4-b48b-46ab-9539-1fa4228635ac"
-    },
-    "time": 1756935680082,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/4WUY4QmFNK"
-    }
   }
 ]
