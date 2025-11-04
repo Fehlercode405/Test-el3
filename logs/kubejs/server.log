@@ -1,18 +1,73 @@
-[17:37:06] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[17:37:06] [INIT] Loaded plugins:
-[17:37:06] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[17:37:06] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[17:37:06] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[17:37:06] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[17:37:06] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[17:37:06] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[17:37:06] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
-[17:37:06] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
-[17:37:06] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[17:37:06] [INIT] - com.probejs.ProbeJSPlugin
-[17:37:08] [INFO] Loaded script server_scripts:creat.js in 0.019 s
-[17:37:08] [INFO] example.js#5: Hello, World! (Loaded server scripts)
-[17:37:08] [INFO] Loaded script server_scripts:example.js in 0.002 s
-[17:37:08] [INFO] Loaded 2/2 KubeJS server scripts in 0.042 s with 0 errors and 0 warnings
-[17:37:08] [INFO] Scripts loaded
-[17:37:08] [INFO] Initializing recipe event...
+[12:26:36] [INIT] Loaded plugins:
+[12:26:36] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[12:26:36] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[12:26:36] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[12:26:36] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[12:26:36] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[12:26:36] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[12:26:36] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[12:26:36] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
+[12:26:36] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[12:26:36] [INIT] - com.probejs.ProbeJSPlugin
+[12:26:37] [INFO] Loaded script server_scripts:creat.js in 0.0 s
+[12:26:37] [INFO] Loaded script server_scripts:disabelt.js in 0.001 s
+[12:26:37] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[12:26:37] [INFO] Loaded script server_scripts:example.js in 0.001 s
+[12:26:37] [INFO] Loaded script server_scripts:rezept.js in 0.002 s
+[12:26:37] [INFO] Loaded 4/4 KubeJS server scripts in 0.037 s with 0 errors and 0 warnings
+[12:26:37] [INFO] Scripts loaded
+[12:26:37] [INFO] Initializing recipe event...
+[12:26:39] [INFO] Processing recipes...
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/hydrofluoric_acid[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/sulfuric_acid[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanismgenerators:rotary/tritium[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/hydrogen_chloride[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/superheated_sodium[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:processing/copper/slurry/clean[mekanism:washing]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:processing/gold/slurry/clean[mekanism:washing]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/sulfur_trioxide[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:processing/lategame/polonium_pellet/from_reaction[mekanism:reaction]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:processing/lategame/plutonium_pellet/from_reaction[mekanism:reaction]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/wooden_slabs[mekanism:reaction]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/blocks_coals[mekanism:reaction]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekaweapons:module_arrowvelocity_unit[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[12:26:39] [WARN] Failed to parse recipe 'mekanismgenerators:separator/heavy_water[mekanism:separating]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/chlorine[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/dusts_coals[mekanism:reaction]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:processing/osmium/slurry/clean[mekanism:washing]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/steam[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/coals[mekanism:reaction]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/hydrogen[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/water_vapor[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/uranium_oxide[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:processing/lead/slurry/clean[mekanism:washing]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'meadow:limestone_bricks_stairs[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/ethene_oxygen[mekanism:reaction]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/ethene[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/sulfur_dioxide[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/oxygen[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:separator/water[mekanism:separating]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/water_hydrogen[mekanism:reaction]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:evaporating/lithium[mekanism:evaporating]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/wooden_stairs[mekanism:reaction]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/brine[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/lithium[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanismgenerators:rotary/deuterium[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/planks[mekanism:reaction]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/rods_wooden[mekanism:reaction]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanismgenerators:rotary/fusion_fuel[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:processing/uranium/slurry/clean[mekanism:washing]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/dusts_wood[mekanism:reaction]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/uranium_hexafluoride[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:separator/brine[mekanism:separating]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:processing/iron/slurry/clean[mekanism:washing]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:evaporating/brine[mekanism:evaporating]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/water_ethene[mekanism:reaction]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:rotary/sodium[mekanism:rotary]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/logs[mekanism:reaction]'! Falling back to vanilla: null
+[12:26:39] [WARN] Failed to parse recipe 'mekanism:processing/tin/slurry/clean[mekanism:washing]'! Falling back to vanilla: null
+[12:26:39] [INFO] Found 15355 recipes in 178.4 ms
+[12:26:40] [INFO] Posted recipe events in 230.5 ms
+[12:26:40] [WARN] Error parsing recipe createcasing:crafting/chain_drive/creative_from_zinc[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"create:creative_casing"},{"tag":"forge:nuggets/zinc"},{"tag":"forge:nuggets/zinc"},{"tag":"forge:nuggets/zinc"}],"result":{"item":"createcasing:creative_encased_chain_drive"}}: Unknown item 'create:creative_casing'
+[12:26:40] [INFO] Added 1 recipes, removed 3 recipes, modified 0 recipes, with 1 failed recipes in 58.67 ms
+[12:26:41] [INFO] Server resource reload complete!

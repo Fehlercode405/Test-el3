@@ -1,6 +1,16 @@
 {
   "favorites": [],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "minecraft:netherite_block",
+      "amount": 64
+    },
+    "item:minecraft:netherrack",
+    "item:minecraft:dirt",
+    "item:minecraft:beacon",
+    "item:minecraft:netherite_pickaxe{Damage:0}",
+    "item:minecraft:diamond_sword{Damage:0}",
     "item:betternether:nether_ruby_slab",
     "item:betternether:nether_ruby_ore",
     "item:betternether:nether_ruby",
@@ -148,7 +158,6 @@
     "item:minecraft:lever",
     "item:minecraft:saddle",
     "item:minecraft:netherite_sword{Damage:0}",
-    "item:minecraft:diamond_sword{Damage:0}",
     "item:minecraft:enchanted_golden_apple",
     {
       "type": "item",
