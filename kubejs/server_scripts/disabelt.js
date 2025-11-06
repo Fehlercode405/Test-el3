@@ -1,7 +1,7 @@
 global.disabledItems = [
     'minecraft:diamond_sword',
     'minecraft:netherite_pickaxe',
-    "minecraft:dirt"
+    "minecraft:dirt",
 ]
 
 ServerEvents.recipes(event => {
@@ -10,10 +10,12 @@ ServerEvents.recipes(event => {
         event.remove({ output: id })
     })
 })
+
 LootJS.modifiers(event => {
     event.addLootTypeModifier(LootType.CHEST)
         .removeLoot('minecraft:netherite_block')
 })
+
 LootJS.modifiers(event => {
     if (!global.disabledItems) return
     const modifier = event.addLootTableModifier(/.*/)

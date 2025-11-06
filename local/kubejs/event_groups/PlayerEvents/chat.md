@@ -27,23 +27,23 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getMessage |  |  | String | ✘ |
-| setMessage | Component |  | void | ✘ |
 | getComponent |  |  | Component | ✘ |
-| getEntity |  |  | Player | ✘ |
-| setComponent | Component |  | void | ✘ |
+| getEntity |  |  | Entity | ✘ |
+| setMessage | Component |  | void | ✘ |
 | getUsername |  |  | String | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
-| removeGameStage | String |  | void | ✘ |
+| setComponent | Component |  | void | ✘ |
 | addGameStage | String |  | void | ✘ |
+| removeGameStage | String |  | void | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -53,26 +53,17 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Gets the message that the player sent.
 ```
 
-- `void setMessage(Component var0)`
-
-  Parameters:
-  - var0: Component
-
-```
-Sets the message that the player sent.
-```
-
 - `Component getComponent()`
 ```
 Gets the message that the player sent.
 ```
 
-- `Player getEntity()`
+- `Entity getEntity()`
 ```
 Gets the player that sent the message.
 ```
 
-- `void setComponent(Component var0)`
+- `void setMessage(Component var0)`
 
   Parameters:
   - var0: Component
@@ -86,13 +77,22 @@ Sets the message that the player sent.
 Gets the username of the player that sent the message.
 ```
 
-- `boolean hasGameStage(String var0)`
+- `void setComponent(Component var0)`
+
+  Parameters:
+  - var0: Component
+
+```
+Sets the message that the player sent.
+```
+
+- `void addGameStage(String var0)`
 
   Parameters:
   - var0: String
 
 ```
-Checks if the player has the specified game stage
+Adds the specified game stage to the player
 ```
 
 - `void removeGameStage(String var0)`
@@ -104,13 +104,13 @@ Checks if the player has the specified game stage
 Removes the specified game stage from the player
 ```
 
-- `void addGameStage(String var0)`
+- `boolean hasGameStage(String var0)`
 
   Parameters:
   - var0: String
 
 ```
-Adds the specified game stage to the player
+Checks if the player has the specified game stage
 ```
 
 - `Object exit(Object var0)`
@@ -131,24 +131,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `exit` denotes a `default` outcome.
 ```
 
-- `Object success(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -165,6 +147,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object success(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
 ```
 
 

@@ -1,6 +1,9 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:quark:egg_parrot_red_blue",
+    "item:quark:crafter",
+    "item:chipped:cracked_dirt_bricks",
     {
       "type": "item",
       "id": "minecraft:netherite_block",
