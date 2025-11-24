@@ -1,4 +1,4 @@
-saves/
+
 resourcepacks/
 /backups
 /xaero/world-map
@@ -8,3 +8,8 @@ resourcepacks/
 emi.json
 usercache.json
 /screenshots
+/saves/New World (1)
+/saves/New World
+saves/New World (2)/data/DistantHorizons.sqlite
+saves/New World (2)/session.lock
+saves/New World (2)/session.lock
