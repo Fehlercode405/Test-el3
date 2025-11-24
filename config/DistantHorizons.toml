@@ -12,7 +12,7 @@ _version = 3
 			[client.advanced.graphics.quality]
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 40
+				lodChunkRenderDistanceRadius = 50
 				#
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
@@ -397,7 +397,7 @@ _version = 3
 			# DEFAULT: Default lod renderer 
 			# DEBUG: Debug testing renderer 
 			# DISABLED: Disable rendering
-			rendererMode = "DISABLED"
+			rendererMode = "DEFAULT"
 			#
 			# Should specialized colors/rendering modes be used? 
 			# 
@@ -689,7 +689,7 @@ _version = 3
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 1
+		numberOfThreads = 6
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -697,7 +697,7 @@ _version = 3
 		# This can be used to reduce CPU usage if the thread count 
 		# is already set to 1 for the given option, or more finely 
 		# tune CPU performance.
-		threadRunTimeRatio = "0.5"
+		threadRunTimeRatio = "1.0"
 
 	[common.logging]
 		#

@@ -47,7 +47,7 @@ trackedPlayers:true
 multipleImagesExport:false
 nightExport:false
 highlightsExport:false
-exportScaleDownSquare:24
+exportScaleDownSquare:47
 mapWritingDistance:-1
 displayClaims:true
 claimsFillOpacity:46

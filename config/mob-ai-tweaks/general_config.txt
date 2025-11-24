@@ -139,6 +139,7 @@ wither_rework=true
 wither_boss_armor=12
 wither_boss_follow_range=120
 wither_boss_health=300
+wither_boss_drops_netherite=true
 wither_skeleton_special_attacks=true
 wither_skeleton_special_attack_cooldown=200
 wither_skeletons_with_bows_chance=10
