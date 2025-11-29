@@ -30,11 +30,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getBlock |  |  | BlockContainerJS | ✘ |
 | getType |  |  | MobSpawnType | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getEntity |  |  | Entity | ✘ |
 | getSpawner |  |  | BaseSpawner | ✘ |
+| getBlock |  |  | BlockContainerJS | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -46,11 +46,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 
 ### Documented members:
-
-- `BlockContainerJS getBlock()`
-```
-The block the entity is being spawned on.
-```
 
 - `MobSpawnType getType()`
 ```
@@ -70,6 +65,11 @@ The entity being spawned.
 - `BaseSpawner getSpawner()`
 ```
 The spawner that spawned the entity. Can be null if the entity was spawned by worldgen.
+```
+
+- `BlockContainerJS getBlock()`
+```
+The block the entity is being spawned on.
 ```
 
 - `Object exit(Object var0)`

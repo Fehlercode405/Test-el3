@@ -33,28 +33,28 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| runInParallel | Callable<T> |  | T | ✔ |
-| runInParallel | Runnable |  | void | ✔ |
-| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
-| recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
-| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
-| printAllTypes |  |  | void | ✘ |
-| printExamples | String |  | void | ✘ |
-| countRecipes | RecipeFilter |  | int | ✘ |
-| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
-| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
-| setItemErrors | boolean |  | void | ✘ |
 | remove | RecipeFilter |  | void | ✘ |
 | custom | JsonObject |  | RecipeJS | ✘ |
 | printTypes |  |  | void | ✘ |
-| stage | RecipeFilter, String |  | void | ✘ |
-| getRecipes |  |  | Map<String, Object> | ✘ |
-| addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
+| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
 | replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
 | replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
-| containsRecipe | RecipeFilter |  | boolean | ✘ |
+| stage | RecipeFilter, String |  | void | ✘ |
+| getRecipes |  |  | Map<String, Object> | ✘ |
+| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
+| addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
 | takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
+| containsRecipe | RecipeFilter |  | boolean | ✘ |
+| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
 | customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
+| countRecipes | RecipeFilter |  | int | ✘ |
+| recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
+| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
+| runInParallel | Runnable |  | void | ✔ |
+| runInParallel | Callable<T> |  | T | ✔ |
+| printAllTypes |  |  | void | ✘ |
+| setItemErrors | boolean |  | void | ✘ |
+| printExamples | String |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

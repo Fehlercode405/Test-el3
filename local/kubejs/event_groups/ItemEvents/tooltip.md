@@ -26,12 +26,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | add | Ingredient, Object |  | void | ✘ |
-| isShift |  |  | boolean | ✘ |
-| isCtrl |  |  | boolean | ✘ |
-| isAlt |  |  | boolean | ✘ |
-| addAdvancedToAll | StaticTooltipHandlerFromJS |  | void | ✘ |
-| addToAll | Object |  | void | ✘ |
 | addAdvanced | Ingredient, StaticTooltipHandlerFromJS |  | void | ✘ |
+| isAlt |  |  | boolean | ✘ |
+| addToAll | Object |  | void | ✘ |
+| isCtrl |  |  | boolean | ✘ |
+| addAdvancedToAll | StaticTooltipHandlerFromJS |  | void | ✘ |
+| isShift |  |  | boolean | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
@@ -52,28 +52,19 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Adds text to all items matching the ingredient.
 ```
 
-- `boolean isShift()`
-```
-Is shift key pressed.
-```
+- `void addAdvanced(Ingredient var0, StaticTooltipHandlerFromJS var1)`
 
-- `boolean isCtrl()`
+  Parameters:
+  - var0: Ingredient
+  - var1: StaticTooltipHandlerFromJS
+
 ```
-Is control key pressed.
+Adds a dynamic tooltip handler to all items matching the ingredient.
 ```
 
 - `boolean isAlt()`
 ```
 Is alt key pressed.
-```
-
-- `void addAdvancedToAll(StaticTooltipHandlerFromJS var0)`
-
-  Parameters:
-  - var0: StaticTooltipHandlerFromJS
-
-```
-Adds a dynamic tooltip handler to all items.
 ```
 
 - `void addToAll(Object var0)`
@@ -85,14 +76,23 @@ Adds a dynamic tooltip handler to all items.
 Adds text to all items.
 ```
 
-- `void addAdvanced(Ingredient var0, StaticTooltipHandlerFromJS var1)`
+- `boolean isCtrl()`
+```
+Is control key pressed.
+```
+
+- `void addAdvancedToAll(StaticTooltipHandlerFromJS var0)`
 
   Parameters:
-  - var0: Ingredient
-  - var1: StaticTooltipHandlerFromJS
+  - var0: StaticTooltipHandlerFromJS
 
 ```
-Adds a dynamic tooltip handler to all items matching the ingredient.
+Adds a dynamic tooltip handler to all items.
+```
+
+- `boolean isShift()`
+```
+Is shift key pressed.
 ```
 
 - `Object exit(Object var0)`

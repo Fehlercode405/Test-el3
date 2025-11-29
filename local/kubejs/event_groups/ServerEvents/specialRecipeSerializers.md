@@ -23,9 +23,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | reset |  |  | void | ✘ |
 | isSpecial | Recipe<?> |  | boolean | ✘ |
-| ignoreSpecialFlag | ResourceLocation |  | void | ✘ |
 | ignoreSpecialMod | String |  | void | ✘ |
 | addSpecialMod | String |  | void | ✘ |
+| ignoreSpecialFlag | ResourceLocation |  | void | ✘ |
 | addSpecialFlag | ResourceLocation |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

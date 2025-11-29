@@ -20,8 +20,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| addSpawn | MobCategory, String |  | void | ✘ |
 | addSpawn | BiomeFilter, MobCategory, String |  | void | ✘ |
+| addSpawn | MobCategory, String |  | void | ✘ |
 | addSpawn | Consumer<AddSpawnProperties> |  | void | ✘ |
 | addOre | Consumer<AddOreProperties> |  | void | ✘ |
 | addLake | Consumer<AddLakeProperties> |  | void | ✘ |

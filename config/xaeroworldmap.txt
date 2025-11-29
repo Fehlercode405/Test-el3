@@ -4,7 +4,7 @@ allowInternetAccess:true
 differentiateByServerAddress:true
 caveMapsAllowed:true
 debug:false
-lighting:true
+lighting:false
 colours:0
 loadChunks:true
 updateChunks:true
@@ -38,7 +38,7 @@ displayStainedGlass:true
 caveModeDepth:30
 caveModeStart:2147483647
 autoCaveMode:2
-legibleCaveMaps:false
+legibleCaveMaps:true
 displayCaveModeStart:true
 caveModeToggleTimer:1000
 defaultCaveModeType:2
