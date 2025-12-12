@@ -49,7 +49,7 @@
 	quantumArmorMagnetRange = 15
 	#Define the Attack Damage boost of the Strength Card.
 	#Range: 5 ~ 50
-	quantumArmorStrengthBoost = 4
+	quantumArmorStrengthBoost = 5
 	#Define the Attack Speed Damage boost of the Attack Speed Card.
 	#Range: 1 ~ 10
 	quantumArmorAttackSpeedBoost = 2
@@ -61,7 +61,7 @@
 	quantumArmorMaxReachBoost = 8
 	#Define the amount of hearts regenerated per tick with the Regeneration Card. Value will be divided by 10 before use.
 	#Range: 1 ~ 20
-	quantumArmorRenegerationPerTick = 3
+	quantumArmorRenegerationPerTick = 5
 	#Define the maximum percentage of incoming damage absorbed by the Quantum Armor. This value is still limited by the energy buffer in the equipment.
 	#Range: 5 ~ 100
 	quantumArmorPercentageDamageAbsorption = 30

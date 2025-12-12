@@ -70,6 +70,7 @@
       "natures_spirit:oak_savanna": "2025-11-27 17:12:06 +0100",
       "natures_spirit:tropical_shores": "2025-11-25 17:30:28 +0100",
       "natures_spirit:lively_dunes": "2025-11-23 20:40:29 +0100",
+      "minecraft:cold_ocean": "2025-12-03 14:58:26 +0100",
       "natures_spirit:alpine_clearings": "2025-11-25 16:40:34 +0100",
       "minecraft:warm_ocean": "2025-11-23 12:44:11 +0100",
       "natures_spirit:maple_woodlands": "2025-11-23 14:20:05 +0100",
@@ -90,10 +91,13 @@
       "natures_spirit:aspen_forest": "2025-11-23 14:21:06 +0100",
       "minecraft:forest": "2025-11-19 15:06:23 +0100",
       "natures_spirit:drylands": "2025-11-25 16:32:16 +0100",
+      "natures_spirit:snowy_fir_forest": "2025-12-03 14:59:01 +0100",
+      "minecraft:frozen_ocean": "2025-12-03 14:57:58 +0100",
       "minecraft:desert": "2025-11-23 20:40:14 +0100",
       "minecraft:ocean": "2025-11-23 12:42:07 +0100",
       "minecraft:old_growth_spruce_taiga": "2025-11-25 17:26:53 +0100",
       "natures_spirit:marigold_meadows": "2025-11-23 14:20:32 +0100",
+      "minecraft:snowy_beach": "2025-12-03 14:59:04 +0100",
       "minecraft:deep_lukewarm_ocean": "2025-11-23 12:43:48 +0100",
       "natures_spirit:stratified_desert": "2025-11-27 17:13:47 +0100",
       "minecraft:meadow": "2025-11-23 20:36:41 +0100",
@@ -636,9 +640,27 @@
     },
     "done": true
   },
-  "vinery:recipes/grass_slab": {
+  "betterdungeons:all_dungeons": {
     "criteria": {
-      "has_grass_block": "2025-11-27 19:46:10 +0100"
+      "in_better_zombie_dungeon": "2025-11-27 17:15:31 +0100"
+    },
+    "done": false
+  },
+  "betterdungeons:zombie_dungeon": {
+    "criteria": {
+      "in_better_zombie_dungeon": "2025-11-27 17:15:31 +0100"
+    },
+    "done": true
+  },
+  "integrated_villages:clockwork_village": {
+    "criteria": {
+      "in_clockwork_village": "2025-11-27 17:27:33 +0100"
+    },
+    "done": true
+  },
+  "integrated_villages:airship_village": {
+    "criteria": {
+      "in_airship_village": "2025-11-27 17:41:41 +0100"
     },
     "done": true
   },
@@ -648,27 +670,39 @@
     },
     "done": true
   },
-  "betterdungeons:all_dungeons": {
+  "vinery:recipes/grass_slab": {
     "criteria": {
-      "in_better_zombie_dungeon": "2025-11-27 17:15:31 +0100"
+      "has_grass_block": "2025-11-27 19:46:10 +0100"
+    },
+    "done": true
+  },
+  "create:super_glue": {
+    "criteria": {
+      "0": "2025-12-03 14:55:52 +0100"
+    },
+    "done": true
+  },
+  "lootr:social": {
+    "criteria": {
+      "opened_chest": "2025-12-03 14:56:38 +0100"
     },
     "done": false
   },
-  "integrated_villages:clockwork_village": {
+  "lootr:1chest": {
     "criteria": {
-      "in_clockwork_village": "2025-11-27 17:27:33 +0100"
+      "opened_chest": "2025-12-03 14:56:38 +0100"
     },
     "done": true
   },
-  "betterdungeons:zombie_dungeon": {
+  "betternether:recipes/transportation/activator_rail": {
     "criteria": {
-      "in_better_zombie_dungeon": "2025-11-27 17:15:31 +0100"
+      "has_redstone_torch": "2025-12-03 15:15:07 +0100"
     },
     "done": true
   },
-  "integrated_villages:airship_village": {
+  "minecraft:recipes/redstone/repeater": {
     "criteria": {
-      "in_airship_village": "2025-11-27 17:41:41 +0100"
+      "has_redstone_torch": "2025-12-03 15:15:07 +0100"
     },
     "done": true
   },

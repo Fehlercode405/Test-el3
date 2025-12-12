@@ -1,7 +1,333 @@
 {
-  "favorites": [],
+  "favorites": [
+    {
+      "stack": "item:mekanism:module_farming_unit",
+      "recipe": "mekanism:module_farming_unit"
+    },
+    {
+      "stack": "item:mekanism:module_silk_touch_unit",
+      "recipe": "mekanism:module_silk_touch_unit"
+    },
+    {
+      "stack": "item:mekanism:module_vein_mining_unit",
+      "recipe": "mekanism:module_vein_mining_unit"
+    },
+    {
+      "stack": "item:mekanism:module_electrolytic_breathing_unit",
+      "recipe": "mekanism:module_electrolytic_breathing_unit"
+    },
+    {
+      "stack": "item:mekanism:module_vision_enhancement_unit",
+      "recipe": "mekanism:module_vision_enhancement_unit"
+    },
+    {
+      "stack": "item:mekanism:module_jetpack_unit",
+      "recipe": "mekanism:module_jetpack_unit"
+    },
+    {
+      "stack": "item:mekanism:module_charge_distribution_unit"
+    },
+    {
+      "stack": "item:mekanism:module_gravitational_modulating_unit",
+      "recipe": "mekanism:module_gravitational_modulating_unit"
+    },
+    {
+      "stack": "item:mekanism:module_locomotive_boosting_unit",
+      "recipe": "mekanism:module_locomotive_boosting_unit"
+    },
+    {
+      "stack": "item:mekanism:module_motorized_servo_unit"
+    },
+    {
+      "stack": "item:mekanism:module_hydraulic_propulsion_unit"
+    },
+    {
+      "stack": "item:mekanism:module_magnetic_attraction_unit"
+    },
+    {
+      "stack": "item:mekanism:module_frost_walker_unit",
+      "recipe": "mekanism:module_frost_walker_unit"
+    },
+    {
+      "stack": "item:mekaweapons:module_looting_unit"
+    },
+    {
+      "stack": "item:mekaweapons:module_drawspeed_unit",
+      "recipe": "mekaweapons:module_drawspeed_unit"
+    },
+    {
+      "stack": "item:mekaweapons:module_sweeping_unit"
+    },
+    {
+      "stack": "item:mekaweapons:module_arrowenergy_unit",
+      "recipe": "mekaweapons:module_arrowenergy_unit"
+    },
+    {
+      "stack": "item:mekaweapons:module_autofire_unit"
+    },
+    {
+      "stack": "item:mekanismgenerators:module_solar_recharging_unit",
+      "recipe": "mekanismgenerators:module_solar_recharging_unit"
+    },
+    {
+      "stack": "item:mekanismgenerators:module_solar_recharging_unit"
+    },
+    {
+      "stack": "item:mekanismgenerators:module_geothermal_generator_unit",
+      "recipe": "mekanismgenerators:module_geothermal_generator_unit"
+    }
+  ],
   "lookup_history": [
+    "item:mekanism:module_excavation_escalation_unit",
+    "item:apotheosis:potion_charm{Damage:0}",
+    "item:mekanism:module_silk_touch_unit",
+    "item:mekanism:module_energy_unit",
+    "item:mekanismgenerators:module_geothermal_generator_unit",
+    "item:mekanismgenerators:module_solar_recharging_unit",
+    "item:mekaweapons:module_attackamplification_unit",
+    "item:mekaweapons:module_autofire_unit",
+    "item:mekaweapons:module_gravitydampener_unit",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"mob-ai-tweaks:full_auto_retrofit\",lvl:1s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"mob-ai-tweaks:auto_loading_holster\",lvl:1s}]}",
+    "item:mekaweapons:module_arrowenergy_unit",
+    "item:mekaweapons:module_sweeping_unit",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:sweeping\",lvl:1s}]}",
+    "item:mekaweapons:module_drawspeed_unit",
+    "item:mekaweapons:module_looting_unit",
+    "item:mekanism:module_frost_walker_unit",
+    "item:mekanism:module_magnetic_attraction_unit",
+    "item:create_new_age:magnetite_block",
+    "item:draconicevolution:advanced_magnet",
+    "item:draconicevolution:magnet",
+    "item:mekanism:module_motorized_servo_unit",
+    "item:mekanism:module_hydraulic_propulsion_unit",
+    "item:mekanism:module_locomotive_boosting_unit",
+    "item:mekanism:module_hydrostatic_repulsor_unit",
+    "item:mekanism:module_gyroscopic_stabilization_unit",
+    "item:mekanism:module_elytra_unit",
+    "item:vinery:kelp_cider",
+    "item:draconicevolution:large_chaos_frag",
+    "item:mekanism:sps_port",
+    "item:mekanism:sps_casing",
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:antimatter"
+    },
+    "item:mekanism:pellet_antimatter",
+    "item:mekanism:module_gravitational_modulating_unit",
+    "item:mekanism:module_geiger_unit",
+    "item:mekanism:structural_glass",
+    "item:fluxnetworks:flux_controller",
+    "item:fluxnetworks:flux_plug",
+    "item:fluxnetworks:flux_point",
+    "item:fluxnetworks:flux_block",
+    "item:mekanism:module_charge_distribution_unit",
+    "item:mekanism:module_jetpack_unit",
+    "item:mekanism:module_dosimeter_unit",
+    "item:mekanism:module_nutritional_injection_unit",
+    "item:mekanism:module_vision_enhancement_unit",
+    "item:mekanism:module_inhalation_purification_unit",
+    "item:brewery:breathalyzer",
+    "item:mekanism:module_electrolytic_breathing_unit",
+    "item:mekanism:module_teleportation_unit",
+    "item:mekanism:module_vein_mining_unit",
+    "item:mekanism:module_blasting_unit",
+    "item:minecraft:tnt",
+    "item:mekanism:module_fortune_unit",
+    "item:meadow:wooly_cow_spawn_egg",
+    "item:minecraft:leather",
+    "item:camping:sheepbag",
+    "item:create_connected:shear_pin",
+    "item:betternether:cincinnasite_shears{Damage:0}",
+    "item:betternether:cincinnasite_ingot",
+    "#item:c:iron_ingots",
+    "item:mekanism:module_shearing_unit",
+    "item:create_connected:control_chip",
+    "item:mekanism:module_farming_unit",
+    "item:mekanism:module_attack_amplification_unit",
+    "item:wands:netherite_wand{Damage:0}",
+    "item:wands:creative_wand{Damage:0}",
+    "item:mekanism:module_radiation_shielding_unit",
+    "item:create:refined_radiance_casing",
+    "item:createcasing:refined_radiance_configurable_gearbox",
+    "item:mekanism:laser_amplifier",
+    "item:mekanism:module_laser_dissipation_unit",
+    "item:creategoggles:module_goggle_unit",
+    "item:mekanism:basic_induction_cell",
+    "item:mekanism:module_color_modulation_unit",
+    "item:amendments:dragon_charge",
+    "item:mekanismgenerators:fission_reactor_port",
+    "item:mekanism:meka_tool{mekData:{EnergyContainers:[{Container:0b,stored:\"16000000\"}]}}",
+    "item:mekanism:teleportation_core",
+    "item:mekanism:digital_miner",
+    "item:mekanism:robit",
+    "item:mekanism:pellet_polonium",
+    {
+      "type": "item",
+      "id": "mekanism:pellet_plutonium",
+      "amount": 64
+    },
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:polonium"
+    },
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:nuclear_waste",
+      "amount": 10
+    },
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:plutonium"
+    },
+    "item:minecraft:gold_ingot",
+    "item:mekanism:cardboard_box{mekData:{data:{blockState:{Name:\"minecraft:sand\"}}}}",
+    "item:mekanism:qio_redstone_adapter",
+    "item:mekanism:qio_exporter",
+    "item:mekanism:qio_importer",
+    "item:mekanism:quantum_entangloporter",
+    "item:mekanism:qio_dashboard",
+    "item:mekanism:qio_drive_array",
+    "item:mekanism:personal_chest{mekData:{owner:[I;800551844,-1265940821,-1791418460,579220908],personalStorageId:[I;-1451346870,-634568666,-1501858020,1582260383]}}",
+    {
+      "type": "item",
+      "id": "mekanism:crafting_formula",
+      "amount": 64
+    },
+    "item:mekanism:formulaic_assemblicator{mekData:{EnergyContainers:[{Container:0b,stored:\"40000\"}]}}",
+    "item:mekanism:pigment_extractor{mekData:{EnergyContainers:[{Container:0b,stored:\"7800\"}]}}",
+    "#item:c:wooden_chests",
+    "item:mekanism:configuration_card",
+    "item:mekanism:portable_qio_dashboard",
+    "item:mekanism:network_reader{mekData:{EnergyContainers:[{Container:0b,stored:\"60000\"}]}}",
+    "item:mekanism:dimensional_stabilizer{mekData:{EnergyContainers:[{Container:0b,stored:\"40000\"}]}}",
+    "item:mekanism:seismic_vibrator",
+    "item:mekanism:purification_chamber",
+    "item:mekanism:chemical_injection_chamber",
+    "item:mekanism:basic_compressing_factory",
+    "item:mekanism:deepslate_tin_ore",
+    "item:mekanismcovers:empty_cover",
+    "item:advanced_ae:regeneration_card",
+    "item:farmersdelight:diamond_knife{Damage:0}",
+    "item:betternether:cincinnasite_sword_diamond{Damage:0}",
+    "item:minecraft:diamond",
+    "item:betternether:spawn_egg_skull",
+    "item:minecraft:totem_of_undying",
+    "item:mekaweapons:mekabow{mekData:{Enchantments:[{id:\"minecraft:looting\",lvl:5s}],EnergyContainers:[{Container:0b,stored:\"275229861.7000\"}],modules:{\"mekanism:energy_unit\":{amount:8,enabled:1b},\"mekaweapons:arrowenergy_unit\":{},\"mekaweapons:attackamplification_unit\":{amount:4,attack_damage:5,enabled:1b,handleModeChange:1b,renderHUD:1b},\"mekaweapons:autofire_unit\":{},\"mekaweapons:drawspeed_unit\":{amount:3,drawspeed:3,enabled:1b,handleModeChange:0b,renderHUD:1b},\"mekaweapons:gravitydampener_unit\":{},\"mekaweapons:looting_unit\":{amount:5,enabled:1b}}}}",
+    "item:draconicevolution:wyvern_relay_crystal",
+    "item:draconicevolution:p2p_dislocator_unbound",
+    "item:draconicevolution:generator",
+    "item:create:precision_mechanism",
+    "item:create:large_cogwheel",
+    "item:create:brass_sheet",
+    "item:create:cogwheel",
+    {
+      "type": "item",
+      "id": "minecraft:stripped_oak_log",
+      "amount": 63
+    },
+    "item:create:chute",
+    "item:minecraft:iron_trapdoor",
+    "item:create:andesite_alloy",
+    {
+      "type": "item",
+      "id": "create:zinc_ingot",
+      "amount": 61
+    },
+    "item:create:brass_ingot",
+    "item:create:blaze_burner",
+    {
+      "type": "item",
+      "id": "create:rotation_speed_controller",
+      "amount": 64
+    },
+    "item:ae2:fluix_axe{Damage:0}",
+    "item:create:steam_engine",
+    "item:create:mechanical_mixer",
+    "item:create:iron_sheet",
+    "item:create:whisk",
+    "item:create:goggles",
+    "item:create:water_wheel",
+    "item:create:shaft",
+    "#item:minecraft:planks",
+    {
+      "type": "item",
+      "id": "create:large_water_wheel",
+      "amount": 64
+    },
+    "item:create:depot",
+    {
+      "type": "item",
+      "id": "createcasing:brass_depot",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "create:hand_crank",
+      "amount": 64
+    },
+    "#item:forge:storage_blocks/iron",
+    "item:create:andesite_casing",
+    "item:minecraft:diorite",
+    "item:minecraft:andesite",
+    {
+      "type": "item",
+      "id": "create:mechanical_press",
+      "amount": 64
+    },
+    "item:snowyspirit:gingerbread_stairs",
+    "item:snowyspirit:wild_ginger",
+    "item:snowyspirit:gingerbread_golem_spawn_egg",
+    "item:brewery:gingerbread",
+    "item:snowyspirit:gingerbread_frosted",
+    "item:snowyspirit:gingerbread_cookie",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"draconicevolution:reaper_enchantment\",lvl:4s}]}",
+    "item:create_new_age:reactor_fuel_acceptor",
+    "item:quark:ancient_fence",
+    "item:minecraft:slime_ball",
+    "item:minecraft:amethyst_block",
+    "item:minecraft:soul_sand",
+    "item:draconicevolution:chaotic_core",
+    "item:draconicevolution:draconic_sword",
+    "item:draconicevolution:wyvern_sword",
+    "item:draconicevolution:draconic_staff",
+    "item:draconicevolution:item_wyvern_aoe",
+    "item:draconicevolution:item_draconium_aoe",
+    "item:draconicevolution:wyvern_bow",
+    "item:draconicevolution:draconic_bow",
+    {
+      "type": "item",
+      "id": "keeperofinventories:keeper_of_inventories",
+      "amount": 64
+    },
+    "item:draconicevolution:dislocator{Damage:0}",
+    "item:sophisticatedbackpacks:stack_upgrade_tier_4",
+    "item:sophisticatedbackpacks:stack_upgrade_tier_3",
+    "item:draconicevolution:item_wyvern_flight",
+    "item:draconicevolution:item_chaotic_speed",
+    "item:draconicevolution:item_chaotic_shield_recovery",
+    "item:draconicevolution:awakened_draconium_block",
+    "item:draconicevolution:awakened_draconium_ingot",
+    "item:draconicevolution:awakened_core",
+    "item:draconicevolution:item_draconic_aoe",
+    "item:mekanism:mekasuit_helmet",
+    "item:advanced_ae:flight_card",
+    "item:advanced_ae:flight_drift_card",
+    "item:candlelight:hearth",
+    "item:minecraft:heart_of_the_sea",
+    "item:minecraft:end_crystal",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"mob-ai-tweaks:vorpal_weapon\",lvl:4s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"mob-ai-tweaks:vorpal_weapon\",lvl:2s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"mob-ai-tweaks:perfect_parry\",lvl:3s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"mob-ai-tweaks:perfect_parry\",lvl:2s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"mob-ai-tweaks:blasting_impression\",lvl:2s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"mob-ai-tweaks:after_burner\",lvl:3s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"mob-ai-tweaks:after_burner\",lvl:2s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"mob-ai-tweaks:blasting_impression\",lvl:3s}]}",
+    "item:minecraft:nether_star",
+    "item:minecraft:wither_skeleton_skull",
+    "item:minecraft:wither_skeleton_spawn_egg",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:blast_protection\",lvl:4s}]}",
     "item:advanced_ae:hp_buffer_card",
     "item:advanced_ae:magnet_card",
     "item:advanced_ae:auto_stock_card",
@@ -120,7 +446,6 @@
     },
     "item:create_new_age:basic_solar_heating_plate",
     "item:create_new_age:reactor_heat_vent",
-    "item:create_new_age:reactor_fuel_acceptor",
     "item:create_new_age:reactor_casing",
     "item:create_new_age:stirling_engine",
     "item:create_new_age:heater",
@@ -139,7 +464,6 @@
     "item:create_new_age:basic_motor",
     "item:create_new_age:electrical_connector",
     "item:mekanism:ultimate_control_circuit",
-    "item:mekanismgenerators:fission_reactor_port",
     "item:mekanismgenerators:fission_reactor_casing",
     {
       "type": "item",
@@ -154,14 +478,11 @@
     },
     "item:minecraft:redstone_block",
     "item:create:brass_casing",
-    "item:create:andesite_casing",
     "item:railways:purple_brass_wrapped_locometal",
     "item:railways:brass_wrapped_locometal",
     "#item:railways:palettes/dye_groups/brass_wrapped_slashed",
     "item:railways:light_blue_brass_wrapped_locometal",
     "item:create_new_age:overcharged_iron",
-    "item:create:shaft",
-    "item:create_new_age:magnetite_block",
     "item:create_new_age:copper_circuit",
     "item:minecraft:firework_rocket{Fireworks:{Flight:1b}}",
     "item:minecraft:elytra{Damage:0}",
@@ -242,7 +563,6 @@
     "biome:betternether:bone_reef",
     "item:betternether:spawn_egg_flying_pig",
     "item:betternether:spawn_egg_jungle_skeleton",
-    "item:betternether:spawn_egg_skull",
     "item:betternether:flaming_ruby_chestplate{Damage:0,Enchantments:[{id:\"betternether:ruby_fire\",lvl:1s}]}",
     "item:betternether:cincinnasite_diamond_upgrade_smithing_template",
     "item:betternether:flaming_ruby_upgrade_smithing_template",
@@ -257,7 +577,6 @@
     "item:betternether:stalagnate_chair",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"betternether:obsidian_breaker\",lvl:3s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"betternether:ruby_fire\",lvl:1s}]}",
-    "item:amendments:dragon_charge",
     "item:immersive_aircraft:rotary_cannon",
     "item:draconicevolution:item_wyvern_speed",
     "item:draconicevolution:item_draconic_speed",
@@ -266,13 +585,8 @@
     "item:draconicevolution:item_chaotic_proj_penetration",
     "item:draconicevolution:item_chaotic_proj_damage",
     "item:quark:stoneling_spawn_egg",
-    "item:create:mechanical_mixer{}",
-    "item:mekanism:basic_induction_cell",
     "item:mekanism:hdpe_sheet",
-    "item:mekanism:mekasuit_helmet",
-    "item:mekanism:module_hydraulic_propulsion_unit",
     "item:advanced_ae:quantum_upgrade_base",
-    "item:advanced_ae:regeneration_card",
     "item:advanced_ae:step_assist_card",
     "item:advanced_ae:evasion_card",
     "item:advanced_ae:quantum_unit",
@@ -304,7 +618,6 @@
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:riptide\",lvl:2s}]}",
     "item:quark:diamond_heart",
     "item:minecraft:ender_pearl",
-    "item:keeperofinventories:keeper_of_inventories",
     "item:minecraft:lever",
     "item:minecraft:saddle",
     "item:minecraft:netherite_sword{Damage:0}",
@@ -364,8 +677,18 @@
   ],
   "recipe_defaults": {
     "added": [
-      "minecraft:ender_eye",
-      "create_new_age:shaped/advanced_motor"
+      "create:crafting/kinetics/shaft",
+      "create:crafting/kinetics/whisk",
+      "camping:small_backpack",
+      "mekanism:module_teleportation_unit",
+      "fluxnetworks:fluxcontroller",
+      "jei:/create/item_application/andesite_casing_from_log_using_deployer",
+      "jei:/create/pressing/iron_ingot",
+      "create_new_age:shaped/advanced_motor",
+      "create:crafting/kinetics/water_wheel",
+      "create:crafting/kinetics/chute",
+      "mekanismgenerators:fission_reactor/port",
+      "minecraft:ender_eye"
     ],
     "tags": {},
     "resolutions": {},

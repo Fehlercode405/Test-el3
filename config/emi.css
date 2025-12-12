@@ -415,12 +415,12 @@
 	/**
 	 * Cheat in one of an item into the cursor.
 	 */
-	cheat-one-to-cursor: "ctrl key.mouse.middle";
+	cheat-one-to-cursor: "key.keyboard.equal";
 
 	/**
 	 * Cheat in a stack of an item into the cursor.
 	 */
-	cheat-stack-to-cursor: "key.keyboard.unknown";
+	cheat-stack-to-cursor: "ctrl key.mouse.middle";
 
 	/**
 	 * Delete the stack in the cursor when hovering the index
