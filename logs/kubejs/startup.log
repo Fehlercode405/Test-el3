@@ -1,20 +1,20 @@
-[19:55:33] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[19:55:33] [INIT] Loaded plugins:
-[19:55:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[19:55:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[19:55:33] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[19:55:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[19:55:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[19:55:33] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[19:55:33] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
-[19:55:33] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
-[19:55:33] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[19:55:33] [INIT] - com.probejs.ProbeJSPlugin
-[19:55:35] [INFO] ae2_support.js#1: Loaded Java class 'appeng.recipes.entropy.EntropyMode'
-[19:55:35] [INFO] ae2_support.js#2: Loaded Java class 'dev.latvian.mods.kubejs.recipe.schema.RecipeSchema'
-[19:55:35] [INFO] ae2_support.js#3: Loaded Java class 'dev.latvian.mods.kubejs.recipe.component.MapRecipeComponent'
-[19:55:35] [INFO] ae2_support.js#4: Loaded Java class 'dev.latvian.mods.kubejs.recipe.component.RecipeComponentBuilderMap'
-[19:55:35] [INFO] Loaded script startup_scripts:ae2_support.js in 0.177 s
-[19:55:35] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
-[19:55:35] [INFO] Loaded script startup_scripts:example.js in 0.003 s
-[19:55:35] [INFO] Loaded 2/2 KubeJS startup scripts in 1.617 s with 0 errors and 0 warnings
+[23:00:16] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[23:00:16] [INIT] Loaded plugins:
+[23:00:16] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[23:00:16] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[23:00:16] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[23:00:16] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[23:00:16] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[23:00:16] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[23:00:16] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[23:00:16] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
+[23:00:16] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[23:00:16] [INIT] - com.probejs.ProbeJSPlugin
+[23:00:18] [INFO] ae2_support.js#1: Loaded Java class 'appeng.recipes.entropy.EntropyMode'
+[23:00:18] [INFO] ae2_support.js#2: Loaded Java class 'dev.latvian.mods.kubejs.recipe.schema.RecipeSchema'
+[23:00:18] [INFO] ae2_support.js#3: Loaded Java class 'dev.latvian.mods.kubejs.recipe.component.MapRecipeComponent'
+[23:00:18] [INFO] ae2_support.js#4: Loaded Java class 'dev.latvian.mods.kubejs.recipe.component.RecipeComponentBuilderMap'
+[23:00:18] [INFO] Loaded script startup_scripts:ae2_support.js in 0.18 s
+[23:00:18] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[23:00:18] [INFO] Loaded script startup_scripts:example.js in 0.001 s
+[23:00:18] [INFO] Loaded 2/2 KubeJS startup scripts in 1.645 s with 0 errors and 0 warnings
