@@ -8,10 +8,10 @@ ServerEvents.recipes(event => {
             'AAA'
         ],
         {
-            D: Item.of('create:shaft', '{}'),
-            A: Item.of('mekanism:basic_control_circuit', '{}'),
-            C: Item.of('create:brass_casing', '{}'),
-            B: Item.of('create_new_age:overcharged_iron', '{}')
+            D: Item.of('create:shaft'),
+            A: Item.of('mekanism:basic_control_circuit'),
+            C: Item.of('create:brass_casing'),
+            B: Item.of('create_new_age:overcharged_iron')
         }
     )
     event.shaped(
@@ -22,10 +22,10 @@ ServerEvents.recipes(event => {
             'AAA'
         ],
         {
-            A: Item.of('mekanism:advanced_control_circuit', '{}'),
-            D: Item.of('create:shaft', '{}'),
-            C: Item.of('create:brass_casing', '{}'),
-            B: Item.of('create_new_age:overcharged_gold', '{}')
+            A: Item.of('mekanism:advanced_control_circuit'),
+            D: Item.of('create:shaft'),
+            C: Item.of('create:brass_casing'),
+            B: Item.of('create_new_age:overcharged_gold')
         }
     )
     event.recipes.create.mechanical_crafting(
@@ -36,11 +36,11 @@ ServerEvents.recipes(event => {
             'AADDA'
         ],
         {
-            A: Item.of('create_new_age:overcharged_diamond', '{}'),
-            B: Item.of('create:brass_casing', '{}'),
-            C: Item.of('#chipped:redstone_block', '{}'),
-            D: Item.of('mekanism:elite_control_circuit', '{}'),
-            E: Item.of('create:shaft', '{}'),
+            A: Item.of('create_new_age:overcharged_diamond'),
+            B: Item.of('create:brass_casing'),
+            C: Item.of('#chipped:redstone_block'),
+            D: Item.of('mekanism:elite_control_circuit'),
+            E: Item.of('create:shaft'),
         }
     )
     event.shaped(
@@ -51,8 +51,8 @@ ServerEvents.recipes(event => {
             'AAA'
         ],
         {
-            B: Item.of('minecraft:redstone_block', '{}'),
-            A: Item.of('create_new_age:magnetite_block', '{}')
+            B: Item.of('minecraft:redstone_block'),
+            A: Item.of('create_new_age:magnetite_block')
         }
     )
     event.shaped(
@@ -63,9 +63,9 @@ ServerEvents.recipes(event => {
             'ABA'
         ],
         {
-            B: Item.of('create_new_age:overcharged_iron', '{}'),
-            C: Item.of('create_new_age:redstone_magnet', '{}'),
-            A: Item.of('create_new_age:overcharged_gold', '{}')
+            B: Item.of('create_new_age:overcharged_iron'),
+            C: Item.of('create_new_age:redstone_magnet'),
+            A: Item.of('create_new_age:overcharged_gold')
         }
     )
     event.shaped(
@@ -76,9 +76,9 @@ ServerEvents.recipes(event => {
             'ABA'
         ],
         {
-            C: Item.of('create_new_age:layered_magnet', '{}'),
-            A: Item.of('mekanism:alloy_reinforced', '{}'),
-            B: Item.of('create_new_age:overcharged_diamond', '{}')
+            C: Item.of('create_new_age:layered_magnet'),
+            A: Item.of('mekanism:alloy_reinforced'),
+            B: Item.of('create_new_age:overcharged_diamond')
         }
     )
     event.shaped(
@@ -89,9 +89,9 @@ ServerEvents.recipes(event => {
             'ABA'
         ],
         {
-            A: Item.of('mekanism:alloy_atomic', '{}'),
-            C: Item.of('create_new_age:fluxuated_magnetite', '{}'),
-            B: Item.of('minecraft:netherite_scrap', '{}')
+            A: Item.of('mekanism:alloy_atomic'),
+            C: Item.of('create_new_age:fluxuated_magnetite'),
+            B: Item.of('minecraft:netherite_scrap')
         }
     )
     event.shaped(
@@ -102,9 +102,9 @@ ServerEvents.recipes(event => {
             '   '
         ],
         {
-            A: Item.of('numismatics:andesite_depositor', '{}'),
-            C: Item.of('mekanism:alloy_infused', '{}'),
-            B: Item.of('minecraft:lightning_rod', '{}')
+            A: Item.of('numismatics:andesite_depositor'),
+            C: Item.of('mekanism:alloy_infused'),
+            B: Item.of('minecraft:lightning_rod')
         }
     )
     event.shaped(
@@ -115,9 +115,9 @@ ServerEvents.recipes(event => {
             ' C '
         ],
         {
-            B: Item.of('create_new_age:energiser_t1', '{}'),
-            C: Item.of('mekanism:alloy_reinforced', '{}'),
-            A: Item.of('create_new_age:overcharged_iron', '{}')
+            B: Item.of('create_new_age:energiser_t1'),
+            C: Item.of('mekanism:alloy_reinforced'),
+            A: Item.of('create_new_age:overcharged_iron')
         }
     )
     event.shaped(
@@ -128,9 +128,9 @@ ServerEvents.recipes(event => {
             ' C '
         ],
         {
-            C: Item.of('mekanism:alloy_atomic', '{}'),
-            B: Item.of('create_new_age:energiser_t2', '{}'),
-            A: Item.of('create_new_age:overcharged_diamond', '{}')
+            C: Item.of('mekanism:alloy_atomic'),
+            B: Item.of('create_new_age:energiser_t2'),
+            A: Item.of('create_new_age:overcharged_diamond')
         }
     )
     event.shaped(
@@ -181,10 +181,10 @@ ServerEvents.recipes(event => {
             'ABBBA'
         ],
         {
-            A: Item.of('create_new_age:reactor_casing', '{}'),
-            B: Item.of('mekanism:alloy_atomic', '{}'),
-            C: Item.of('create_new_age:reactor_glass', '{}'),
-            D: Item.of('create_new_age:nuclear_fuel', '{}'),
+            A: Item.of('create_new_age:reactor_casing'),
+            B: Item.of('mekanism:alloy_atomic'),
+            C: Item.of('create_new_age:reactor_glass'),
+            D: Item.of('create_new_age:nuclear_fuel'),
         }
     )
 });

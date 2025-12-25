@@ -28,10 +28,10 @@ ServerEvents.recipes(event => {
             'ABA'
         ],
         {
-            B: Item.of('mekanism:alloy_atomic', '{}'),
-            C: Item.of('minecraft:gold_ingot', '{}'),
-            A: Item.of('mekanism:pellet_polonium', '{}'),
-            D: Item.of('minecraft:diamond', '{}')
+            B: Item.of('mekanism:alloy_atomic'),
+            C: Item.of('minecraft:gold_ingot'),
+            A: Item.of('mekanism:pellet_polonium'),
+            D: Item.of('minecraft:diamond')
         }
     )
 })

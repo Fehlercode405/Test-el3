@@ -3,18 +3,18 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1762108532350
+  last_edited_time = 1766428659877
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   universal_layout_whitelist = titel_screen;title_screen;drippy_loading_overlay;options_screen;
-  [loading_requirement_container_meta:93daf69b-2415-498b-bd0c-500233bb939e-1762108487238] = [groups:][instances:]
+  [loading_requirement_container_meta:a453b642-9ae9-4800-912f-97ea438cbbb5-1766427986766] = [groups:][instances:]
 }
 
 menu_background {
-  image_path = [source:local]/config/fancymenu/assets/EL2.jpg
+  image_path = [source:local]/config/fancymenu/assets/EL3.jpg
   slide = true
   repeat_texture = false
   parallax = false
@@ -27,7 +27,7 @@ menu_background {
 
 customization {
   action = backgroundoptions
-  keepaspectratio = false
+  keepaspectratio = true
 }
 
 scroll_list_customization {
@@ -99,6 +99,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -108,6 +114,7 @@ element {
   nine_slice_texture_border_x = 5
   nine_slice_texture_border_y = 5
   image_tint = #FFFFFF
+  restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 523b4866-6e98-4e02-9e23-68787ce89f5d-1755534311426
   appearance_delay = no_delay
@@ -140,5 +147,11 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 

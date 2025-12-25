@@ -20,21 +20,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | enableLogging |  |  | void | ✘ |
-| addEntityLootModifier | EntityType<?>[] |  | LootActionsBuilderJS | ✘ |
-| addBlockLootModifier | Object |  | LootActionsBuilderJS | ✘ |
-| disableCreeperHeadDrop |  |  | void | ✘ |
 | disableLootModification | ResourceLocationFilter[] |  | void | ✘ |
-| disableSkeletonHeadDrop |  |  | void | ✘ |
-| disableZombieHeadDrop |  |  | void | ✘ |
 | addLootTableModifier | ResourceLocationFilter[] |  | LootActionsBuilderJS | ✘ |
-| addLootTypeModifier | LootContextType[] |  | LootActionsBuilderJS | ✘ |
 | disableWitherStarDrop |  |  | void | ✘ |
+| disableSkeletonHeadDrop |  |  | void | ✘ |
+| disableCreeperHeadDrop |  |  | void | ✘ |
+| addEntityLootModifier | EntityType<?>[] |  | LootActionsBuilderJS | ✘ |
+| disableZombieHeadDrop |  |  | void | ✘ |
+| addLootTypeModifier | LootContextType[] |  | LootActionsBuilderJS | ✘ |
+| addBlockLootModifier | Object |  | LootActionsBuilderJS | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
@@ -75,6 +75,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -82,13 +89,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

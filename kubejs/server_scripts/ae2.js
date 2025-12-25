@@ -36,15 +36,15 @@ ServerEvents.recipes(event => {
             'GHI'
         ],
         {
-            F: Item.of('farmersdelight:roast_chicken_block', '{}'),
-            C: Item.of('farmersdelight:honey_glazed_ham_block', '{}'),
-            D: Item.of('farmersdelight:hamburger', '{}'),
-            A: Item.of('farmersdelight:stuffed_pumpkin_block', '{}'),
-            G: Item.of('farmersdelight:sweet_berry_cheesecake', '{}'),
-            E: Item.of('advanced_ae:quantum_upgrade_base', '{}'),
-            B: Item.of('draconicevolution:dragon_heart', '{}'),
-            I: Item.of('farmersdelight:pasta_with_mutton_chop', '{}'),
-            H: Item.of('farmersdelight:rice_roll_medley_block', '{}')
+            F: Item.of('farmersdelight:roast_chicken_block'),
+            C: Item.of('farmersdelight:honey_glazed_ham_block'),
+            D: Item.of('farmersdelight:hamburger'),
+            A: Item.of('farmersdelight:stuffed_pumpkin_block'),
+            G: Item.of('farmersdelight:sweet_berry_cheesecake'),
+            E: Item.of('advanced_ae:quantum_upgrade_base'),
+            B: Item.of('draconicevolution:dragon_heart'),
+            I: Item.of('farmersdelight:pasta_with_mutton_chop'),
+            H: Item.of('farmersdelight:rice_roll_medley_block')
         }
     )
     event.remove({id:'advanced_ae:flight_card'})
@@ -56,11 +56,11 @@ ServerEvents.recipes(event => {
             'AEA'
         ],
         {
-            B: Item.of('minecraft:elytra', '{}'),
-            D: Item.of('advanced_ae:quantum_upgrade_base', '{}'),
-            E: Item.of('draconicevolution:dragon_heart', '{}'),
-            C: Item.of('minecraft:feather', '{}'),
-            A: Item.of('advanced_ae:quantum_alloy_plate', '{}')
+            B: Item.of('minecraft:elytra'),
+            D: Item.of('advanced_ae:quantum_upgrade_base'),
+            E: Item.of('draconicevolution:dragon_heart'),
+            C: Item.of('minecraft:feather'),
+            A: Item.of('advanced_ae:quantum_alloy_plate')
         }
     )
 })

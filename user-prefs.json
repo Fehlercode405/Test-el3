@@ -1014,6 +1014,18 @@
         "isSelected": true
       },
       {
+        "path": "config\\witherreincarnated",
+        "isSelected": true
+      },
+      {
+        "path": "config\\witherreincarnated\\client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\witherreincarnated\\common.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\worldedit",
         "isSelected": true
       },
@@ -2082,6 +2094,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\bits_n_bobs-common.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\bstats.json",
         "isSelected": true
       },
@@ -2223,6 +2239,10 @@
       },
       {
         "path": "config\\do_a_barrel_roll-server.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\dragonfight.json",
         "isSelected": true
       },
       {
@@ -3086,6 +3106,10 @@
         "isSelected": false
       },
       {
+        "path": "crash-reports\\crash-2025-12-21_22.55.27-client.txt",
+        "isSelected": false
+      },
+      {
         "path": "data",
         "isSelected": false
       },
@@ -3179,31 +3203,31 @@
       },
       {
         "path": "fancymenu_data",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "fancymenu_data\\buddy",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "fancymenu_data\\buddy\\buddy_leveling.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "fancymenu_data\\buddy\\buddy_save.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "fancymenu_data\\cached_data",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "fancymenu_data\\fancymenu_temp",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "fancymenu_data\\last_world.fmdata",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "kubejs",
@@ -4687,6 +4711,30 @@
       },
       {
         "path": "logs\\2025-12-18-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-19-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-21-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-21-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-21-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-21-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-21-5.log.gz",
         "isSelected": false
       },
       {
@@ -7014,6 +7062,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\bits_n_bobs-0.0.29b.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\Bookshelf-Forge-1.20.1-20.2.13.jar",
         "isSelected": true
       },
@@ -7418,7 +7470,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\interiors-0.5.6+forge-mc1.20.1-local.jar",
+        "path": "mods\\interiors-0.5.6+forge-mc1.20.1-local.jar.disabled",
         "isSelected": true
       },
       {
@@ -16678,6 +16730,14 @@
         "isSelected": false
       },
       {
+        "path": "xaero\\minimap\\Multiplayer_own-he.gl.joinmc.link",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_own-he.gl.joinmc.link\\config.txt",
+        "isSelected": false
+      },
+      {
         "path": "xaero\\minimap\\New World",
         "isSelected": false
       },
@@ -16815,6 +16875,94 @@
       },
       {
         "path": "xaero\\world-map",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\cache\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\cache_1\\0_-3.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\cache_1\\1_-3.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\caves",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\caves\\-2147483648",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\caves\\-2147483648\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\caves\\-2147483648\\cache\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\caves\\-2147483648\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\caves\\-2147483648\\cache_1\\0_-3.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\caves\\-2147483648\\cache_1\\1_-3.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\caves\\-2147483648\\0_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\caves\\-2147483648\\1_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\0_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\mw$-122995358\\1_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\null\\dimension_config.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\server_config.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_own-he.gl.joinmc.link\\XaeroPlusDrawing.db",
         "isSelected": false
       },
       {
@@ -20727,7 +20875,7 @@
       },
       {
         "path": "LICENSE",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "minecraftinstance.json",
@@ -20755,6 +20903,10 @@
       },
       {
         "path": "servers.dat",
+        "isSelected": false
+      },
+      {
+        "path": "servers.dat_old",
         "isSelected": false
       },
       {
