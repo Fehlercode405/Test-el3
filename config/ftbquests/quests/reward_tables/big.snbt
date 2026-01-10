@@ -1,0 +1,7 @@
+{
+	id: "5A9A297B09425785"
+	loot_size: 1
+	order_index: 18
+	rewards: [{ item: "numismatics:crown" }]
+	title: "big"
+}

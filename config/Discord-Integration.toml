@@ -2,9 +2,9 @@
 [general]
   # Insert your Bot Token here!
   # DO NOT SHARE IT WITH ANYONE!
-  botToken = "INSERT BOT TOKEN HERE"
+  botToken = "token is secret"
   # The channel ID where the bot will be working in
-  botChannel = "000000000"
+  botChannel = "1357443479105568838"
   # The bots status message
   # 
   # PLACEHOLDERS:
@@ -56,7 +56,7 @@
   enabled = true
   # The Role IDs of your Admin Roles
   # Now supports multiple roles which can access admin commands
-adminRoleIDs = [    ]
+adminRoleIDs = [  "1384162586043486359"  ]
   # Add your custom commands here
   # You can also generate some on https://erdbeerbaerlp.de/dcintegration-commands/
   # Enable the list command in discord
@@ -111,6 +111,24 @@ args = [    ]
           name = "target"
           description = "The target(s) for the kill command."
           optional = false
+
+    [[commands.customCommands]]
+      name = "msg"
+      description = "Maseg a Player"
+      mcCommand = "msg %Player% %text%"
+      textToSend = ""
+      adminOnly = true
+      hidden = false
+
+        [[commands.customCommands.args]]
+          name = "Player"
+          description = "The target(s) for the Massage command."
+          optional = false
+
+        [[commands.customCommands.args]]
+          name = "text"
+          description = "The Text to send"
+          optional = false
 # Toggle some message related features
 [messages]
   # Changing this to an language key (like en-US, de-DE) will always attempt to download the latest language file from https://github.com/ErdbeerbaerLP/Discord-Integration-Translations
@@ -122,7 +140,7 @@ args = [    ]
   sendOnMeCommand = true
   # Adding an selector (ex. @a ) here will relay all /tellraw messages sent with that exact same selector to discord.
   # Leave blank to disable
-  tellrawSelector = ""
+  tellrawSelector = "@a"
   # When an /say command's message starts with this prefix, it will not be sent to discord
   # Useful for hiding system messages by prepending it with this
   sayCommandIgnoredPrefix = "§4§6§k§r"
@@ -274,7 +292,7 @@ settingsBlacklist = [    ]
   # The avatar to be used for server messages
   serverAvatarURL = "https://raw.githubusercontent.com/ErdbeerbaerLP/Discord-Chat-Integration/master/images/srv.png"
   # The name to be used for server messages
-  serverName = "Minecraft Server"
+  serverName = "EL3 Server"
   # Use the server name and avatar for RCON
   useServerNameForRcon = true
   # Use the server name and avatar for Console
@@ -293,7 +311,7 @@ settingsBlacklist = [    ]
 # Configuration for the in-game command '/discord'
 [ingameCommand]
   # Enable the /discord command to show an custom message with invite URL?
-  enabled = true
+  enabled = false
   # The message displayed when typing /discord in the server chat
   message = "Join our discord! https://discord.gg/myserver"
   # The message shown when hovering the /discord command message

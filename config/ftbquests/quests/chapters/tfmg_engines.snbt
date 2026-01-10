@@ -1,0 +1,660 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tfmg_engines"
+	group: "2E85E4E262D4F214"
+	icon: "tfmg:turbine_engine"
+	id: "71BF6B1E1EADE2F3"
+	images: [
+		{
+			click: " "
+			height: 1.0d
+			hover: ["Large engines need air"]
+			image: "tfmg:block/air_intake/small_fan"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "tfmg:block/air_intake/inside_small"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.5d
+		}
+	]
+	order_index: 3
+	quest_links: [
+		{
+			id: "776739A283186586"
+			linked_quest: "460EACCAA9676362"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "2C76F3665C145A98"
+			linked_quest: "32D4AD5940C185C3"
+			x: -0.5d
+			y: 3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"2917301F1A8AE8A8"
+				"0104893F8F3458DA"
+			]
+			id: "38F7D6C5B76A6733"
+			shape: "hexagon"
+			subtitle: "Can be extended to make a larger engine."
+			tasks: [{
+				id: "24ABC65AFF57042C"
+				item: "tfmg:regular_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"062051ED6D130ACD"
+				"6D7CC9EA47063963"
+			]
+			description: [
+				"Requires air to be fed in from an air intake."
+				""
+				"Make sure to pipe out the CO2."
+			]
+			id: "483BB9005E58EAE5"
+			shape: "hexagon"
+			subtitle: "Same as the simple large engine but makes some more power."
+			tasks: [{
+				id: "1BAFFDBF6DAEF19C"
+				item: "tfmg:large_engine"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["062051ED6D130ACD"]
+			description: [
+				"Requires air to be fed in from an air intake."
+				""
+				"Make sure to pipe out the CO2."
+			]
+			id: "5713427D96B1CFC2"
+			shape: "hexagon"
+			subtitle: "Will run on Furnace Gas, Kerosene, Naptha, and Diesel."
+			tasks: [{
+				id: "7B1AE15FC424CD09"
+				item: "tfmg:simple_large_engine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2917301F1A8AE8A8"
+				"0104893F8F3458DA"
+			]
+			id: "55695CA65A8AA86D"
+			shape: "hexagon"
+			subtitle: "Can be extended to 2 blocks long."
+			tasks: [{
+				id: "3D54EB09A51A5455"
+				item: "tfmg:radial_engine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2917301F1A8AE8A8"
+				"6D7CC9EA47063963"
+			]
+			id: "6AFF0DACB9239075"
+			shape: "hexagon"
+			subtitle: "Can be extended too."
+			tasks: [{
+				id: "4F660A28A0D8CBA6"
+				item: "tfmg:turbine_engine"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6D7CC9EA47063963"
+				"0B7FFB9FF90F10CF"
+				"5F630ED2E1FA4705"
+			]
+			id: "54B22282A8D8E09F"
+			shape: "gear"
+			subtitle: "Links the engine controller to an engine."
+			tasks: [{
+				id: "571D92345D558CAF"
+				item: {
+					Count: 1
+					id: "tfmg:transmission"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"776451A1A5F3B2FB"
+				"2D94489E09F8DD9C"
+				"7598DDA7144F31C5"
+				"175A5130B861267D"
+				"0104893F8F3458DA"
+			]
+			description: ["Maybe useful for Valkerian Skies / Trackworks vehicles?"]
+			id: "5F630ED2E1FA4705"
+			optional: true
+			shape: "hexagon"
+			subtitle: "Manually control the speed of your engine."
+			tasks: [{
+				id: "3853144ACF7B6B6F"
+				item: "tfmg:engine_controller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6D7CC9EA47063963"
+				"1A72CD82CDA96C3D"
+			]
+			id: "2B22775F49643C99"
+			shape: "gear"
+			subtitle: "Increases engine SU and fuel consumption."
+			tasks: [{
+				id: "271DA6D47788FFE4"
+				item: "tfmg:turbo"
+				type: "item"
+			}]
+			title: "Turbocharge your Engine"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6A539510EEB5F29E"
+				"2D94489E09F8DD9C"
+			]
+			id: "1C1623E431E4B7DE"
+			rewards: [{
+				count: 2
+				id: "3886CA5A507C9E76"
+				item: "tfmg:steel_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "This block is actually goated for use with conveyor corners, in some orientations at least."
+			tasks: [{
+				id: "0E92A284A24B0B86"
+				item: "tfmg:engine_gearbox"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38F7D6C5B76A6733"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Change between different piston arrangements by right clicking with a &6schematic.&r Each one has its pros and cons in terms of SU production and fuel consumption."
+				""
+				"&lDo not do this for radial engines, that is a bug and will corrupt your world.&r"
+			]
+			icon: "create:empty_schematic"
+			id: "45250A119F4802EC"
+			shape: "gear"
+			subtitle: "Ah yes the alphabet: I, V, W, U, BOXER"
+			tasks: [{
+				id: "78A8809692BC4817"
+				item: "create:empty_schematic"
+				type: "item"
+			}]
+			title: "Engine Configurations"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53328997DC184B7C"]
+			id: "2458735D1811D82C"
+			shape: "gear"
+			subtitle: "Each block of turbine engine requires 4 of these."
+			tasks: [{
+				count: 4L
+				id: "4BBE1D6E908D00E5"
+				item: {
+					Count: 1
+					id: "tfmg:turbine_blade"
+					tag: {
+						FuelNames: {
+							kerosene: "Kerosene"
+						}
+						Fuels: {
+							kerosene: "forge:kerosene"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"38F7D6C5B76A6733"
+				"55695CA65A8AA86D"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Once all parts are added, the engine will ask for as many pistons as necessary to fill out the config you chose."]
+			id: "774B9FB972ACD1B0"
+			shape: "gear"
+			subtitle: "The engine base will prompt you to right click each of these items onto it."
+			tasks: [
+				{
+					id: "186948CDC9270FE6"
+					item: "tfmg:crankshaft"
+					type: "item"
+				}
+				{
+					id: "22D9B0BF7544FA25"
+					item: "tfmg:steel_cogwheel"
+					type: "item"
+				}
+				{
+					id: "62DDD15B00C03FF5"
+					item: "tfmg:large_steel_cogwheel"
+					type: "item"
+				}
+				{
+					id: "7C8D4DE173E081C7"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6674FFB340B1736F"
+					item: { Count: 2, id: "tfmg:steel_pipe" }
+					type: "item"
+				}
+				{
+					id: "4460245DFD388FCC"
+					item: "tfmg:steel_mechanism"
+					type: "item"
+				}
+			]
+			title: "Engine Parts"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38F7D6C5B76A6733"]
+			id: "0E1743D6E3729E6A"
+			shape: "gear"
+			subtitle: "You want to get rotational power out of your engine, right?"
+			tasks: [{
+				id: "7AA8E05D4F2E4669"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Output Shaft"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A72CD82CDA96C3D"]
+			id: "1C1D43D2DF09E7FF"
+			shape: "gear"
+			subtitle: "Takes fuel from adjacent tanks without pumps."
+			tasks: [{
+				id: "6A8ACCC5B0F7C912"
+				item: "tfmg:industrial_pipe"
+				type: "item"
+			}]
+			title: "Draw Fuel Automatically"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Some fuel stats, exact numbers depends on piston arrangement."
+				""
+				"From least to most RPM and SU produced:"
+				"5. Furnace gas"
+				"4. Creosote, Kerosene"
+				"3. Diesel"
+				"2. Naphtha, Gasoline"
+				"1. LPG"
+				"{@pagebreak}"
+				"From most to least fuel consumption:"
+				"6. Furnace gas"
+				"5. Creosote"
+				"4. Naphtha"
+				"3. Diesel, LPG"
+				"2. Kerosene"
+				"1. Gasoline"
+			]
+			id: "2917301F1A8AE8A8"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Highly customizable."
+			tasks: [{
+				id: "51D4029D5AAC1771"
+				type: "checkmark"
+			}]
+			title: "Modular Engines"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AFF0DACB9239075"]
+			id: "53328997DC184B7C"
+			shape: "gear"
+			subtitle: "The engine base will prompt you to right click each of these items onto it."
+			tasks: [
+				{
+					id: "75A0CEE720EF05CD"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "7D1C2879A5168918"
+					item: "tfmg:steel_cogwheel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "49C1A7217839CFCE"
+					item: { Count: 2, id: "tfmg:steel_pipe" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4BF8125F3A422A51"
+					item: { Count: 2, id: "tfmg:steel_mechanism" }
+					type: "item"
+				}
+			]
+			title: "Turbine Parts"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["774B9FB972ACD1B0"]
+			id: "23CB7BB3C6E8AD30"
+			rewards: [{
+				id: "2751DCA6B5D21A8F"
+				item: {
+					Count: 1
+					id: "tfmg:simple_engine_cylinder"
+					tag: {
+						FuelNames: {
+							creosote: "Creosote"
+							furnace_gas: "Furnace Gas"
+						}
+						Fuels: {
+							creosote: "forge:creosote"
+							furnace_gas: "forge:furnace_gas"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Even a caveman with a hand crank can make this."
+			tasks: [{
+				id: "126781D2D21394ED"
+				item: {
+					Count: 1
+					id: "tfmg:simple_engine_cylinder"
+					tag: {
+						FuelNames: {
+							creosote: "Creosote"
+							furnace_gas: "Furnace Gas"
+						}
+						Fuels: {
+							creosote: "forge:creosote"
+							furnace_gas: "forge:furnace_gas"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Creosote, Furnace Gas Cylinder"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6D7CC9EA47063963"
+				"784228C2304DAD3C"
+			]
+			icon: {
+				Count: 1
+				id: "tfmg:engine_cylinder"
+				tag: {
+					FuelNames: {
+						lpg: "LPG"
+					}
+					Fuels: {
+						lpg: "forge:lpg"
+					}
+				}
+			}
+			id: "02AF65B536422EAF"
+			rewards: [{
+				id: "77C20FDD4C8C41B4"
+				item: {
+					Count: 1
+					id: "tfmg:engine_cylinder"
+					tag: {
+						FuelNames: {
+							lpg: "LPG"
+						}
+						Fuels: {
+							lpg: "forge:lpg"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Gasoline cylinder + Brass pipe"
+			tasks: [
+				{
+					id: "76AA9714F906D5DD"
+					item: {
+						Count: 1
+						id: "tfmg:engine_cylinder"
+						tag: {
+							FuelNames: {
+								lpg: "LPG"
+							}
+							Fuels: {
+								lpg: "forge:lpg"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BD7221CF919E989"
+					item: "tfmg:brass_pipe"
+					type: "item"
+				}
+			]
+			title: "LPG Cylinder"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["774B9FB972ACD1B0"]
+			id: "47F2B5FE5F90F49F"
+			rewards: [{
+				id: "46227D61F3FE6AB1"
+				item: {
+					Count: 1
+					id: "tfmg:diesel_engine_cylinder"
+					tag: {
+						FuelNames: {
+							diesel: "Diesel"
+						}
+						Fuels: {
+							diesel: "forge:diesel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4982E70F084A6566"
+				item: {
+					Count: 1
+					id: "tfmg:diesel_engine_cylinder"
+					tag: {
+						FuelNames: {
+							diesel: "Diesel"
+						}
+						Fuels: {
+							diesel: "forge:diesel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Diesel Cylinder"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6D7CC9EA47063963"
+				"47F2B5FE5F90F49F"
+			]
+			icon: {
+				Count: 1
+				id: "tfmg:engine_cylinder"
+				tag: {
+					FuelNames: {
+						gasoline: "Gasoline"
+						kerosene: "Kerosene"
+						naphtha: "Naphtha"
+					}
+					Fuels: {
+						gasoline: "forge:gasoline"
+						kerosene: "forge:kerosene"
+						naphtha: "forge:naphtha"
+					}
+				}
+			}
+			id: "784228C2304DAD3C"
+			rewards: [{
+				id: "437E9CA112FA663B"
+				item: {
+					Count: 1
+					id: "tfmg:engine_cylinder"
+					tag: {
+						FuelNames: {
+							gasoline: "Gasoline"
+							kerosene: "Kerosene"
+							naphtha: "Naphtha"
+						}
+						Fuels: {
+							gasoline: "forge:gasoline"
+							kerosene: "forge:kerosene"
+							naphtha: "forge:naphtha"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Diesel cylinder + Spark plug"
+			tasks: [
+				{
+					id: "18D9023B1C7D23AE"
+					item: {
+						Count: 1
+						id: "tfmg:engine_cylinder"
+						tag: {
+							FuelNames: {
+								gasoline: "Gasoline"
+								kerosene: "Kerosene"
+								naphtha: "Naphtha"
+							}
+							Fuels: {
+								gasoline: "forge:gasoline"
+								kerosene: "forge:kerosene"
+								naphtha: "forge:naphtha"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A64A6BA9B15F7B4"
+					item: "tfmg:spark_plug"
+					type: "item"
+				}
+			]
+			title: "Gasoline, Naptha, Kerosene Cylinder"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6AFF0DACB9239075"
+				"55695CA65A8AA86D"
+				"38F7D6C5B76A6733"
+			]
+			description: ["Right click these items onto the engine. Keep in mind only one upgrade can be applied to each engine block."]
+			hide_dependency_lines: true
+			id: "1A72CD82CDA96C3D"
+			shape: "octagon"
+			subtitle: "VTEC engaged."
+			tasks: [{
+				id: "17795DE36B4FC98A"
+				title: "Engine upgrades"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1A72CD82CDA96C3D"
+				"52D8B15C3B75AB7F"
+			]
+			description: ["Output voltage and power depends on RPM. More effective than using a generator on the output shaft, as it"]
+			id: "1742A9042E70FCE5"
+			shape: "gear"
+			subtitle: "Directly integrate a generator into your engine."
+			tasks: [{
+				id: "16B4472435782B1F"
+				item: "tfmg:generator"
+				type: "item"
+			}]
+			title: "Attach an Alternator"
+			x: 1.0d
+			y: 2.0d
+		}
+	]
+	title: "Vroom Vroom"
+}

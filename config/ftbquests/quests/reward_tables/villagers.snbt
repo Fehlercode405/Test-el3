@@ -1,0 +1,27 @@
+{
+	id: "6A9B9986B50FEF45"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ count: 5, item: "easy_villagers:trader" }
+		{ item: "easy_villagers:villager" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "easy_villagers:villager"
+				tag: {
+					villager: {
+						Age: -24000
+					}
+				}
+			}
+		}
+		{ count: 3, item: "easy_villagers:farmer" }
+		{ item: "easy_villagers:breeder" }
+		{ item: "easy_villagers:converter" }
+		{ item: "easy_villagers:iron_farm" }
+		{ item: "easy_villagers:incubator" }
+	]
+	title: "villagers"
+}

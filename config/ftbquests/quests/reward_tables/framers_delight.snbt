@@ -1,0 +1,15 @@
+{
+	id: "47EE93E3C353DCA4"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ item: "farmersdelight:apple_pie" }
+		{ item: "farmersdelight:sweet_berry_cheesecake" }
+		{ item: "farmersdelight:chocolate_pie" }
+		{ item: "farmersdelight:sweet_berry_cookie" }
+		{ item: "farmersdelight:honey_cookie" }
+		{ item: "farmersdelight:melon_popsicle" }
+		{ item: "farmersdelight:glow_berry_custard" }
+	]
+	title: "framers delight"
+}

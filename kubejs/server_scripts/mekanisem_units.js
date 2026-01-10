@@ -307,36 +307,6 @@ ServerEvents.recipes(event => {
             B: Item.of('minecraft:clock')
         }
     )
-    event.remove('mekanismgenerators:module_solar_recharging_unit')
-    event.shaped(
-        Item.of('mekanismgenerators:module_solar_recharging_unit'),
-        [
-            'ABA',
-            'ACA',
-            'DDD'
-        ],
-        {
-            C: Item.of('mekanism:module_base'),
-            D: Item.of('mekanism:pellet_polonium'),
-            A: Item.of('mekanism:alloy_reinforced'),
-            B: Item.of('create_new_age:advanced_solar_heating_plate')
-        }
-    )
-    event.remove('mekanismgenerators:module_geothermal_generator_unit')
-    event.shaped(
-        Item.of('mekanismgenerators:module_geothermal_generator_unit'),
-        [
-            'ABA',
-            'ACA',
-            'DDD'
-        ],
-        {
-            B: Item.of('create_new_age:heater'),
-            C: Item.of('mekanism:module_base'),
-            D: Item.of('mekanism:pellet_polonium'),
-            A: Item.of('mekanism:alloy_reinforced')
-        }
-    )
     event.remove('mekanism:module_attack_amplification_unit')
     event.shaped(
         Item.of('mekanism:module_attack_amplification_unit'),

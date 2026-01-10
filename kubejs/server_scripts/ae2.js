@@ -63,4 +63,9 @@ ServerEvents.recipes(event => {
             A: Item.of('advanced_ae:quantum_alloy_plate')
         }
     )
+    event.remove({output:"advanced_ae:quantum_processor_press"})
+    event.recipes.ae2.inscriber("advanced_ae:quantum_processor_press",
+        'ae2:engineering_processor_press',
+        "minecraft:nether_star",
+        'ae2:logic_processor_press')
 })

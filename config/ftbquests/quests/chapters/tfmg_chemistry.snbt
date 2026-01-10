@@ -1,0 +1,724 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tfmg_chemistry"
+	group: "2E85E4E262D4F214"
+	icon: {
+		Count: 1
+		id: "tfmg:lit_lithium_blade"
+		tag: {
+			Damage: 1000
+		}
+	}
+	id: "54D57FF8C31ABBAE"
+	images: [
+		{
+			height: 1.0d
+			image: "tfmg:block/lithium_fire_0"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -2.75d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "tfmg:block/green_fire_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "tfmg:item/sulfuric_acid_bucket"
+			rotation: -15.0d
+			width: 1.0d
+			x: 1.0d
+			y: 2.8000000000000043d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: ["\"Yummy lab lemonade :)\""]
+			image: "tfmg:block/glass_plastic_pipe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7428571428571402d
+			y: 2.471428571428575d
+		}
+		{
+			height: 1.0d
+			image: "create:item/goggles"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.6571428571428513d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "tfmg:block/blue_fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependency: "5D1E6CD43D98734C"
+			height: 1.0d
+			image: "tfmg:block/lithium_fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -3.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2D94489E09F8DD9C"
+				"0104893F8F3458DA"
+				"11D8E015814D44F8"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Right click on the industrial mixer to install it."]
+			icon: "tfmg:mixer_blade"
+			id: "5F68F1D8533B534F"
+			shape: "hexagon"
+			subtitle: "Sorry, I have to stir this pot every five minutes."
+			tasks: [{
+				id: "21F0A4DAFC235EFF"
+				item: "tfmg:mixer_blade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"062051ED6D130ACD"
+				"4F78375EDADAFEC2"
+			]
+			description: [
+				"There are three tiers of vats:"
+				""
+				"1. &8Cast iron&r"
+				"2. &3Steel&r"
+				"3. &4Fireproof&r"
+				""
+				"Different recipes may only work with a certain tier or better."
+				""
+				"&6Mixer&r and &6centrifuge&r recipes only need one vat block to work."
+				"&dElectrolyzer&r or &darc furnace&r recipes need larger vats and the minimum LxWxH dimensions will be called out where necessary."
+				""
+				"Some recipes will require &6heating.&r One normal &6blaze burner&r is not enough; you will either need more than one or have to &bsuperheat&r it. &cFireboxes&r act like superheated blaze burners."
+				""
+				"You can wrench them to see inside!"
+			]
+			id: "67F7FBDD9CC782F7"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "7686F4BA39E63F32"
+					item: "tfmg:cast_iron_ingot"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0AD0B6167E0F1AA8"
+					item: "tfmg:steel_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7C9DBB8ADC665761"
+					item: "tfmg:lead_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D11C3CB771FCAE5"
+					item: "tfmg:nickel_ingot"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "I have no idea vat I'm doing."
+			tasks: [
+				{
+					id: "266EFF51F8BB3B59"
+					item: { Count: 18, id: "tfmg:cast_iron_chemical_vat" }
+					type: "item"
+				}
+				{
+					id: "279400FC730CD9F1"
+					item: "tfmg:steel_chemical_vat"
+					type: "item"
+				}
+			]
+			title: "Chemical Vats"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F78375EDADAFEC2"]
+			description: ["Found in veins in the nether."]
+			id: "2DEF812916A51C34"
+			rewards: [{
+				count: 4
+				id: "2A3996C0C5B15F3C"
+				item: "tfmg:sulfur_dust"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Yellow chemistry... eugh..."
+			tasks: [{
+				count: 4L
+				id: "79EA6BF093755546"
+				item: { Count: 4, id: "tfmg:sulfur_dust" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5F68F1D8533B534F"
+				"2DEF812916A51C34"
+				"677179FC764889AB"
+			]
+			id: "175A5130B861267D"
+			rewards: [{
+				id: "363D0C4D487B6406"
+				item: "tfmg:rubber_sheet"
+				type: "item"
+			}]
+			subtitle: "No trees required. This rubber is chemically superior!"
+			tasks: [{
+				id: "6C922B0AFED00F29"
+				item: "tfmg:rubber_sheet"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["175A5130B861267D"]
+			description: ["Make spiderless string by putting &6rubber&r in a stonecutter."]
+			id: "31E271976FFEDE47"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "727DFD35E424E369"
+				item: "tfmg:synthetic_string"
+				type: "item"
+			}]
+			subtitle: "We have replaced spiders as well."
+			tasks: [{
+				count: 4L
+				id: "537CDD9B4924AD53"
+				item: { Count: 4, id: "tfmg:synthetic_string" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5F68F1D8533B534F"
+				"2DEF812916A51C34"
+				"1210C5B720AE249F"
+			]
+			description: ["&3Steel vat&r required."]
+			id: "6C9157A690AA5F3C"
+			tasks: [{
+				id: "483EECD72559821D"
+				item: "tfmg:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F68F1D8533B534F"]
+			description: ["&3Steel vat&r required."]
+			icon: "tfmg:liquid_concrete_bucket"
+			id: "6917FD94931ED8CF"
+			optional: true
+			rewards: [{
+				id: "45F61BBD35CE54C3"
+				item: "tfmg:liquid_concrete_bucket"
+				type: "item"
+			}]
+			subtitle: "No clay needed, one step."
+			tasks: [
+				{
+					id: "0F69E97CE1B4A247"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "3073A3AA8AB0140C"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "112F5AA1A571F90E"
+					item: "tfmg:limesand"
+					type: "item"
+				}
+				{
+					id: "1A138A86E66A8852"
+					item: "tfmg:liquid_concrete_bucket"
+					type: "item"
+				}
+			]
+			title: "A Quicker way to make Concrete"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"52D8B15C3B75AB7F"
+				"7A4D01AF34BB7E0E"
+			]
+			description: ["Make in any vat type."]
+			icon: "tfmg:neon_bucket"
+			id: "3691C2CCD07E20EE"
+			optional: true
+			subtitle: "Used for making &cn&6e&bo&dn&r tubes."
+			tasks: [{
+				count: 2L
+				id: "0FEEAB8802B011E3"
+				item: "tfmg:neon_bucket"
+				type: "item"
+			}]
+			title: "&cN&6e&bo&dn"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F68F1D8533B534F"]
+			description: ["&3Steel vat&r plus heating required. Made from naphtha, but these two products don't stick around for long..."]
+			icon: "tfmg:propylene_bucket"
+			id: "06E2A9904675C5C2"
+			subtitle: "Good luck getting these on their own."
+			tasks: [
+				{
+					id: "584D12D95FF23AD6"
+					item: "tfmg:propylene_bucket"
+					type: "item"
+				}
+				{
+					id: "244DDACA3663B451"
+					item: "tfmg:ethylene_bucket"
+					type: "item"
+				}
+				{
+					id: "532CCB10EDA9EC62"
+					type: "checkmark"
+				}
+			]
+			title: "&2Propylene &7and &5Ethylene"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06E2A9904675C5C2"]
+			description: [
+				"&3Steel vat&r plus heating required. "
+				""
+				"Will form nearly instantly in the &4naphtha&r vat, so for most cases you can think of liquid plastic being a direct result of naphtha."
+			]
+			icon: "tfmg:molten_plastic_bucket"
+			id: "2CD6597AE3312F20"
+			subtitle: "Ah yes, the molten plastic brush."
+			tasks: [
+				{
+					id: "0213327772FBD4FF"
+					item: "tfmg:molten_plastic_bucket"
+					type: "item"
+				}
+				{
+					id: "329F9D41633DC2E5"
+					item: "tfmg:casting_basin"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2CD6597AE3312F20"
+				"6F9C7307E5F3FCD7"
+			]
+			id: "0B7FFB9FF90F10CF"
+			rewards: [{
+				id: "4299197DF760BDAC"
+				item: "tfmg:plastic_sheet"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Cast in a casting basin."
+			tasks: [{
+				id: "68587338668EDE82"
+				item: "tfmg:plastic_sheet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06E2A9904675C5C2"]
+			description: [
+				"Yeah this requires some tight redstone timing in order to extract the &5ethylene&r just before it turns into plastic."
+				""
+				"Cooling fluid is mainly used for improving modular engine efficiency."
+				"Please consider if this is worth your time before trying to get some."
+			]
+			icon: "tfmg:cooling_fluid_bucket"
+			id: "06E39E99E00A5283"
+			optional: true
+			subtitle: "If you can get this working then congrats."
+			tasks: [
+				{
+					id: "3C94693083B2E46D"
+					item: "tfmg:cooling_fluid_bucket"
+					type: "item"
+				}
+				{
+					id: "12E2A2DD1B63AE45"
+					type: "checkmark"
+				}
+			]
+			title: "Ok cool I guess"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"677179FC764889AB"
+				"6D7CC9EA47063963"
+			]
+			hide_until_deps_complete: true
+			id: "6E8E5E2BB557AAC2"
+			optional: true
+			subtitle: "Mix gasoline and aluminum."
+			tasks: [{
+				id: "0FA62D966B0C1D4C"
+				item: "tfmg:napalm_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6E8E5E2BB557AAC2"
+				"0B7FFB9FF90F10CF"
+			]
+			hide_until_deps_visible: true
+			icon: "tfmg:napalm_bomb"
+			id: "5D6C17A52F97153A"
+			optional: true
+			rewards: [{
+				id: "3640A192269760EC"
+				item: "tfmg:napalm_potato"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "4F49EE1E868C19ED"
+					item: { Count: 3, id: "tfmg:napalm_bucket" }
+					type: "item"
+				}
+				{
+					id: "6750B863DECB01FE"
+					item: "tfmg:napalm_bomb"
+					type: "item"
+				}
+			]
+			title: "Napalm Bomb"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C9157A690AA5F3C"]
+			description: ["Using a &ecreate&r mixer, blend &6sulfuric acid&r with a &6copper ingot&r"]
+			id: "3BE94C7FE561FF4A"
+			optional: true
+			subtitle: "Somehow turns into bone meal when crushed."
+			tasks: [{
+				id: "7E36FEC54F6DED4E"
+				item: "tfmg:copper_sulfate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F78375EDADAFEC2"]
+			id: "68E50F7501B945BB"
+			shape: "square"
+			tasks: [{
+				id: "118212C60EDD6BEC"
+				item: "tfmg:lithium_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68E50F7501B945BB"]
+			id: "57FCBFBA8789F893"
+			optional: true
+			subtitle: "Works underwater!"
+			tasks: [{
+				count: 4L
+				id: "4EA61C934FAB67BA"
+				item: { Count: 4, id: "tfmg:lithium_torch" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"68E50F7501B945BB"
+				"062051ED6D130ACD"
+				"6D7CC9EA47063963"
+				"01EB8CA178FBDF05"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tfmg:lit_lithium_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5D1E6CD43D98734C"
+			optional: true
+			rewards: [{
+				id: "32ED18631B04EF3B"
+				item: "tfmg:lithium_charge"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "246C96092047C955"
+					item: {
+						Count: 1
+						id: "tfmg:lithium_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26AE0A57DB96C32A"
+					item: "tfmg:lithium_charge"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6D7CC9EA47063963"
+				"4F78375EDADAFEC2"
+			]
+			id: "459AA2AD67CA6AAA"
+			optional: true
+			tasks: [{
+				count: 4L
+				id: "1D833DDBE0FEB0C8"
+				item: { Count: 4, id: "tfmg:thermite_powder" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["459AA2AD67CA6AAA"]
+			id: "637EBAB0500A2295"
+			optional: true
+			tasks: [{
+				id: "6B980919CC543BC4"
+				item: "tfmg:thermite_grenade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["637EBAB0500A2295"]
+			id: "35296382603A6E78"
+			optional: true
+			tasks: [{
+				id: "0AD1F2066A5B4610"
+				item: "tfmg:zinc_grenade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["637EBAB0500A2295"]
+			id: "33FE53F9B5BA0001"
+			optional: true
+			tasks: [{
+				id: "7AEFDEC1F739FF73"
+				item: "tfmg:copper_grenade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "4F78375EDADAFEC2"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "272C136F2856B46C"
+				type: "checkmark"
+			}]
+			title: "Safety goggles on"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F78375EDADAFEC2"]
+			id: "1210C5B720AE249F"
+			shape: "square"
+			subtitle: "Made by crushing dirt in crushing wheels."
+			tasks: [{
+				id: "0F76F280F2A78121"
+				item: "tfmg:nitrate_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6D7CC9EA47063963"
+				"11D8E015814D44F8"
+			]
+			description: ["Right click on the industrial mixer to install it."]
+			id: "7A4D01AF34BB7E0E"
+			shape: "hexagon"
+			subtitle: "Speen!"
+			tasks: [{
+				id: "44FF10A96735EFC7"
+				item: "tfmg:centrifuge"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["67F7FBDD9CC782F7"]
+			description: ["Sits on top of the &6vat&r and takes different attachments. Requires rotational power."]
+			id: "11D8E015814D44F8"
+			shape: "hexagon"
+			subtitle: "Circus (Beta Mix)"
+			tasks: [{
+				id: "3890BF7BD030D44D"
+				item: "tfmg:industrial_mixer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["175A5130B861267D"]
+			description: ["Use a &emechanical press&r with either a basin or a depot."]
+			id: "6307E7CBD7C5B062"
+			optional: true
+			rewards: [{
+				id: "50545C8E4906CF88"
+				item: "tfmg:synthetic_leather"
+				type: "item"
+			}]
+			subtitle: "Pleather. Presstoff. Whatever hard-to-pronouce name you wanna call it."
+			tasks: [{
+				id: "091B36278FEE72C7"
+				item: "tfmg:synthetic_leather"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0B7FFB9FF90F10CF"
+				"06E39E99E00A5283"
+			]
+			id: "460EACCAA9676362"
+			optional: true
+			subtitle: "Right click a tank of cooling fluid to fill the bottle. Applying this to engines gives a roughly 30% fuel saving."
+			tasks: [{
+				id: "479CE5668A2C77C0"
+				item: {
+					Count: 1
+					id: "tfmg:cooling_fluid_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D7CC9EA47063963"]
+			description: [
+				"Fill with carbon dioxide using a &6spout.&r"
+				""
+				"&4IMPORTANT!&r"
+				"There are two different carbon dioxides in TFMG: &8\"Engine\" CO2&r which comes from engine exhaust, and &7\"Byproduct\" CO2&r which comes from coke ovens, blast furnaces, aluminum electrolysis and the arc furnace. "
+				""
+				"&oOnly the &7byproduct CO2&r&o can fill buckets or the extinguisher."
+			]
+			id: "313840436A5DC394"
+			optional: true
+			subtitle: "Well now what?"
+			tasks: [{
+				id: "13D726C4ECFF6DE4"
+				item: {
+					Count: 1
+					id: "tfmg:fire_extinguisher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+	]
+	title: "Chemical Free"
+}

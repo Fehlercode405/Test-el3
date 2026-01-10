@@ -15,9 +15,6 @@ net.minecraft.client.gui.screens.DeathScreen {
 net.minecraft.client.gui.screens.LevelLoadingScreen {
 }
 
-journeymap.client.ui.fullscreen.Fullscreen {
-}
-
 net.minecraft.client.gui.screens.ConnectScreen {
 }
 

@@ -1,0 +1,125 @@
+{
+	autofocus_id: "25B171F957D826B4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: ""
+	id: "200B40EB4B850981"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: "supplementaries:globe"
+		id: "25B171F957D826B4"
+		rewards: [
+			{
+				id: "7A281C31C84AF699"
+				item: {
+					Count: 1
+					id: "minecraft:iron_helmet"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+						]
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "1263F0699C5D8C2B"
+				item: {
+					Count: 1
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+						]
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "7BDD7AB95BE734DF"
+				item: {
+					Count: 1
+					id: "minecraft:iron_leggings"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+						]
+				}
+				type: "item"
+			}
+			{
+				id: "369A18D200933A41"
+				item: {
+					Count: 1
+					id: "minecraft:iron_boots"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+						]
+				}
+				type: "item"
+			}
+			{
+				id: "08057F8CEA1765D0"
+				item: {{
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+						]
+				}
+				type: "item"
+			}
+		]
+		size: 3.0d
+		subtitle: "This a Server focoused around Techprogression"
+		tasks: [{
+			id: "230A2F21AD41469B"
+			title: "&aWelcome to Earth Live 3"
+			type: "checkmark"
+		}]
+		x: -6.5d
+		y: -1.0d
+	}]
+	title: "&4Progression"
+}

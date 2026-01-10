@@ -2,7 +2,7 @@
 	icon: "createarmory:five_five_six"
 	id: "17BF20B634DDE1BB"
 	loot_size: 1
-	order_index: 10
+	order_index: 11
 	rewards: [
 		{ item: "createarmory:fifty_cal_casing" }
 		{ item: "createarmory:fifty_cal_mold_complete" }

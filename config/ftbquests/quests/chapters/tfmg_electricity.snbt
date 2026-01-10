@@ -1,0 +1,957 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tfmg_electricity"
+	group: "2E85E4E262D4F214"
+	icon: "tfmg:rotor"
+	id: "7332B6BB3E51839A"
+	images: [
+		{
+			alpha: 127
+			height: 1.2d
+			image: "tfmg:block/caution_block/yellow"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: [
+				"I = U / R"
+				"P = U x I"
+				"P = R x I^2"
+			]
+			image: "tfmg:block/voltage_cube"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Hmm what could this mean..."]
+			image: "tfmg:textures/particle/electric_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: ["\"Wat's dis hole in da wall?\""]
+			image: "tfmg:block/glass_aluminum_pipe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "tfmg:item/screwdriver"
+			rotation: -130.0d
+			width: 1.0d
+			x: 6.392857142857146d
+			y: -1.9250000000000043d
+		}
+		{
+			height: 1.0d
+			image: "tfmg:block/steel_casing_cable_hub"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -2.0d
+		}
+	]
+	order_index: 4
+	quest_links: [{
+		id: "666F2E40745E7CAD"
+		linked_quest: "18FC3D21BB6EBF76"
+		shape: "hexagon"
+		x: -4.5d
+		y: -3.5d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"062051ED6D130ACD"
+				"037621E5EC46F613"
+				"0E63C1AD9074987E"
+			]
+			icon: "tfmg:magnetic_alloy_ingot"
+			id: "4CDB3F8E217ADC8E"
+			rewards: [{
+				id: "1DB648BC057B48CA"
+				item: "tfmg:silicon_ingot"
+				type: "item"
+			}]
+			subtitle: "Mix in a heated basin."
+			tasks: [{
+				count: 2L
+				id: "30A370C48011F8E0"
+				item: "tfmg:magnetic_alloy_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4CDB3F8E217ADC8E"
+				"435C9E741CE14DDF"
+			]
+			description: [
+				"Put the &6magnetic alloy&r on top of a lightning rod during a thunderstorm and wait for the rod to get hit. Channeling tridents also work."
+				""
+				"There is about a 50% yield from this process."
+			]
+			id: "066FA99DD39A0BF4"
+			shape: "square"
+			subtitle: "Grug attract lightning, Grug make magnet."
+			tasks: [{
+				id: "08561D013A95690A"
+				item: "tfmg:magnet"
+				type: "item"
+			}]
+			title: "How to make a Magnet"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "3E8DFC1B03297B5D"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "I solemnly swear to not make out with my home's electrical panel."
+			tasks: [{
+				id: "00630EBE0774E1F8"
+				type: "checkmark"
+			}]
+			title: "I solemnly swear..."
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E8DFC1B03297B5D"]
+			id: "435C9E741CE14DDF"
+			shape: "hexagon"
+			subtitle: "Grug see lightning. Grug want power of lightning."
+			tasks: [{
+				id: "4DBD9258BE6EA507"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E8DFC1B03297B5D"]
+			id: "2F9B52EA41B4DFF0"
+			rewards: [{
+				count: 8
+				id: "27A19C8DD8ECD0C8"
+				item: "tfmg:copper_wire"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7DC9C6E290D5EB58"
+				item: { Count: 8, id: "tfmg:copper_wire" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0104893F8F3458DA"
+				"2D94489E09F8DD9C"
+				"3E8DFC1B03297B5D"
+			]
+			description: [
+				"Consumes spools of &6wire&r to wind around items."
+				""
+				"Crafting recipes involving the winder (e.g. generator, potentiometer) will always wind the exact amount necessary."
+				""
+				"For winding &6magnetic coils&r, a winding &bpercentage&r can be specified out of 1000 turns, with a minimum of 100 turns (10% = 100 turns). Making more than 100 turns is only used for transformer coils. Number of turns left on the wire spool can be observed with &egoggles.&r"
+				""
+				"Items cannot be extracted manually (except for the wire spool), but there is no filter for unfinished items. For manual winding operations, use a funnel and a lever."
+			]
+			id: "4A19E3387DBD7FB0"
+			shape: "hexagon"
+			subtitle: "Now you've wound me up."
+			tasks: [{
+				id: "6EC8614D309CBD20"
+				item: "tfmg:winding_machine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4F8BAA7B943299D9"]
+			id: "2E10AFB432824AB1"
+			rewards: [{
+				count: 8
+				id: "0189EB501ECD39FD"
+				item: "tfmg:constantan_wire"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "070AC6878A395BE8"
+				item: "tfmg:constantan_wire"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E10AFB432824AB1"]
+			id: "138B96B20044ED12"
+			tasks: [{
+				id: "4B20573B1E828C26"
+				item: {
+					Count: 1
+					id: "tfmg:constantan_spool"
+					tag: {
+						Amount: 1000
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D7CC9EA47063963"]
+			id: "6F8352887E69377D"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "77CC5651597006EA"
+				item: "tfmg:aluminum_wire"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "4E5356397A515014"
+				item: { Count: 8, id: "tfmg:aluminum_wire" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F8352887E69377D"]
+			id: "2CF4904C77DBC705"
+			optional: true
+			tasks: [{
+				id: "7008026DE61960DA"
+				item: {
+					Count: 1
+					id: "tfmg:aluminum_spool"
+					tag: {
+						Amount: 1000
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["066FA99DD39A0BF4"]
+			description: ["Place the electric gauge on part of a circuit to measure different stats. Exact values can be seen using &6goggles&r and the quantity being measured is changed with the &6wrench.&r"]
+			id: "776451A1A5F3B2FB"
+			rewards: [{
+				id: "011CCECC7AEDD24F"
+				item: "tfmg:magnet"
+				type: "item"
+			}]
+			subtitle: "My careful measurements indicate..."
+			tasks: [{
+				id: "1AA6A91537C7CD44"
+				item: "tfmg:voltmeter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["776451A1A5F3B2FB"]
+			description: [
+				"A much better, portable version of the electric gauge. Immensely useful for seeing if something is getting enough &2current&r and &cpower.&r"
+				""
+				"&4D&6y&ee&aa&3b&5l&de&c!"
+			]
+			id: "4FFD6C191AD6FCC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62E54B817A73795B"
+				table_id: 1816964079289471021L
+				type: "choice"
+			}]
+			shape: "gear"
+			subtitle: "!! Does not work with goggles on !!"
+			tasks: [{
+				id: "0065C74DF48708EC"
+				item: "tfmg:multimeter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["062051ED6D130ACD"]
+			id: "4E058BAF38B16EE0"
+			rewards: [{
+				count: 4
+				id: "496B822ADB370B4E"
+				item: "tfmg:capacitor_item"
+				type: "item"
+			}]
+			subtitle: "And then we connect- POP!"
+			tasks: [{
+				count: 4L
+				id: "334AA5B111E5ED0E"
+				item: { Count: 4, id: "tfmg:capacitor_item" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4E058BAF38B16EE0"
+				"066FA99DD39A0BF4"
+				"1578A7A80B07816E"
+			]
+			description: [
+				"The &2generator&r consumes SU to generate electricity. The faster it spins, the more voltage and power it creates, up to a maximum of &3255V&r and &c12.1kW&r. More nerd details on the next page."
+				""
+				"This is a multi-step deploying recipe, with one step involving the &ewinding machine&r."
+				"Start with a &6shaft&r and do the following steps:"
+				""
+				"1. Capacitor"
+				"2. Heavy plate"
+				"3. Use a &ewinding machine&r to wrap 75 turns of &6copper wire&r around it."
+				"4. Magnet"
+				"5. Steel mechanism"
+				"6. Screwdriver"
+				""
+				"Repeat this three times for an 83% chance of getting a generator."
+				""
+				"{@pagebreak}"
+				"&30RPM - 40RPM&r"
+				"No electricity generation"
+				""
+				"&341RPM - 223RPM&r"
+				"Linear voltage rise from 1V - 255V"
+				"Constant current limit of 40A, thus power output ranges from 40W - 10.2kW"
+				""
+				"&3224RPM - 256RPM&r"
+				"Constant 255V with increasing power output up to 12.1kW"
+				"Current limit increases to 47.5A"
+			]
+			icon: "tfmg:generator"
+			id: "52D8B15C3B75AB7F"
+			rewards: [{
+				count: 8
+				id: "0097306C3EEBEBF8"
+				item: "tfmg:copper_wire"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "You got the power."
+			tasks: [{
+				id: "34D27F4CAE9B1726"
+				item: "tfmg:generator"
+				type: "item"
+			}]
+			title: "Generator"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["138B96B20044ED12"]
+			description: [
+				"Potentiometers let a &bpercentage&r of the input voltage to the output side. Unlike real life, they do not waste power."
+				""
+				"For example, if your base is wired at &33kV&r, but you only need &3150V&r for your lights, you can set up a potentiometer for the lights at 5%. This way, they don't eat several kW of power for zero gain."
+				""
+				"The vaguely arrow shaped end of the block is the output."
+			]
+			id: "1188D57C76DBD215"
+			rewards: [{
+				count: 2
+				id: "1FCE96C86B97E48F"
+				item: "tfmg:steel_cogwheel"
+				type: "item"
+			}]
+			subtitle: "Easing the tension."
+			tasks: [{
+				id: "42C5DE2BFA7F8F76"
+				item: "tfmg:potentiometer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F9B52EA41B4DFF0"]
+			id: "1578A7A80B07816E"
+			tasks: [{
+				id: "66A125A80B617D6C"
+				item: {
+					Count: 1
+					id: "tfmg:copper_spool"
+					tag: {
+						Amount: 1000
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["066FA99DD39A0BF4"]
+			description: [
+				"The &2electrical motor&r converts electrical power into SU, with a small efficiency loss."
+				""
+				"This is a multi-step deploying recipe, with one step involving the &ewinding machine&r."
+				"Start with a &6shaft&r and do the following steps:"
+				""
+				"1. Use a &ewinding machine&r to wrap 75 turns of &6copper wire&r around it"
+				"2. Magnet"
+				"3. Steel mechanism"
+				"4. Screwdriver"
+				""
+				"Repeat this three times for a 94% chance of getting a motor."
+				""
+				"{@pagebreak}"
+				"Rotation direction can be configured."
+				""
+				"&30V - 320V&r"
+				"SU output and speed of the motor depends on the input voltage, up to &611,220SU at 255RPM&r. This consumes &c960W&r of power."
+				""
+				"&3320V - 1000V&r"
+				"Still produces its maximum SU but consumes more power. No point going here."
+			]
+			icon: "tfmg:electric_motor"
+			id: "5B960A074B904E80"
+			rewards: [{
+				count: 8
+				id: "1AE1F759E2113B29"
+				item: "tfmg:copper_wire"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Rotation on demand."
+			tasks: [{
+				id: "474B1475A3A57BB9"
+				item: "tfmg:electric_motor"
+				type: "item"
+			}]
+			title: "Electric Motor"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CDB3F8E217ADC8E"]
+			id: "7111C78368C786CD"
+			rewards: [{
+				id: "68511E2844C6F425"
+				item: "tfmg:magnetic_alloy_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "75626C8BB0D5175F"
+				item: "tfmg:unfinished_electromagnetic_coil"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["563A3503CD040E41"]
+			description: [
+				"Transformers can raise or lower the &3voltage&r based on the ratio of wire turns on each of their &6electromagnetic coils.&r For example, an input coil of &a100 turns&r and an output of &a400 turns&r would result in a turn ratio of &e4,&r which would boost the voltage by 4X."
+				""
+				"Coils are added by right clicking them on the transformer. The &binput coil&r is always placed first followed by the &6output&r (or in real life terms, &3primary&r and &6secondary&r coils)."
+				""
+				"Currently, the transformer doesn't have a good way to tell the input from output except for the noise texture on top. They are not bidirectional. The top part of the \"handle\" with the checkerboard &0🙿&r looking pattern is the &binput&r side. It will be on the left side when you place the block."
+			]
+			id: "27A11A6ED27A72D2"
+			rewards: [{
+				id: "56B53868FD6E7ADE"
+				item: "tfmg:unfinished_electromagnetic_coil"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "This is why Westinghouse won."
+			tasks: [{
+				id: "46887065E824E276"
+				item: "tfmg:transformer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7111C78368C786CD"
+				"4A19E3387DBD7FB0"
+				"66A125A80B617D6C"
+			]
+			icon: {
+				Count: 1
+				id: "tfmg:electromagnetic_coil"
+				tag: { }
+			}
+			id: "563A3503CD040E41"
+			tasks: [
+				{
+					id: "67D6C990DD02F867"
+					item: {
+						Count: 1
+						id: "tfmg:electromagnetic_coil"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "79164691DB50656C"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"138B96B20044ED12"
+				"445ACC0E40DB3D96"
+			]
+			id: "554102109E795CD3"
+			rewards: [{
+				id: "6887AA44280818AC"
+				item: "tfmg:constantan_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B2F5F7CDE347F5A"
+				item: {
+					Count: 1
+					id: "tfmg:resistor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F9B52EA41B4DFF0"]
+			hide_dependency_lines: true
+			id: "445ACC0E40DB3D96"
+			rewards: [{
+				id: "04BC5BDBF3AFB50A"
+				item: {
+					Count: 1
+					id: "tfmg:unfinished_resistor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "037FB688FE770FA9"
+				item: {
+					Count: 1
+					id: "tfmg:unfinished_resistor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4E058BAF38B16EE0"
+				"554102109E795CD3"
+				"776451A1A5F3B2FB"
+				"52D8B15C3B75AB7F"
+			]
+			description: [
+				"Despite what the tooltip says, it still takes in &6magnetic alloy&r."
+				""
+				"Connect it to a generator, place one alloy on the prongs, and watch the needle go up until &eZAP!&r You get a magnet."
+			]
+			id: "5C21D02BB2644A39"
+			rewards: [{
+				count: 2
+				id: "1DCFFDE90B5B443B"
+				item: "tfmg:magnetic_alloy_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Grug make magnets in civilized manner."
+			tasks: [{
+				id: "1565630C6BA73ABD"
+				item: "tfmg:polarizer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"27A11A6ED27A72D2"
+				"52D8B15C3B75AB7F"
+				"279400FC730CD9F1"
+			]
+			description: [
+				"&3Steel vats&r required in a 2x2x2 box, plus heated."
+				""
+				"Either copper or zinc electrodes will work. Make sure to pump out the CO2."
+				""
+				"The electrode holders require a minimum of &25A&r to work, meaning they must be supplied with at least &3500V&r each. This can be achieved with one max speed &6generator&r and a &6transformer&r with a turn ratio of &e4.&r"
+			]
+			id: "6177966365A058A2"
+			rewards: [{
+				id: "0E1DE274A280F7F9"
+				item: "tfmg:exhaust"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "How to make aluminum."
+			tasks: [
+				{
+					count: 2L
+					id: "10CA853AAED9247B"
+					item: { Count: 2, id: "tfmg:electrode_holder" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "78796D7E1EA35C81"
+					item: { Count: 2, id: "tfmg:copper_electrode" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "318FA46FD5A17D83"
+					item: { Count: 2, id: "tfmg:zinc_electrode" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "07AC9D388D86DF8E"
+					item: { Count: 8, id: "tfmg:steel_chemical_vat" }
+					type: "item"
+				}
+			]
+			title: "Aluminum Electrolysis"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "34F87E2C1256F5DE"
+			shape: "square"
+			tasks: [{
+				count: 2L
+				id: "2EB4C517BA899B5D"
+				item: { Count: 4, id: "tfmg:bauxite" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["34F87E2C1256F5DE"]
+			id: "1E1016523BF3849D"
+			rewards: [{
+				count: 4
+				id: "252EA1149AD9567C"
+				item: "tfmg:bauxite_powder"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1BADD256E28C1CB3"
+				item: { Count: 4, id: "tfmg:bauxite_powder" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6177966365A058A2"
+				"1E1016523BF3849D"
+			]
+			id: "6D7CC9EA47063963"
+			rewards: [{
+				id: "7AE4C00008E1C8A2"
+				item: "tfmg:aluminum_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Precious metal no more."
+			tasks: [{
+				id: "71D93D94BC597073"
+				item: "tfmg:aluminum_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D7CC9EA47063963"]
+			description: [
+				"Can make much higher voltages and power than the puny generator."
+				""
+				"Components assembled in a &6mechanical crafter&r with lots of aluminum and steel."
+				""
+				"Surround the rotor with the stators to complete the multiblock."
+				""
+				"{@pagebreak}"
+				"&30RPM - 70RPM&r"
+				"No electricity generation"
+				""
+				"&371RPM - 256RPM&r"
+				"Linear voltage rise from 12V - 2232kV"
+				"Constant current limit of 24.6A, thus power output ranges from 295W - 54.9kW"
+			]
+			id: "21800FC0CDC937CB"
+			rewards: [{
+				id: "0E4BCF5A41ED060D"
+				item: "tfmg:steel_block"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Moar power!"
+			tasks: [
+				{
+					id: "77D465BDF24A5D2B"
+					item: "tfmg:rotor"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2AD73191F0264B51"
+					item: { Count: 8, id: "tfmg:stator" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D7CC9EA47063963"]
+			id: "19A9DA93FF046BD9"
+			rewards: [{
+				id: "332DE3A83B559F19"
+				item: "tfmg:industrial_aluminum_casing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40AD6E2C676A0F5D"
+				item: "tfmg:industrial_aluminum_casing"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"062051ED6D130ACD"
+				"2F9B52EA41B4DFF0"
+			]
+			id: "2DB9E531DE956C77"
+			tasks: [{
+				count: 4L
+				id: "0248C3C0C03B89B8"
+				item: { Count: 4, id: "tfmg:electric_post" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F9B52EA41B4DFF0"]
+			id: "663C6397EAA8C2A5"
+			tasks: [{
+				count: 2L
+				id: "6A4496BC65373DB7"
+				item: "tfmg:copper_cable_hub"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"19A9DA93FF046BD9"
+				"68E50F7501B945BB"
+				"037621E5EC46F613"
+			]
+			description: [
+				"Energy is input through the bottom face and output from the top. "
+				""
+				"Output voltage inherits the input voltage. If there is no input connection, it defaults to 12V."
+			]
+			icon: {
+				Count: 1
+				id: "tfmg:accumulator"
+				tag: { }
+			}
+			id: "19936E26E71B5F68"
+			rewards: [{
+				id: "31F22658714FC932"
+				item: "tfmg:industrial_aluminum_casing"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Stores energy."
+			tasks: [{
+				id: "1555CC4A39C6EE44"
+				item: {
+					Count: 1
+					id: "tfmg:accumulator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Accumulator"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3E8DFC1B03297B5D"
+				"71EDE15818D4C2A1"
+			]
+			description: ["Melt &6quartz&r in the blast furnace and cast the resulting &6liquid silicon&r."]
+			id: "0E63C1AD9074987E"
+			shape: "square"
+			subtitle: "Another use for the blast furnace."
+			tasks: [{
+				id: "40AC0803D60668CD"
+				item: "tfmg:silicon_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"27A11A6ED27A72D2"
+				"2B6E2CD796D4ADF3"
+			]
+			description: [
+				"Wrench it to switch input/output."
+				""
+				"Input is marked with a &3blue&r connection and output is marked with an &6orange&r "
+				"connection."
+				""
+				"When converting FE to TFMG energy, the desired voltage can be set up to 250V."
+			]
+			id: "5EB59B43781EB61D"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "196D83EA67511065"
+				item: "tfmg:copper_wire"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Converts TFMG energy to FE and back."
+			tasks: [{
+				id: "45C93A2B4B234BBC"
+				item: "tfmg:converter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6D7CC9EA47063963"
+				"062051ED6D130ACD"
+			]
+			description: [
+				"Puts electrical appliances into series-parallel groups without having to use &6diodes&r or other circuit-splitting parts."
+				""
+				"Different group numbers are parallel to each other and act like they are on different diodes."
+			]
+			id: "4EBD5363B552085D"
+			rewards: [{
+				id: "013F37D35D9EE78E"
+				item: "tfmg:steel_cogwheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AA8C2A248BB1F13"
+				item: "tfmg:electricians_wrench"
+				type: "item"
+			}]
+			title: "Series and Parallel"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6CED1EA18861E384"
+				"6177966365A058A2"
+			]
+			description: [
+				"&4Fireproof vats&r required in a 3x3x2 box."
+				""
+				"Graphite electrodes required. Make sure to pump out the CO2."
+				""
+				"The electrode holders require a minimum of &25A&r to work, but they have 3X the resistance unlike the electrolyzer. They must be supplied with at least &31.5KV&r each. This can be achieved with 2x max speed &6generators&r, a &6transformer&r with a turn ratio of &e6,&r and &6diodes&r on each electrode holder."
+			]
+			icon: "tfmg:graphite_electrode"
+			id: "53EA40114B347A83"
+			optional: true
+			rewards: [{
+				id: "33BC690C127967E7"
+				item: "tfmg:exhaust"
+				type: "item"
+			}]
+			subtitle: "For speedy steel."
+			tasks: [
+				{
+					count: 3L
+					id: "61200BB8BF9D33C3"
+					item: { Count: 3, id: "tfmg:electrode_holder" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "07A752FE6A1A4689"
+					item: { Count: 3, id: "tfmg:graphite_electrode" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "5F037143621051EB"
+					item: { Count: 18, id: "tfmg:fireproof_chemical_vat" }
+					type: "item"
+				}
+			]
+			title: "&dArc Furnace"
+			x: 2.5d
+			y: -2.0d
+		}
+	]
+	title: "Volt n' Eddy"
+}

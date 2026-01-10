@@ -1,0 +1,1410 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4progression"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: "createdeco:decal_up"
+	id: "55AF38183EF8AC74"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "supplementaries:globe"
+			icon_scale: 0.9d
+			id: "35C10DEB79DD45D9"
+			rewards: [
+				{
+					id: "67A649F0359B7F2B"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D68AD67A65736EA"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5821C43DC1D939ED"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16494197C867A322"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "478BD40E568F6686"
+					item: {
+						Count: 1
+						id: "mekanismtools:iron_paxel"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "12CF4B3FC6A0A0CA"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 4.0d
+			subtitle: "This a Server focoused around Techprogression"
+			tasks: [{
+				id: "0638A000881BF19E"
+				title: "&aWelcome to Earth Live 3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35C10DEB79DD45D9"]
+			icon: "minecraft:bell"
+			id: "72B45860D502D935"
+			shape: "rsquare"
+			tasks: [{
+				icon: "easy_villagers:villager"
+				id: "264D999544EA7302"
+				structure: "#minecraft:village"
+				type: "structure"
+			}]
+			title: "Finde Village"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72B45860D502D935"]
+			id: "352619E8812E7941"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13AD9D798B0BE5E2"
+				table_id: 7681902393252900677L
+				type: "choice"
+			}]
+			subtitle: "collect them withe shift linksclike"
+			tasks: [{
+				id: "218DCD48AAFFF11D"
+				item: "easy_villagers:villager"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["352619E8812E7941"]
+			id: "7903F5994C4A04F2"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "322658FD56B7E84F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CC0098CB3EAA0B8"
+					item: {
+						Count: 1
+						id: "minecraft:iron_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "2340D045DC9F2B4D"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "First own Iron"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72B45860D502D935"]
+			id: "574A7B00E70FA4BE"
+			rewards: [{
+				id: "70BBAA55E773C134"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "The perfact place for a stripmine"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-1467364542
+									-716353979
+									-1841111277
+									60041045
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_pickaxe"
+				}
+				id: "7AAB3C9F85C768BA"
+				title: "Farmworld"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["574A7B00E70FA4BE"]
+			id: "124CA8EEFF340C35"
+			rewards: [{
+				id: "44EEBF207D88D8C4"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "0ED7AA66B4118023"
+				item: { Count: 3, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "Dias!"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["124CA8EEFF340C35"]
+			id: "1F41B6DBDE1CFE55"
+			rewards: [
+				{
+					id: "0E44671BD523121A"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B1ED473C1B7B9E4"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1140BE5C7B12E508"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71290EAB9F61DAA2"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D6148E8AAD0FE14"
+					item: {
+						Count: 1
+						id: "mekanismtools:diamond_paxel"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "1BAF4839A0F5925D"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "11FA5C957978D8DF"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "26143A366F7872C1"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3357F8243D411281"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7735E825408DA093"
+					item: {
+						Count: 1
+						id: "mekanismtools:diamond_paxel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dia Armor"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B3E9AC6B1225A46"]
+			icon: "create:mechanical_arm"
+			id: "18281052734176A4"
+			rewards: [{
+				auto: "invisible"
+				id: "0A82463B4B611EE8"
+				ignore_reward_blocking: true
+				stage: "Create"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			subtitle: "Build your first factory"
+			tasks: [{
+				id: "15E96AE53CEF7E4B"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "Industrial Revoultion"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45B0BD0BD02D040D"]
+			id: "697AF07AEE97559E"
+			subtitle: "Much better than strip mining"
+			tasks: [{
+				id: "2B19AC8BF2AB7512"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["574A7B00E70FA4BE"]
+			id: "4B3E9AC6B1225A46"
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "37A70F591E67BE0F"
+				title: "Nether"
+				type: "dimension"
+			}]
+			title: "Nether"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B3E9AC6B1225A46"]
+			hide_dependency_lines: false
+			icon: "minecraft:blaze_rod"
+			id: "315F8CC32B53E3BD"
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					id: "28969CEF9559408D"
+					title: "Blazes"
+					type: "kill"
+					value: 10L
+				}
+				{
+					id: "64B21B31CDE11C2B"
+					structure: "betterfortresses:fortress"
+					type: "structure"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["315F8CC32B53E3BD"]
+			id: "047CC423930DE97C"
+			rewards: [{
+				id: "0B9C2242AA0A3D0F"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1018FC6AB7BD89C1"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "37D63D5A69A5E7CF"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["047CC423930DE97C"]
+			id: "746439A679CB583C"
+			rewards: [{
+				id: "268D16C43813BE35"
+				item: {
+					Count: 1
+					id: "creategoggles:goggle_netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "5CF7FB3F4B9A23CC"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "031F48B43BBF3FAF"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00CD7D2BE0EE9F27"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3F143FB415D53C4D"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DFA64804092FC61"
+					item: {
+						Count: 1
+						id: "mekanismtools:netherite_paxel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherithe Armor"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"70A9E659ED90C7A0"
+				"2F471243414B4130"
+			]
+			icon: "create:steam_engine"
+			id: "644D2E8AEE0484D3"
+			title: "Steam Engine"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["18281052734176A4"]
+			id: "45B0BD0BD02D040D"
+			tasks: [{
+				id: "52B92830618B3AF3"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["697AF07AEE97559E"]
+			id: "70A9E659ED90C7A0"
+			tasks: [{
+				id: "52B08042843FB08F"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70A9E659ED90C7A0"]
+			id: "5715F148114408EA"
+			tasks: [{
+				id: "7BD8DFF2A70F699E"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"644D2E8AEE0484D3"
+				"2F471243414B4130"
+			]
+			id: "40689DBECDD80DA0"
+			tasks: [{
+				id: "2BB113D6CC20B5B0"
+				item: "create_new_age:generator_coil"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "2F471243414B4130"
+			secret: true
+			subtitle: "Not finsihed"
+			tasks: [{
+				id: "217453BEB6B1B8D6"
+				item: "ftbquests:stage_barrier"
+				type: "item"
+			}]
+			title: "Work in Progress"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18281052734176A4"]
+			icon: "mekanism:seismic_vibrator"
+			id: "53158FD98B690EC1"
+			rewards: [{
+				auto: "invisible"
+				id: "41EB8ABD3B4B24AE"
+				ignore_reward_blocking: true
+				stage: "Mekanisem"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			subtitle: "Chapter soon to come"
+			tasks: [{
+				id: "760F7ECB7EEE6080"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "Modern Tech"
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["53158FD98B690EC1"]
+			id: "4001C2757F77F482"
+			rewards: [{
+				id: "3D521BA50338BCE1"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			subtitle: "More Efficent withe Inscriber"
+			tasks: [
+				{
+					id: "344460D4264F6585"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					id: "2C614865E82D0F13"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+				{
+					id: "00FC8533D0185C99"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			title: "Infused Alloys"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2F471243414B4130"
+				"4001C2757F77F482"
+			]
+			id: "7C124E6068D37DC4"
+			tasks: [{
+				id: "4318A64BC181AEE2"
+				item: "minecraft:coal_ore"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4001C2757F77F482"]
+			id: "1BA219AE6103FE1D"
+			tasks: [{
+				id: "25382531E2A1B48C"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53158FD98B690EC1"]
+			id: "5DFFA417441917F1"
+			rewards: [
+				{
+					id: "201778C09EB07EC7"
+					item: "fluxnetworks:flux_controller"
+					type: "item"
+				}
+				{
+					id: "65AD4AAA6D8C63AD"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "3CF1F4D1D7CA6504"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+				{
+					id: "4234A711E7462333"
+					item: "fluxnetworks:gargantuan_flux_storage"
+					type: "item"
+				}
+				{
+					id: "2E8E5F33A3D9CE90"
+					item: "fluxnetworks:flux_configurator"
+					type: "item"
+				}
+			]
+			subtitle: "Move Enrgey easyer than ever before"
+			tasks: [
+				{
+					id: "47B1799533CD9B39"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+				{
+					id: "62F60472BEEB5E66"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70A9E659ED90C7A0"]
+			id: "4BF8025CC41DB520"
+			rewards: [{
+				count: 16
+				id: "3CFF49331D03716D"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			subtitle: "View Capter for more"
+			tasks: [{
+				id: "0BC3243C202A98AF"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			title: "Enchanting Factorie"
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["53158FD98B690EC1"]
+			description: ["You can lokk up almost any item and open GuiedMe via the Tootipp"]
+			id: "5403687891042DAD"
+			rewards: [{
+				auto: "invisible"
+				id: "0AD7EC44F526547F"
+				ignore_reward_blocking: true
+				stage: "Ae2"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			subtitle: "Chapter soon to come use the in game gudie "
+			tasks: [{
+				id: "186E9BC4948446A4"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			title: "Smarter Storage"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5403687891042DAD"]
+			id: "156E9A990AECFBAF"
+			subtitle: "Folow the compass"
+			tasks: [{
+				icon: "ae2:flawless_budding_quartz"
+				id: "4E7F1CE4E1F9CBCA"
+				structure: "ae2:meteorite"
+				title: "Meteor"
+				type: "structure"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4001C2757F77F482"
+				"156E9A990AECFBAF"
+			]
+			id: "2DB7BB88A98FFC28"
+			rewards: [
+				{
+					id: "74C795939F6DAFE3"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "4BCFB80E5B7A837B"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "0DD4C6EB79EB93D4"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6BFF21FE01BF6B0A"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "54341547DF0ED6C6"
+					item: "ae2:printed_engineering_processor"
+					title: "Circiuts"
+					type: "item"
+				}
+				{
+					id: "3EA61BB1961DD315"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					id: "505B91259A3987A8"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+			]
+			title: "Circiuts"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2DB7BB88A98FFC28"]
+			id: "7070CB4A0D122D2F"
+			rewards: [{
+				count: 16
+				id: "1EA018198D339524"
+				item: "ae2:purple_smart_dense_cable"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CE64C3D2AD3DF05"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			title: "Cabel"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["184C5DD75B2966A2"]
+			id: "4007BABCCE608E09"
+			rewards: [
+				{
+					count: 6
+					id: "02715A05369229D0"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "2EC123E08D3E4B28"
+					item: "ae2:16k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "11E0F7F33490F1FE"
+					item: "ae2:crafting_monitor"
+					type: "item"
+				}
+			]
+			subtitle: "The smart Crafting"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "6E146EBC7919F30C"
+				item: { Count: 8, id: "ae2:crafting_unit" }
+				title: "Crafting Unit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7903F5994C4A04F2"]
+			id: "70624EF3B52C9D90"
+			rewards: [{
+				id: "3B04F016F1F210D4"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EE46387605B172B"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["124CA8EEFF340C35"]
+			id: "49EF2063B7A5532E"
+			rewards: [{
+				id: "040A3A61E2049A96"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "025EBD2C6668F8EF"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["047CC423930DE97C"]
+			id: "113F5BB2850DCBCD"
+			rewards: [{
+				id: "131F5163A691B0D1"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5320CE84C9F82986"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7070CB4A0D122D2F"]
+			id: "184C5DD75B2966A2"
+			subtitle: "the Core of the Network"
+			tasks: [{
+				id: "4803C1C69BF5AAA6"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4803C1C69BF5AAA6"]
+			id: "101906BDC9C39891"
+			rewards: [
+				{
+					count: 2
+					id: "272FAAD1CA334E85"
+					item: "expatternprovider:ex_export_bus_part"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4570A9280467DECA"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "23421DFB7C8B3F0F"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
+			subtitle: "For Interating withe your Storage"
+			tasks: [
+				{
+					consume_items: true
+					id: "62C87AB717A3092E"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "39EBF8AC39837808"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0A7771FA75D7D50A"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
+			title: "Buses"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["101906BDC9C39891"]
+			id: "17D51809C191ED56"
+			rewards: [
+				{
+					id: "03B1635643A02C4E"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "14262EFFD323B235"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+			]
+			subtitle: "Execses the Network"
+			tasks: [{
+				consume_items: true
+				id: "7CB53A9C463AE3AD"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5403687891042DAD"]
+			icon: "minecraft:nether_star"
+			id: "2C2D965E424C0B87"
+			rewards: [
+				{
+					count: 3
+					id: "575673CFDC84EC46"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "53D471E9065949C0"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "263F7B45F46F4764"
+					ignore_reward_blocking: true
+					stage: "Wither"
+					type: "gamestage"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Watch out much stronger"
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "3FC2F79CAEB631ED"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "04704CCD81BEF411"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Wither"
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C2D965E424C0B87"]
+			icon: "minecraft:dragon_head"
+			id: "7C73BBBF9ECC74FB"
+			rewards: [{
+				auto: "invisible"
+				id: "6B57900848A95B72"
+				ignore_reward_blocking: true
+				stage: "end"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			subtitle: "Much stronger don't rush it"
+			tasks: [
+				{
+					id: "40A4F19892601EE7"
+					item: "draconicevolution:dragon_heart"
+					type: "item"
+				}
+				{
+					entity: "minecraft:ender_dragon"
+					icon: "minecraft:dragon_head"
+					id: "14548107F8B6EF50"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ender Dragon"
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C73BBBF9ECC74FB"]
+			icon: "dragonlib:dragon"
+			id: "7394F96116A1A660"
+			rewards: [{
+				auto: "invisible"
+				id: "3BFC85DB26E9785F"
+				ignore_reward_blocking: true
+				stage: "chaos"
+				type: "gamestage"
+			}]
+			shape: "gear"
+			subtitle: "Stronger than any thing else"
+			tasks: [
+				{
+					count: 5L
+					id: "59E3444BA95F4DB3"
+					item: { Count: 5, id: "draconicevolution:chaos_shard" }
+					type: "item"
+				}
+				{
+					entity: "draconicevolution:draconic_guardian"
+					icon: "amendments:dragon_charge"
+					id: "2F06910C63F9B063"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Chaos Guardian"
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C2D965E424C0B87"]
+			id: "675E638C34D0A3CF"
+			tasks: [{
+				id: "45DE16128F5031A7"
+				item: "advanced_ae:quantum_processor_press"
+				type: "item"
+			}]
+			title: "Quanten Technlogie"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["675E638C34D0A3CF"]
+			id: "0D006FED7DB2A1A0"
+			rewards: [
+				{
+					count: 16
+					id: "11FCDB3E38929FC5"
+					item: "advanced_ae:quantum_upgrade_base"
+					type: "item"
+				}
+				{
+					id: "3AED0395070F35E4"
+					item: "advanced_ae:step_assist_card"
+					type: "item"
+				}
+			]
+			subtitle: "A good Armor even better withe Upgrades"
+			tasks: [
+				{
+					id: "436F2B7F76115A4E"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0445BF07EFFD8C2E"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B2ADB0782C84656"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3080A2AA7064E35E"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Quantum Armor"
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C2D965E424C0B87"]
+			id: "2F17544CC7C70B8F"
+			subtitle: "Own chapter comming soon"
+			tasks: [{
+				id: "411121543FD019B8"
+				item: {
+					Count: 1
+					id: "draconicevolution:dislocator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C2D965E424C0B87"]
+			id: "0E3A7C836692633B"
+			tasks: [{
+				id: "01C36D9C64A98665"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7C73BBBF9ECC74FB"
+				"2F471243414B4130"
+			]
+			id: "7780DCC35E8985B4"
+			tasks: [{
+				id: "6DE02BE6FD641FF0"
+				item: "create_new_age:reactor_fuel_acceptor"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C73BBBF9ECC74FB"]
+			id: "0D1D515056784521"
+			tasks: [{
+				id: "11D3C00508F94AD9"
+				item: "draconicevolution:awakened_draconium_block"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C73BBBF9ECC74FB"]
+			id: "02E513682FA92AE5"
+			tasks: [{
+				id: "5E9C30FAC666F542"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7394F96116A1A660"]
+			id: "67A662FB7EAA3451"
+			tasks: [{
+				id: "2AFEA76695CDD699"
+				item: "draconicevolution:chaotic_core"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+	]
+	title: "&4Progression"
+}

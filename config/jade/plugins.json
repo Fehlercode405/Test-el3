@@ -85,7 +85,7 @@
   },
   "apotheosis": {
     "adventure": true,
-    "spawner": true
+    "ench": true
   },
   "balm": {
     "jade": true

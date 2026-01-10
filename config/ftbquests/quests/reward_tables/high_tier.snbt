@@ -11,10 +11,8 @@
 	}
 	id: "24B842B34426E835"
 	loot_size: 1
-	order_index: 6
+	order_index: 7
 	rewards: [
-		{ count: 3, icon: "aquamirae:poseidons_breakfast", item: "aquamirae:poseidons_breakfast" }
-		{ count: 3, item: "forbidden_arcanus:orb_of_temporary_flight" }
 		{
 			count: 16
 			item: {
@@ -22,12 +20,6 @@
 				id: "minecraft:diamond"
 				tag: { }
 			}
-		}
-		{
-			icon: "vitalize:experience_cubed"
-			type: "xp_levels"
-			weight: 3.0f
-			xp_levels: 20
 		}
 		{
 			icon: {

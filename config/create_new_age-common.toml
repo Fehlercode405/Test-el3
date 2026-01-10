@@ -1,7 +1,7 @@
 #Responsible for how much energy is generated per 1 stress unit in a tick
 #Default value is supposed to be compatible with default configuration of Create: Crafts and Additions
 #Range: 0.0 ~ 1.7976931348623157E308
-suToEnergy = 0.029296875
+suToEnergy = 1.0
 #How many coils can the carbon brushes collect energy from
 #Range: > 0
 maxCoils = 8
@@ -19,16 +19,16 @@ maxPathfindingDepth = 32
 energiserSpeedMultiplier = 1.0
 #Multiplier for the temperature at which components overheat. Set to -1 to disable overheating.
 #Range: -1.0 ~ 1.7976931348623157E308
-overheatingMultiplier = 5.0
+overheatingMultiplier = 2.0
 #Multiplier for how much heat pipes obtain from passive heat sources like Lava or even Boilers.
 #Range: 0.0 ~ 1.7976931348623157E308
-passiveHeatSourceMultiplier = 2.0
+passiveHeatSourceMultiplier = 20.0
 #How much heat do pipes loose per second.
 #Range: 0.0 ~ 1.7976931348623157E308
-passivePipeHeatLoss = 0.5
+passivePipeHeatLoss = 1.0
 #Multiplier for how much heat a boiler needs.
 #Range: 0.0 ~ 1.7976931348623157E308
-boilerRequiredHeatMultiplier = 1.0
+boilerRequiredHeatMultiplier = 0.5
 #How much heat per tick a nuclear reactor rod generate.
 #Range: 0.0 ~ 1.7976931348623157E308
 ReactorRodHeat = 30.0

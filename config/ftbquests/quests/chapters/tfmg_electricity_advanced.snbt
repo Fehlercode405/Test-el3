@@ -1,0 +1,372 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tfmg_electricity_advanced"
+	group: "2E85E4E262D4F214"
+	icon: "tfmg:transistor_item"
+	id: "0F3B17057E87B5FD"
+	images: [
+		{
+			height: 1.0d
+			image: "tfmg:fluid/liquid_silicon_still"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: ["Silicon"]
+			image: "tfmg:item/silicon_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: ["Sulfur"]
+			image: "tfmg:item/sulfur_dust"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: ["Aluminum"]
+			image: "tfmg:item/aluminum_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: ["Silicon"]
+			image: "tfmg:item/silicon_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			alpha: 128
+			height: 0.75d
+			image: "minecraft:textures/particle/sga_n.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -1.25d
+			y: -2.5d
+		}
+		{
+			alpha: 128
+			height: 0.75d
+			image: "minecraft:textures/particle/sga_p.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.75d
+			y: -2.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: [
+				"\"Am I having a headache?"
+				"No, an idea!\""
+			]
+			image: "tfmg:block/glass_brass_pipe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "tfmg:block/circular_lamp_on"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			height: 0.5d
+			image: "tfmg:block/cast_iron_smart_pipe_1"
+			rotation: 90.0d
+			width: 0.5d
+			x: 3.025510204081634d
+			y: 1.8941326530612272d
+		}
+		{
+			alpha: 96
+			height: 1.2d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0311224489795947d
+			y: 1.5196428571428626d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0E63C1AD9074987E"
+				"2DEF812916A51C34"
+			]
+			id: "00D17F6707030F85"
+			rewards: [{
+				id: "7942AFB80F011CEB"
+				item: "tfmg:sulfur_dust"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "7ED8F0BD679575ED"
+				item: "tfmg:n_semiconductor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0E63C1AD9074987E"
+				"6D7CC9EA47063963"
+			]
+			id: "41745B29580BC87A"
+			rewards: [{
+				id: "3181683CB4AB8F9C"
+				item: "tfmg:aluminum_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "3F9229F7EDFE0529"
+				item: "tfmg:p_semiconductor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0104893F8F3458DA"
+				"00D17F6707030F85"
+				"41745B29580BC87A"
+			]
+			description: [
+				"Electrical components attached together (without diodes) divide &3voltage&r among themselves, reducing the &2current&r each one gets as you add more things. "
+				""
+				"&6Diodes&r (as well as &epotentiometers&r and &etransformers&r) split the circuit into different parts, with the output recieving full voltage."
+			]
+			id: "18FC3D21BB6EBF76"
+			subtitle: "FULL BRIDGE RECTIFIER"
+			tasks: [{
+				id: "3BCA26B5E5BEE2D1"
+				item: "tfmg:electric_diode"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0B7FFB9FF90F10CF"
+				"00D17F6707030F85"
+				"41745B29580BC87A"
+			]
+			id: "6826DEAAE93A7567"
+			subtitle: "Crafting component."
+			tasks: [{
+				id: "034EC954CAAC6F87"
+				item: "tfmg:transistor_item"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6826DEAAE93A7567"
+				"7528CA66674FAD1A"
+			]
+			id: "7598DDA7144F31C5"
+			shape: "gear"
+			subtitle: "Pick n' place."
+			tasks: [{
+				id: "01EB8CA178FBDF05"
+				item: "tfmg:circuit_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"68B69D74FCD5BAAC"
+				"6C9157A690AA5F3C"
+			]
+			description: ["Made in any vat type, no mixing required."]
+			id: "7528CA66674FAD1A"
+			tasks: [{
+				id: "1B8492A460C580EE"
+				item: "tfmg:etched_circuit_board"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1510968FA820C57C"]
+			id: "68B69D74FCD5BAAC"
+			tasks: [{
+				id: "64A5AB32421D431D"
+				item: "tfmg:coated_circuit_board"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B7FFB9FF90F10CF"]
+			id: "1510968FA820C57C"
+			subtitle: "They're just green, okay?"
+			tasks: [{
+				id: "5A79B3C09AA9F43E"
+				item: "tfmg:empty_circuit_board"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7598DDA7144F31C5"]
+			id: "0C66F43124BBA459"
+			optional: true
+			rewards: [{
+				id: "1571D88358A006DC"
+				item: "tfmg:light_bulb"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3BBC7EC834931C55"
+				item: "tfmg:traffic_light"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7598DDA7144F31C5"
+				"19A9DA93FF046BD9"
+			]
+			hide_dependency_lines: true
+			id: "5CC38D9550870323"
+			optional: true
+			rewards: [{
+				id: "38463101622096A2"
+				item: "tfmg:industrial_aluminum_casing"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "41D373C4737D06F2"
+				item: "tfmg:segmented_display"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"563A3503CD040E41"
+				"066FA99DD39A0BF4"
+				"4E058BAF38B16EE0"
+				"7598DDA7144F31C5"
+			]
+			id: "5D38B2F83D218EE3"
+			rewards: [{
+				id: "26B535041111DEEE"
+				item: "tfmg:magnet"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Can pump long distances."
+			tasks: [{
+				id: "28D57427C3F6ECB8"
+				item: "tfmg:electric_pump"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7598DDA7144F31C5"
+				"0104893F8F3458DA"
+				"74DA690631920E06"
+			]
+			id: "6CED1EA18861E384"
+			shape: "diamond"
+			tasks: [{
+				id: "67DB2ED12C828EE7"
+				item: { Count: 18, id: "tfmg:fireproof_chemical_vat" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6826DEAAE93A7567"]
+			id: "776892C96CCF32B7"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "1D1B9964EA7BACCC"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50FE8ADDF0480FB6"
+				item: "tfmg:voltage_observer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2DB9E531DE956C77"
+				"0104893F8F3458DA"
+				"2B6E2CD796D4ADF3"
+			]
+			id: "203261F096CBC9AE"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "20319B8ECA134917"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "687DCB9F1AE069F4"
+				item: "tfmg:electrical_switch"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+	]
+	title: "Smart Pixies"
+}

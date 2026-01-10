@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "2C849B900379E1C5"
+	id: "20875BBBBA66CFC7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["2F471243414B4130"]
+		id: "03882A7A40EF2FF8"
+		tasks: [{
+			id: "7A9C649EB42D89F8"
+			item: "ae2:fluix_upgrade_smithing_template"
+			type: "item"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
+	title: "AE2"
+}

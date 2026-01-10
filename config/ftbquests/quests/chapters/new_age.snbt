@@ -61,15 +61,6 @@
 					table_id: 7850305241036641666L
 					type: "random"
 				}
-				{
-					id: "67E5E94EDB6911D9"
-					item: {
-						Count: 1
-						id: "minecraft:netherite_block"
-						tag: { }
-					}
-					type: "item"
-				}
 			]
 			shape: "gear"
 			size: 1.5d

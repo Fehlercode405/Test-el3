@@ -66,33 +66,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4EB4838CCED125E2"]
-			id: "4117DCE0FDD1C403"
-			rewards: [{
-				count: 10
-				id: "69D1B60CDA7C6D74"
-				item: {
-					Count: 1
-					id: "minecraft:iron_ingot"
-					tag: { }
-				}
-				type: "item"
-			}]
-			subtitle: "Used to craft Wires and Rods."
-			tasks: [{
-				id: "0B8A1FC256D818B0"
-				item: {
-					Count: 1
-					id: "createaddition:rolling_mill"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Craft &5Rolling Mill"
-			x: -27.5d
-			y: 3.5d
-		}
-		{
 			dependencies: ["2231B9FF6BB3CEB7"]
 			id: "605ECFFA4F1C2736"
 			shape: "square"
@@ -126,25 +99,6 @@
 				type: "item"
 			}]
 			x: -28.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["4117DCE0FDD1C403"]
-			id: "47125034B2A88308"
-			shape: "square"
-			tasks: [{
-				count: 69L
-				id: "339BA66291CD5AE4"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:rods/all_metal"
-					}
-				}
-				type: "item"
-			}]
-			x: -27.5d
 			y: 2.5d
 		}
 		{
@@ -518,7 +472,7 @@
 				type: "item"
 			}]
 			x: -32.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["514C4EBE77DC871B"]
@@ -706,8 +660,8 @@
 					type: "item"
 				}
 			]
-			x: -29.0d
-			y: 7.5d
+			x: -27.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["34346949C3804907"]
@@ -1131,8 +1085,8 @@
 				type: "item"
 			}]
 			title: "Craft &5Mechanical Harvester"
-			x: -29.0d
-			y: 6.5d
+			x: -27.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4EB4838CCED125E2"]
@@ -2333,8 +2287,8 @@
 				type: "item"
 			}]
 			title: "Craft a Millstone"
-			x: -31.5d
-			y: 3.5d
+			x: -30.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["70529DE17C4E2F5A"]
@@ -2406,23 +2360,6 @@
 			title: "Craft a Stressometer"
 			x: -33.0d
 			y: 9.5d
-		}
-		{
-			dependencies: ["1A513CE71070D2D3"]
-			id: "230C80ADED89931C"
-			shape: "circle"
-			tasks: [{
-				id: "65F4A6053E47327A"
-				item: {
-					Count: 1
-					id: "createaddition:copper_wire"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Craft &6Copper Wire"
-			x: -38.5d
-			y: 4.0d
 		}
 		{
 			dependencies: ["27E206948965351D"]
@@ -2514,7 +2451,7 @@
 				}
 			]
 			x: -32.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["27E206948965351D"]
@@ -2817,6 +2754,27 @@
 			title: "Craft Display Board"
 			x: -21.0d
 			y: 10.5d
+		}
+		{
+			dependencies: [
+				"57D5D3869593B56D"
+				"3F7061E2ADC7C638"
+				"514C4EBE77DC871B"
+				"7F9EF7E0EDD9575B"
+				"50B220FE7B1E3EF4"
+				"2231B9FF6BB3CEB7"
+				"5C95FF3125CA51B0"
+				"43B32C639F4B3200"
+				"5971EEEDACF7F8F6"
+			]
+			hide_dependency_lines: true
+			icon: "immersive_aircraft:industrial_gears"
+			id: "31A991945E63A974"
+			shape: "gear"
+			size: 2.0d
+			title: "Complet all central Steps"
+			x: -28.0d
+			y: -0.5d
 		}
 	]
 	title: " &bCreate"

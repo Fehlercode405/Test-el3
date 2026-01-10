@@ -38,7 +38,7 @@
 [XP] Map Art Grid Color:0
 [XP] Min Lava Column Height:5.0
 [XP] Min WorldMap Zoom:0.1
-[XP] Minimap FPS Limit:5.0
+[XP] Minimap FPS Limit:30.0
 [XP] Minimap FPS Limiter:true
 [XP] Minimap Render Z:0.0
 [XP] Minimap Scaling Factor:1.0
@@ -64,7 +64,7 @@
 [XP] Pearl Waypoints:false
 [XP] Persist Dim Switch:false
 [XP] Plain Waypoint Sharing:false
-[XP] Player Spawn Chunks:true
+[XP] Player Spawn Chunks:false
 [XP] Portal Highlights:false
 [XP] Portal Highlights Color:5
 [XP] Portal Highlights Opacity:100.0
@@ -92,17 +92,17 @@
 [XP] Save/Load Palette NewChunks to Disk:true
 [XP] Save/Load Portals to Disk:true
 [XP] Show Coords In Right Click Options:true
-[XP] Show Render Distance:true
+[XP] Show Render Distance:false
 [XP] Show Waypoint Distances:true
 [XP] Show World Border:true
 [XP] Sodium/Embeddium Setting Integration:true
-[XP] Spawn Chunks:true
+[XP] Spawn Chunks:false
 [XP] Spawn Chunks Entity Processing Color:1
 [XP] Spawn Chunks Lazy Chunks Color:2
 [XP] Spawn Chunks Outer Chunks:false
 [XP] Spawn Chunks Outer Chunks Color:3
 [XP] Spawn Chunks Redstone Processing:false
-[XP] Spawn Chunks Redstone Processing Color:0
+[XP] Spawn Chunks Redstone Processing Color:3
 [XP] Spawn Point Waypoint:true
 [XP] Switch Waypoints to End:false
 [XP] Switch Waypoints to Nether:false

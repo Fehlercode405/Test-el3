@@ -10,7 +10,8 @@ sortReversed:false
 ignoreHeightmaps:false
 
 //dimension types (DO NOT EDIT)
+dimensionType:farmingworld$world:farmingworld$mining
 dimensionType:minecraft$the_end:minecraft$the_end
-dimensionType:minecraft$overworld:minecraft$overworld
 dimensionType:minecraft$the_nether:minecraft$the_nether
+dimensionType:minecraft$overworld:minecraft$overworld
 //server waypoints

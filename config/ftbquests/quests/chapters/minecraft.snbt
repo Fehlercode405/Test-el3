@@ -1,4 +1,5 @@
 {
+	autofocus_id: "2001C60DBF7DF81F"
 	consume_items: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -1125,21 +1126,6 @@
 			}]
 			x: -8.0d
 			y: -2.5d
-		}
-		{
-			id: "7CDD948DFF43D14B"
-			tasks: [{
-				hasCustomPicture: false
-				id: "673930086910C2AA"
-				ignoreState: false
-				layer: true
-				name: "premek"
-				rightclick: false
-				title: "test"
-				type: "questsadditions:structure"
-			}]
-			x: -17.5d
-			y: 3.0d
 		}
 	]
 	title: "  &6Overworld"

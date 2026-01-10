@@ -1,0 +1,680 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tfmg_petroleum"
+	group: "2E85E4E262D4F214"
+	icon: {
+		Count: 1
+		id: "tfmg:deposit_item"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0576D286A78C3C17"
+	images: [
+		{
+			height: 2.4d
+			image: "tfmg:block/steel_fluid_tank"
+			rotation: 0.0d
+			width: 2.4d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: [
+				"A kilometer is 0.6214 miles"
+				"For an approximate result, divide by 1.6"
+			]
+			image: "tfmg:item/deposit_item"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.6285714285714334d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.3035714285714235d
+			y: -0.5892857142857153d
+		}
+		{
+			click: " "
+			height: 1.0d
+			image: "tfmg:block/bars/steel_bars_edge"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.3857142857142861d
+		}
+		{
+			height: 1.0d
+			image: "tfmg:block/bars/steel_bars_edge"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -0.5857142857142854d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:block/suspicious_sand_0"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.6142857142857139d
+			y: -0.08571428571428896d
+		}
+		{
+			height: 2.4d
+			image: "tfmg:block/steel_fluid_tank"
+			rotation: 0.0d
+			width: 2.4d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			height: 2.4d
+			image: "tfmg:block/steel_fluid_tank"
+			rotation: 0.0d
+			width: 2.4d
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: ["\"...I can explain\""]
+			image: "tfmg:block/glass_cast_iron_pipe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "tfmg:fluid/lubrication_oil_flow"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0104893F8F3458DA"
+				"2D94489E09F8DD9C"
+				"33836F7B213ECADC"
+			]
+			description: [
+				"Place the &6surface scanner&r on top of the &6machine input&r and power it. "
+				""
+				"The 25 lights on the top represent the 25 chunks nearest to the scanner, with the middle light being the chunk it's in. They light up if at least one &6oil deposit&r is found in the corresponding chunk. "
+				""
+				"Unfortunately, it cannot give you any further guidance. Start digging!"
+			]
+			id: "2390580FE814BD81"
+			rewards: [{
+				id: "008AF5902E8E7AB4"
+				item: {
+					Count: 1
+					id: "minecraft:iron_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Ping! Ping! Ping!"
+			tasks: [
+				{
+					id: "5A4234988635FEDB"
+					item: "tfmg:surface_scanner"
+					type: "item"
+				}
+				{
+					id: "4125172A556B0D1F"
+					item: "tfmg:machine_input"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2390580FE814BD81"]
+			description: ["Made optional cause idk the oil deposit might be hidden under liquid oil."]
+			id: "2FE6B518A4A2B5EE"
+			optional: true
+			shape: "square"
+			tasks: [{
+				icon: "tfmg:oil_deposit"
+				id: "444DC0A8827FE11A"
+				observe_type: 0
+				timer: 0L
+				title: "Find oil"
+				to_observe: "tfmg:oil_deposit"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0104893F8F3458DA"
+				"2D94489E09F8DD9C"
+				"2390580FE814BD81"
+			]
+			icon: "tfmg:pumpjack_crank"
+			id: "0EB0A302142AB2F6"
+			rewards: [{
+				count: 8
+				id: "6B83916BB00ABD0E"
+				item: "tfmg:industrial_pipe"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Pump it."
+			tasks: [
+				{
+					id: "3D267AA1F30D929E"
+					item: "tfmg:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "2DF0E51421C1F48C"
+					item: "tfmg:pumpjack_base"
+					type: "item"
+				}
+				{
+					id: "6644AB277060A507"
+					item: "tfmg:machine_input"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "32B60F3CE32F0BB0"
+					item: { Count: 8, id: "tfmg:industrial_pipe" }
+					type: "item"
+				}
+				{
+					id: "122238D0A676879F"
+					item: "tfmg:pumpjack_hammer"
+					type: "item"
+				}
+			]
+			title: "Pumpjack Essentials"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1D8F19B5A2A1D53F"
+				"1E05885058530B7D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Pipe crude oil into the &6distillation controller&r and take products from each of the outputs. "
+				""
+				"Blaze burner heating is required. The steel tanks can be 1x1, 2x2, or 3x3, with larger sizes accomodating more heating which can increase distilling rate."
+				""
+				"{@pagebreak}"
+				"The minimum height tower has three outputs and makes &0Heavy oil&r, &6Diesel&r, and &eGasoline&r"
+				""
+				"Add two more outputs and you can make &7LPG&r and &9Kerosene&r"
+				""
+				"One more output lets you extract &4Naphtha&r"
+				""
+				"Outputs can be set to void excess fluid or stop refining when full to prevent wasting oil."
+			]
+			icon: "tfmg:steel_distillation_controller"
+			id: "677179FC764889AB"
+			rewards: [{
+				count: 4
+				id: "4B56D7D8F8290848"
+				item: "tfmg:steel_fluid_tank"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Build a distillation tower."
+			tasks: [
+				{
+					id: "6C1F8E82BD1C2E8A"
+					item: "tfmg:steel_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "794DEE5E58D4DC60"
+					item: { Count: 4, id: "tfmg:steel_distillation_output" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "78A137045A66436C"
+					item: { Count: 2, id: "tfmg:industrial_pipe" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6DE67C73360B75E9"
+					item: "tfmg:steel_fluid_tank"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5CC5CF58A6D6B7AC"
+					item: "tfmg:steel_distillation_output"
+					title: "Upgrade 1"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "63763F6957F2DD8E"
+					item: "tfmg:industrial_pipe"
+					title: "Upgrade 1"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "75D7F3FA18276DEB"
+					item: "tfmg:steel_fluid_tank"
+					title: "Upgrade 1"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "22095F51B5F54CD2"
+					item: "tfmg:steel_distillation_output"
+					title: "Upgrade 2"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "00A0F07DA5F729DA"
+					item: "tfmg:industrial_pipe"
+					title: "Upgrade 2"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "25C99E2DE90BBEF9"
+					item: "tfmg:steel_fluid_tank"
+					title: "Upgrade 2"
+					type: "item"
+				}
+			]
+			title: "Distillery District"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["677179FC764889AB"]
+			id: "2F654FE55B656C8F"
+			optional: true
+			tasks: [{
+				id: "09D394D210EF215A"
+				item: "tfmg:gasoline_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["677179FC764889AB"]
+			id: "7084CBB269F318CA"
+			optional: true
+			tasks: [{
+				id: "2D8A1DE158AE7DA5"
+				item: "tfmg:diesel_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["677179FC764889AB"]
+			id: "5281F41454A7B6E2"
+			optional: true
+			tasks: [{
+				id: "7824D651165C574A"
+				item: "tfmg:heavy_oil_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0EB0A302142AB2F6"]
+			id: "2EE8B64783E0B1D4"
+			optional: true
+			tasks: [{
+				id: "2D5DF8BB28EB0E31"
+				item: "tfmg:crude_oil_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["677179FC764889AB"]
+			id: "662C080039B7E4EF"
+			optional: true
+			tasks: [{
+				id: "34FC6B1B639AA0E5"
+				item: "tfmg:lpg_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["677179FC764889AB"]
+			id: "02ED12A438EF1D98"
+			optional: true
+			tasks: [{
+				id: "486A107ABD6A4107"
+				item: "tfmg:kerosene_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["677179FC764889AB"]
+			id: "2D21CACAECBC528B"
+			optional: true
+			tasks: [{
+				id: "14CCF8A0D1330BBE"
+				item: "tfmg:naphtha_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3CAA0B93CE0D600A"]
+			id: "46A96172077F9772"
+			optional: true
+			tasks: [{
+				id: "4BF2D9D0529F1BE6"
+				item: "tfmg:lubrication_oil_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5281F41454A7B6E2"]
+			description: [
+				"Distilling heavy oil helps to squeeze more fuel out of your refinery, as well as provide a new product: &elubrication oil&r."
+				""
+				"The heavy oil distilling setups can have a different number of outputs."
+				""
+				"The minimum size of three outputs &eLubrication oil&r, &6Diesel&r, and half of the &0Heavy oil&r (so back in it goes...)"
+				""
+				"Adding an output gives you &9Kerosene&r"
+				""
+				"Adding another output gives you &4Naphtha&r"
+			]
+			icon: "tfmg:steel_distillation_controller"
+			id: "3CAA0B93CE0D600A"
+			optional: true
+			shape: "octagon"
+			subtitle: "C'mon, babe, it's time for your 3pm distillation."
+			tasks: [
+				{
+					icon: "tfmg:steel_distillation_controller"
+					id: "224EB2442936009D"
+					title: "Reprocessing"
+					type: "custom"
+				}
+				{
+					id: "357E72187D53755B"
+					title: "Cool"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"74DA690631920E06"
+				"677179FC764889AB"
+			]
+			description: ["If you have Crafts and Additions just use the blaze burners with the straw, they're op."]
+			id: "594DF31D7CC8DFAB"
+			optional: true
+			rewards: [{
+				id: "1A3D29BA5C8505FB"
+				item: "tfmg:exhaust"
+				type: "item"
+			}]
+			subtitle: "Acts like a blaze burner but with fuel and CO2."
+			tasks: [{
+				id: "1D75091E389CF09F"
+				item: "tfmg:firebox"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5281F41454A7B6E2"]
+			id: "26E59FBA255EA2D7"
+			optional: true
+			rewards: [{
+				id: "45FF62FC27F0AADA"
+				item: "tfmg:heavy_oil_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27D042B28E969D9F"
+				item: "tfmg:bitumen"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26E59FBA255EA2D7"]
+			icon: "tfmg:liquid_asphalt_bucket"
+			id: "3B1CA60E21C0B278"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "6129159D2D2BB0A9"
+				item: "tfmg:asphalt_mixture"
+				type: "item"
+			}]
+			subtitle: "Pour and let dry."
+			tasks: [
+				{
+					id: "5584CDA18B75A607"
+					item: "tfmg:liquid_asphalt_bucket"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3084E8FE8BC96569"
+					item: { Count: 16, id: "tfmg:asphalt_mixture" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "33836F7B213ECADC"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "I drink it up!"
+			tasks: [{
+				id: "06F88D5FA95A903F"
+				type: "checkmark"
+			}]
+			title: "I drink your milkshake!"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2FE6B518A4A2B5EE"
+				"6D7CC9EA47063963"
+			]
+			description: [
+				"&o\"Wait, they're finite?\"&r "
+				""
+				"Yes, but there is a config option to make them infinite."
+			]
+			id: "184976FBAD10DA79"
+			optional: true
+			subtitle: "Use to check how much oil a deposit has."
+			tasks: [{
+				id: "37CF7CE2472DC373"
+				item: "tfmg:oil_hammer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0EB0A302142AB2F6"]
+			icon: "tfmg:large_pumpjack_hammer_connector"
+			id: "1D8F19B5A2A1D53F"
+			optional: true
+			rewards: [{
+				id: "217BCE76C7EA6C92"
+				item: "tfmg:steel_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Functionally equivalent but larger pumpjack blocks. Make sure to superglue it!"
+			tasks: [
+				{
+					id: "06898F7BB8F3FECB"
+					item: "tfmg:large_pumpjack_hammer_part"
+					type: "item"
+				}
+				{
+					id: "06B91DA77EC89782"
+					item: "tfmg:large_pumpjack_hammer_head"
+					type: "item"
+				}
+				{
+					id: "326D58761E184F43"
+					item: "tfmg:large_pumpjack_hammer_connector"
+					type: "item"
+				}
+				{
+					id: "47A4061428A31BAD"
+					item: {
+						Count: 1
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Alternative Pumpjack"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EB0A302142AB2F6"]
+			description: [
+				"These are just the minimum blocks you need to make a working pumpjack. "
+				""
+				"Just like any other create contraption, you can &asuperglue&r basically anything to a pumpjack, with the stipulation that the main arm is complete."
+			]
+			icon: "tfmg:pumpjack_hammer_connector"
+			id: "1E05885058530B7D"
+			optional: true
+			rewards: [{
+				id: "486DAC4648509930"
+				item: "tfmg:steel_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "A normal looking pumpjack. Make sure to superglue it!"
+			tasks: [
+				{
+					id: "5F51803446272C6D"
+					item: "tfmg:pumpjack_hammer_part"
+					type: "item"
+				}
+				{
+					id: "391127A10B627903"
+					item: "tfmg:pumpjack_hammer_head"
+					type: "item"
+				}
+				{
+					id: "42C150A188A2F9B2"
+					item: "tfmg:pumpjack_hammer_connector"
+					type: "item"
+				}
+				{
+					id: "5A4B5048FE1CFC0A"
+					item: {
+						Count: 1
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pumpjack"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46A96172077F9772"]
+			id: "32D4AD5940C185C3"
+			optional: true
+			subtitle: "Right click on a tank of lubrication to fill the can. Applying this to engines gives a roughly 30% fuel saving."
+			tasks: [{
+				id: "6C5A14450C92DF97"
+				item: {
+					Count: 1
+					id: "tfmg:oil_can"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["677179FC764889AB"]
+			description: [
+				"Pump in various fuels to light up the area."
+				""
+				"Works with: &efurnace gas, crude oil, heavy oil, diesel, kerosene, naphtha, gasoline and LPG&r."
+				""
+				"Even though they don't have recipes yet: &9hydrogen, butane and propane&r also work."
+			]
+			id: "5216C61BC0901BA4"
+			optional: true
+			subtitle: "Peak Victorian aesthetic."
+			tasks: [{
+				id: "31D15583140CF466"
+				item: "tfmg:gas_lamp"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+	]
+	title: "They Have Oil"
+}

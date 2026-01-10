@@ -1,0 +1,972 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tfmg_steel"
+	group: "2E85E4E262D4F214"
+	icon: "tfmg:steel_block"
+	id: "21FFEEC5D27A5737"
+	images: [
+		{
+			height: 1.2d
+			image: "tfmg:block/coke_oven/coke_oven_front_middle_on"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			height: 1.2d
+			image: "tfmg:block/coke_oven/coke_oven_front_bottom_on"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.2d
+			image: "tfmg:block/coke_oven/coke_oven_front_top_on"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			height: 0.6d
+			image: "tfmg:block/blast_stove_side"
+			rotation: 0.0d
+			width: 0.6d
+			x: 6.055102040816315d
+			y: -0.7040816326530503d
+		}
+		{
+			color: 0
+			height: 0.5d
+			image: "ftbquests:textures/gui/arrow_expanded.png"
+			rotation: 180.0d
+			width: 0.5d
+			x: 6.055102040816315d
+			y: -0.20408163265305035d
+		}
+		{
+			color: 7895160
+			height: 0.6d
+			image: "tfmg:block/blast_furnace_reinforcement"
+			rotation: 0.0d
+			width: 0.6d
+			x: 6.055102040816315d
+			y: -1.2040816326530503d
+		}
+		{
+			height: 0.5d
+			image: "ftbquests:textures/gui/arrow_collapsed.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 5.555102040816315d
+			y: -0.7040816326530503d
+		}
+		{
+			color: 11184810
+			height: 0.5d
+			image: "ftbquests:textures/gui/arrow_collapsed.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.555102040816315d
+			y: -0.7040816326530503d
+		}
+		{
+			color: 11141120
+			height: 0.5d
+			image: "ftbquests:textures/gui/arrow_expanded.png"
+			rotation: 180.0d
+			width: 0.5d
+			x: 6.055102040816315d
+			y: -1.7040816326530503d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_a.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 5.0d
+			y: -0.6938775510203996d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_i.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 5.183673469387756d
+			y: -0.6938775510203996d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_r.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 5.3020408163265245d
+			y: -0.683673469387756d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_c.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 6.897959183673478d
+			y: -0.6938775510204067d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_o.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 7.142857142857146d
+			y: -0.6938775510204067d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_o.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 7.000000000000007d
+			y: -0.6938775510204067d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_f.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 5.857142857142861d
+			y: 0.12244897959183731d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_u.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 6.020408163265309d
+			y: 0.12244897959183731d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_e.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 6.183673469387756d
+			y: 0.12244897959183731d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_l.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 6.326530612244902d
+			y: 0.12244897959183731d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_h.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 5.653061224489804d
+			y: -1.999999999999993d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_o.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 5.79999999999999d
+			y: -1.9999999999999858d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_t.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 5.91836734693878d
+			y: -1.999999999999993d
+		}
+		{
+			color: 6450814
+			height: 4.0d
+			image: "minecraft:textures/map/map_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_a.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 6.189795918367373d
+			y: -1.999999999999993d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_i.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 6.348979591836773d
+			y: -2.0d
+		}
+		{
+			height: 0.2d
+			image: "minecraft:textures/particle/sga_r.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 6.451020408163302d
+			y: -2.0d
+		}
+		{
+			height: 1.2d
+			image: "tfmg:block/coke_oven/coke_oven_front_top_on"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			height: 1.2d
+			image: "tfmg:block/coke_oven/coke_oven_front_middle_on"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			height: 1.2d
+			image: "tfmg:block/coke_oven/coke_oven_front_bottom_on"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: ["\"@drmangotea how do blast stove work?\""]
+			image: "tfmg:block/glass_steel_pipe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "tfmg:block/cement"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["037B8971900F3840"]
+			description: ["Make sure you filter the recipe in the basin or else you'll end up with a quarter stack of iron trapdoors."]
+			id: "36766831FDA775FD"
+			shape: "square"
+			subtitle: "Made in a heated basin with a press."
+			tasks: [{
+				count: 16L
+				id: "22B1314FB53C1847"
+				item: "tfmg:cast_iron_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["36766831FDA775FD"]
+			description: [
+				"Funnel coal in the top and make sure you pump out the &eCO2&r."
+				""
+				"When it's finished processing the coal, the front doors will open and it will spit the &6coal coke&r out the front. It's a good idea to have hoppers or a belt there to catch it."
+			]
+			id: "1DE428DE5A0AB47C"
+			rewards: [{
+				count: 8
+				id: "178D34921913B64F"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 9L
+				id: "38121C5E27740F93"
+				item: { Count: 9, id: "tfmg:coke_oven" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1DE428DE5A0AB47C"]
+			description: ["Grind this stuff up in &6crushing wheels&r to make the dust, which you'll use to make &6steel&r."]
+			id: "13B495F64F5C9D48"
+			rewards: [{
+				count: 8
+				id: "30D0B930EBBD9C85"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "A better version of coal."
+			tasks: [{
+				count: 8L
+				id: "33F4B53F36D96126"
+				item: "tfmg:coal_coke"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1DE428DE5A0AB47C"]
+			id: "43D31DAC4737005E"
+			rewards: [{
+				count: 8
+				id: "186E75332E28D483"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Oh naur... creo..."
+			tasks: [{
+				id: "06C9A0ED7CC448AD"
+				item: "tfmg:creosote_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43D31DAC4737005E"]
+			description: ["Splort &6creosote&r onto planks with a &6spout&r."]
+			id: "0203D270DDDC7E84"
+			subtitle: "Unsure how dousing planks in low quality oil makes it hard."
+			tasks: [{
+				count: 8L
+				id: "3C855FD4E275950D"
+				item: { Count: 8, id: "tfmg:hardened_planks" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["037B8971900F3840"]
+			description: ["Found in veins near the surface alongside crimsite and sand."]
+			id: "5B9501552E5DFB20"
+			rewards: [{
+				count: 16
+				id: "3762DCDAB5B35FFB"
+				item: "tfmg:fireclay_ball"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "It's clay but... red?"
+			tasks: [{
+				count: 16L
+				id: "00359A82AB2A914E"
+				item: { Count: 16, id: "tfmg:fireclay_ball" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B9501552E5DFB20"]
+			description: ["Cooked and crafted like normal bricks."]
+			icon: "tfmg:fireproof_brick"
+			id: "74DA690631920E06"
+			rewards: [{
+				count: 4
+				id: "0877467371853DC8"
+				item: "tfmg:fireproof_bricks"
+				type: "item"
+			}]
+			subtitle: "Bricked up on a %DAY OF WEEK% night."
+			tasks: [
+				{
+					count: 16L
+					id: "1CCD3BD902D4F8AE"
+					item: { Count: 16, id: "tfmg:fireproof_brick" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5E6970C4D569C06D"
+					item: { Count: 4, id: "tfmg:fireproof_bricks" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"74DA690631920E06"
+				"09C334C044BC464F"
+			]
+			description: [
+				"A picture is worth a thousand-"
+				"bruh just follow the ponder."
+				""
+				"The blast furnace can be any height you like. Taller furnaces melt steel faster."
+			]
+			icon: "tfmg:blast_furnace_output"
+			id: "71EDE15818D4C2A1"
+			require_sequential_tasks: true
+			shape: "hexagon"
+			subtitle: "Gotta blast!"
+			tasks: [
+				{
+					id: "054C544865A74131"
+					item: "tfmg:blast_furnace_output"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "14DDE5F42DCB9E37"
+					item: { Count: 16, id: "tfmg:fireproof_brick_reinforcement" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "2431EDB22BA78B2F"
+					item: { Count: 16, id: "tfmg:fireproof_bricks" }
+					type: "item"
+				}
+				{
+					id: "4A0D63F5CA9C873C"
+					item: "tfmg:blast_furnace_hatch"
+					type: "item"
+				}
+				{
+					id: "1284F80E2BCD3FE5"
+					item: "tfmg:blast_furnace_hatch"
+					title: "Furnace Gas Collection"
+					type: "item"
+				}
+				{
+					id: "3AEB15BFABA52E93"
+					item: "tfmg:casting_basin"
+					type: "item"
+				}
+				{
+					id: "2BF90FEB582F25AD"
+					item: "tfmg:casting_basin"
+					title: "Slaaag"
+					type: "item"
+				}
+			]
+			title: "Build a Blast Furnace"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F5AA576DC7B9B24"]
+			description: [
+				"&6Steel&r is used for basically everything in TFMG, you'll want to make a lot of this."
+				""
+				"Don't add more than a stack of each ingredient into the blast furnace at once. Additionally, it has a chance to not consume coal coke dust."
+			]
+			id: "062051ED6D130ACD"
+			rewards: [{
+				count: 16
+				id: "3EA743F09B4A0E2B"
+				item: "create:crushed_raw_iron"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "From the moment I understood the weakness of my cast iron, it disgusted me."
+			tasks: [{
+				id: "3D7248D1DE959FB8"
+				item: "tfmg:steel_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"71EDE15818D4C2A1"
+				"13B495F64F5C9D48"
+			]
+			description: ["Throw each of these items in the top of the &6blast furnace&r to produce &emolten steel&r and &emolten slag&r."]
+			id: "4F5AA576DC7B9B24"
+			rewards: [{
+				id: "260BECC5F50D490D"
+				item: "tfmg:creosote_bucket"
+				type: "item"
+			}]
+			subtitle: "Toss em in the top one after the other. "
+			tasks: [
+				{
+					id: "52C91B2305358D6B"
+					item: "tfmg:limesand"
+					type: "item"
+				}
+				{
+					id: "5C04AD11E68BDF48"
+					item: "create:crushed_raw_iron"
+					type: "item"
+				}
+				{
+					id: "6E1F5ABF756FD738"
+					item: "tfmg:coal_coke_dust"
+					type: "item"
+				}
+			]
+			title: "Ingredients for Steel"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1284F80E2BCD3FE5"
+				"71EDE15818D4C2A1"
+			]
+			description: [
+				"The blast stove can take in &6furnace gas&r, so your furnace can be self sufficient without sacrificing more coal to make creosote."
+				""
+				"Place a hatch on top of the furnace hole to collect the gas. Don't worry about blocking it up; you can still insert ingredients by funneling them into this hatch."
+			]
+			id: "405A318D640D514E"
+			optional: true
+			rewards: [{
+				id: "132DA8342DAB75F3"
+				item: "tfmg:furnace_gas_bucket"
+				type: "item"
+			}]
+			subtitle: "A second hatch!"
+			tasks: [{
+				id: "2F807494FCCE4FF2"
+				title: "Complimentary furnace gas please"
+				type: "checkmark"
+			}]
+			title: "Getting Fancy with your Furnace"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"062051ED6D130ACD"
+				"0203D270DDDC7E84"
+			]
+			id: "6A539510EEB5F29E"
+			rewards: [{
+				id: "0466A5EAC563CB6C"
+				item: "tfmg:steel_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Right click Hardened Planks with a Steel Ingot."
+			tasks: [{
+				id: "71B1502013F32EC5"
+				item: "tfmg:steel_casing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A539510EEB5F29E"]
+			id: "0104893F8F3458DA"
+			rewards: [{
+				id: "23D8288A25B5F2AA"
+				item: "tfmg:heavy_plate"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Right click steel casings with a heavy plate."
+			tasks: [{
+				id: "1DB090F7C3925D7E"
+				item: "tfmg:heavy_machinery_casing"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"062051ED6D130ACD"
+				"037621E5EC46F613"
+				"2B6E2CD796D4ADF3"
+			]
+			description: [
+				"The &3steel mechanism&r is used in many upcoming machines."
+				""
+				"Similar to the precision mechanism, it requires a &6heavy plate&r to have various items deployed onto it:"
+				""
+				"1. Steel cogwheel"
+				"2. Nickel plate"
+				"3. Large steel cogwheel"
+				"4. Lead plate"
+				"5. Screws"
+				"6. Screwdriver"
+				""
+				"Do this twice for a 94% chance of getting a steel mechanism."
+			]
+			icon: "tfmg:steel_mechanism"
+			id: "2D94489E09F8DD9C"
+			rewards: [{
+				id: "0ADA07AA1CA93F53"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Automate this or prepare to suffer."
+			tasks: [{
+				id: "5696000AC524C5AE"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			title: "&3Steel Mechanism"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["43D31DAC4737005E"]
+			description: ["You may have to sacrifice some creosote to unclog the ovens. Pump excess creosote into the flarestack to burn it away. "]
+			id: "43E02E5DBDE6F0D2"
+			rewards: [{
+				count: 2
+				id: "102CAADE585004AA"
+				item: "tfmg:steel_ingot"
+				type: "item"
+			}]
+			subtitle: "\"The atmosphere is nature's bin\" -E\\&F"
+			tasks: [{
+				id: "2D560DB1A82AA28D"
+				item: "tfmg:flarestack"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["037B8971900F3840"]
+			id: "2B6E2CD796D4ADF3"
+			rewards: [{
+				id: "2A04E921EEDC436C"
+				item: "tfmg:lead_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Wash your hands real well after touching this."
+			tasks: [{
+				id: "2001951DAC0E4252"
+				item: "tfmg:lead_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["037B8971900F3840"]
+			id: "037621E5EC46F613"
+			rewards: [{
+				count: 2
+				id: "13F8FC7AFF24C4EA"
+				item: "tfmg:nickel_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Have two of them."
+			tasks: [{
+				id: "2D424764D8041416"
+				item: "tfmg:nickel_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36766831FDA775FD"]
+			description: [
+				"Make sure to pipe out the &eCO2&r or it will clog up. You can make it taller than two blocks but it has zero effect."
+				""
+				"Air is collected from &6air intakes,&r which need rotation to start collecting. They can be 1x1, 2x2, or 3x3 multiblock. Notably they take zero power, so speed them up all you like."
+				""
+				"If you are having trouble with piping, refer to the &dhandy diagram on the right. &r"
+				"{@pagebreak}"
+				"Just kidding- "
+				""
+				"&0&lFuel&r (creosote or furnace gas) is piped into the bottom face."
+				""
+				"&lAir&r (collected from air intakes) is piped into the side of the bottom block."
+				""
+				"&8&lCO2&r is extracted from the sides of the bottom block."
+				""
+				"&4&lHot air&r (your product) is extracted from the top face of the tower."
+			]
+			icon: "tfmg:blast_stove"
+			id: "09C334C044BC464F"
+			rewards: [{
+				id: "0A091D926D010C9E"
+				item: "tfmg:air_intake"
+				type: "item"
+			}]
+			subtitle: "Takes in air and fuel to make hot air."
+			tasks: [
+				{
+					count: 3L
+					id: "338336060F74AC86"
+					item: { Count: 3, id: "tfmg:air_intake" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1CFD1F1D423A24CE"
+					item: { Count: 2, id: "tfmg:blast_stove" }
+					type: "item"
+				}
+			]
+			title: "Blast Stove"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71EDE15818D4C2A1"]
+			description: [
+				"Once you have &6steel,&r you might choose to speed up your &6blast furnace&r by making these reinforcing walls for it."
+				""
+				"Only do this if you can cast the molten steel fast enough to keep up!"
+			]
+			id: "02D05B1D0B266578"
+			optional: true
+			rewards: [{
+				count: 6
+				id: "72F9859A7941619A"
+				item: "tfmg:steel_ingot"
+				type: "item"
+			}]
+			subtitle: "Speedy steel."
+			tasks: [{
+				count: 4L
+				id: "3C20272FEF10E5C9"
+				item: "tfmg:blast_furnace_reinforcement"
+				type: "item"
+			}]
+			title: "Reinforcement"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4F5AA576DC7B9B24"]
+			id: "4F898957C7452378"
+			subtitle: "It has to be useful for something, right?"
+			tasks: [{
+				id: "5470C29CA0621C67"
+				item: "tfmg:slag_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F898957C7452378"]
+			description: [
+				"&6Slag&r is used primarily to make &econcrete&r and &easphalt&r production more efficient. "
+				""
+				"Or are asphalt and concrete crafting just ways to get rid of it...?"
+			]
+			id: "6C140C77281A4DD0"
+			shape: "square"
+			subtitle: "It is useful!"
+			tasks: [{
+				id: "54454A5DF18D6D19"
+				item: "tfmg:slag"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["037621E5EC46F613"]
+			description: ["Mix nickel and copper in a heated basin."]
+			id: "4F8BAA7B943299D9"
+			shape: "square"
+			subtitle: "Don't try to look like you have a constant tan."
+			tasks: [{
+				id: "16538DFDCE171688"
+				item: "tfmg:constantan_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2D94489E09F8DD9C"]
+			hide_dependency_lines: true
+			id: "7852D393A02FC6BA"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7CA34F43A00682DB"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "523627D3D0480A33"
+				item: {
+					Count: 1
+					id: "tfmg:quad_potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["062051ED6D130ACD"]
+			hide_dependency_lines: true
+			id: "68651938BE22DCFA"
+			optional: true
+			rewards: [{
+				id: "1DF4C241FE6E5C7E"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "I found the source of the ticking!"
+			tasks: [{
+				id: "6B915C7092F1183C"
+				item: "tfmg:pipe_bomb"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"062051ED6D130ACD"
+				"037621E5EC46F613"
+				"0104893F8F3458DA"
+			]
+			hide_dependency_lines: true
+			id: "1F2577642D25AFA0"
+			optional: true
+			shape: "diamond"
+			subtitle: "Used for filling rebar with liquid concrete."
+			tasks: [{
+				id: "6CEF3F91EF497CC3"
+				item: "tfmg:concrete_hose"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["52C91B2305358D6B"]
+			description: ["One can only begin to make these questlines once they are well and truly addicted to cement."]
+			id: "4C2D5F9FD7B8FB22"
+			rewards: [{
+				count: 4
+				id: "5F398ACED2D505FD"
+				item: "tfmg:cement"
+				type: "item"
+			}]
+			subtitle: "No, it's not concrete yet."
+			tasks: [{
+				count: 4L
+				id: "7CCD143BD3850AE9"
+				item: { Count: 8, id: "tfmg:cement" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4C2D5F9FD7B8FB22"]
+			icon: "tfmg:concrete_mixture"
+			id: "54290566BC89BBC7"
+			rewards: [{
+				count: 16
+				id: "23CFE88187D7F7DA"
+				item: "tfmg:concrete_mixture"
+				type: "item"
+			}]
+			subtitle: "Dats conk creet baybeee"
+			tasks: [
+				{
+					count: 16L
+					id: "1444E280DE0C60F8"
+					item: { Count: 16, id: "tfmg:concrete_mixture" }
+					type: "item"
+				}
+				{
+					id: "06BAEB9B3352B840"
+					item: "tfmg:slag"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["54290566BC89BBC7"]
+			id: "37780B44FB58F21E"
+			rewards: [{
+				id: "620EC92EF0C80A31"
+				item: "tfmg:liquid_concrete_bucket"
+				type: "item"
+			}]
+			subtitle: "Pour and let dry."
+			tasks: [{
+				id: "23A59B9BB385EABC"
+				item: "tfmg:liquid_concrete_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			description: ["Make sure you read the description of each quest! They contain a lot of useful tips."]
+			hide_dependent_lines: true
+			id: "037B8971900F3840"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "...and its consequences."
+			tasks: [{
+				id: "11F182176DB2A167"
+				type: "checkmark"
+			}]
+			title: "The Industrial Revolution"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "2C7162802A08895E"
+			shape: "diamond"
+			subtitle: "Locks TFMG pipes, similar to copper casings."
+			tasks: [{
+				id: "5EE352FC24148E63"
+				item: {
+					Count: 1
+					id: "tfmg:screwdriver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+	]
+	title: "Heart of Iron"
+}

@@ -1,5 +1,6 @@
 global.disabledItems = [
-    "mekanism:dimensional_stabilizer"
+    "mekanism:dimensional_stabilizer",
+    'ae2:spatial_anchor'
 ]
 
 ServerEvents.recipes(event => {

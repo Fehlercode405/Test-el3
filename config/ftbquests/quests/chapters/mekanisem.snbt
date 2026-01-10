@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanisem"
+	group: "7BE3EE51CC4C6473"
+	icon: "mekanism:alloy_atomic"
+	id: "54501EFC9CE13963"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["2F471243414B4130"]
+		id: "65B06EAAB179E64C"
+		tasks: [{
+			id: "70B4BCD9CE9027C9"
+			item: "create:clockwork_bearing"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -3.0d
+	}]
+	title: "Mekanisem"
+}

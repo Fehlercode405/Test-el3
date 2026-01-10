@@ -4,5 +4,5 @@
 	#Display the goggles before the eyes and not on the forehead
 	moveGoggleToEyes = true
 	#Enables the goggles in creative mode without goggles
-	enableCreativeModeGoggles = true
+	enableCreativeModeGoggles = false
 
