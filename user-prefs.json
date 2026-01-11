@@ -626,6 +626,34 @@
         "isSelected": true
       },
       {
+        "path": "config\\ftbquests\\quests\\chapters\\tfmg_chemistry.snbt",
+        "isSelected": true
+      },
+      {
+        "path": "config\\ftbquests\\quests\\chapters\\tfmg_decoration.snbt",
+        "isSelected": true
+      },
+      {
+        "path": "config\\ftbquests\\quests\\chapters\\tfmg_electricity.snbt",
+        "isSelected": true
+      },
+      {
+        "path": "config\\ftbquests\\quests\\chapters\\tfmg_electricity_advanced.snbt",
+        "isSelected": true
+      },
+      {
+        "path": "config\\ftbquests\\quests\\chapters\\tfmg_engines.snbt",
+        "isSelected": true
+      },
+      {
+        "path": "config\\ftbquests\\quests\\chapters\\tfmg_petroleum.snbt",
+        "isSelected": true
+      },
+      {
+        "path": "config\\ftbquests\\quests\\chapters\\tfmg_steel.snbt",
+        "isSelected": true
+      },
+      {
         "path": "config\\ftbquests\\quests\\chapters\\trains.snbt",
         "isSelected": true
       },
@@ -674,6 +702,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\ftbquests\\quests\\reward_tables\\dyes.snbt",
+        "isSelected": true
+      },
+      {
         "path": "config\\ftbquests\\quests\\reward_tables\\framers_delight.snbt",
         "isSelected": true
       },
@@ -715,6 +747,10 @@
       },
       {
         "path": "config\\ftbquests\\quests\\reward_tables\\xp.snbt",
+        "isSelected": true
+      },
+      {
+        "path": "config\\ftbquests\\quests\\chapter_groups.2snbt",
         "isSelected": true
       },
       {
@@ -2026,6 +2062,110 @@
         "isSelected": true
       },
       {
+        "path": "config\\xaero",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\lib",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\lib\\profiles",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\lib\\profiles\\default.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\lib\\server_profiles",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\lib\\server_profiles\\default.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\lib\\client.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\lib\\common.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\profiles",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\profiles\\info_display_config",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\profiles\\info_display_config\\default.cfg.txt",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\profiles\\default.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\server_profiles",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\server_profiles\\default.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\client.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\common.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\default_radar_categories_client.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\default_radar_categories_server.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\world-map",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\world-map\\profiles",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\world-map\\profiles\\default.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\world-map\\server_profiles",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\world-map\\server_profiles\\default.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\world-map\\client.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\world-map\\common.cfg",
+        "isSelected": true
+      },
+      {
         "path": "config\\advanced_ae-client.toml",
         "isSelected": true
       },
@@ -2218,6 +2358,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\createbigcannons-client.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\createcasing-common.toml",
         "isSelected": true
       },
@@ -2271,6 +2415,14 @@
       },
       {
         "path": "config\\curios-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\darkmodeeverywhere-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\darkmodeeverywhereshaders.json",
         "isSelected": true
       },
       {
@@ -2710,6 +2862,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\tfmg-common.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\toms_storage-common.toml",
         "isSelected": true
       },
@@ -2758,15 +2914,11 @@
         "isSelected": true
       },
       {
-        "path": "config\\xaerominimap-common.txt",
+        "path": "config\\xaerohud.txt",
         "isSelected": true
       },
       {
-        "path": "config\\xaerominimap.txt",
-        "isSelected": true
-      },
-      {
-        "path": "config\\xaerominimap_entities.json",
+        "path": "config\\xaerominimap-common.txt.backup0-xp-1272691329",
         "isSelected": true
       },
       {
@@ -2778,11 +2930,11 @@
         "isSelected": true
       },
       {
-        "path": "config\\xaeroworldmap-common.txt",
+        "path": "config\\xaeroworldmap-common.txt.backup0-xp-975699069",
         "isSelected": true
       },
       {
-        "path": "config\\xaeroworldmap.txt",
+        "path": "config\\xaeroworldmap.txt.backup0-xp-476554210",
         "isSelected": true
       },
       {
@@ -3218,6 +3370,10 @@
         "isSelected": false
       },
       {
+        "path": "crash-reports\\crash-2026-01-08_20.25.52-fml.txt",
+        "isSelected": false
+      },
+      {
         "path": "data",
         "isSelected": false
       },
@@ -3384,6 +3540,10 @@
       {
         "path": "fancymenu_data\\fancymenu_temp",
         "isSelected": true
+      },
+      {
+        "path": "fancymenu_data\\action_favorites.json",
+        "isSelected": false
       },
       {
         "path": "fancymenu_data\\last_world.fmdata",
@@ -3951,6 +4111,10 @@
       },
       {
         "path": "kubejs\\server_scripts\\backpacks.js",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\server_scripts\\buildingblocks.js",
         "isSelected": false
       },
       {
@@ -4610,6 +4774,10 @@
         "isSelected": false
       },
       {
+        "path": "logs\\telemetry\\20260108-1.json.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\2025-11-02-1.log.gz",
         "isSelected": false
       },
@@ -5071,6 +5239,94 @@
       },
       {
         "path": "logs\\2025-12-30-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-31-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-31-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-01-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-01-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-02-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-02-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-03-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-03-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-04-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-04-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-04-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-05-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-05-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-08-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-08-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-08-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-09-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-09-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-10-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-10-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-10-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-10-4.log.gz",
         "isSelected": false
       },
       {
@@ -7330,7 +7586,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\almostunified-forge-1.20.1-0.10.1.jar",
+        "path": "mods\\almostunified-forge-1.20.1-0.11.0.jar",
         "isSelected": true
       },
       {
@@ -7370,7 +7626,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\balm-forge-1.20.1-7.3.37-all.jar",
+        "path": "mods\\balm-forge-1.20.1-7.3.38-all.jar",
         "isSelected": true
       },
       {
@@ -7510,6 +7766,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\createbigcannons-5.9.1-mc.1.20.1-forge.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\createdeco-2.0.3-1.20.1-forge.jar",
         "isSelected": true
       },
@@ -7566,6 +7826,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\DarkModeEverywhere-1.20.1-1.2.4.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\dcintegration-forge-3.0.7.1-1.20.1.jar",
         "isSelected": true
       },
@@ -7598,7 +7862,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\dynamic-fps-3.9.5+minecraft-1.20.0-forge.jar",
+        "path": "mods\\dynamic-fps-3.11.3+minecraft-1.20.0-forge.jar",
         "isSelected": true
       },
       {
@@ -7638,7 +7902,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\emi_loot-0.7.8+1.20.1-fix1+forge.jar",
+        "path": "mods\\emi_loot-0.7.9+1.20.1+forge.jar",
         "isSelected": true
       },
       {
@@ -7646,11 +7910,11 @@
         "isSelected": true
       },
       {
-        "path": "mods\\entityculling-forge-1.9.4-mc1.20.1.jar",
+        "path": "mods\\entityculling-forge-1.9.5-mc1.20.1.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\entity_model_features_1.20.1-forge-3.0.7.jar",
+        "path": "mods\\entity_model_features_1.20.1-forge-3.0.10.jar",
         "isSelected": true
       },
       {
@@ -7690,7 +7954,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\FastSuite-1.20.1-5.1.0.jar",
+        "path": "mods\\FastSuite-1.20.1-5.1.1.jar",
         "isSelected": true
       },
       {
@@ -7974,7 +8238,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\moonlight-1.20-2.16.18-forge.jar",
+        "path": "mods\\moonlight-1.20-2.16.21-forge.jar",
         "isSelected": true
       },
       {
@@ -8090,6 +8354,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\ritchiesprojectilelib-2.1.1-mc.1.20.1-forge.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\sdmgamestageshelper-1.20.1-1.1.0.jar",
         "isSelected": true
       },
@@ -8142,7 +8410,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
+        "path": "mods\\supermartijn642corelib-1.1.19-forge-mc1.20.1.jar",
         "isSelected": true
       },
       {
@@ -8162,6 +8430,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\tfmg-1.0.2c.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\toms_storage-1.20-1.7.1.jar",
         "isSelected": true
       },
@@ -8170,7 +8442,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\voicechat-forge-1.20.1-2.6.10.jar",
+        "path": "mods\\voicechat-forge-1.20.1-2.6.11.jar",
         "isSelected": true
       },
       {
@@ -8182,15 +8454,15 @@
         "isSelected": true
       },
       {
-        "path": "mods\\XaeroPlus-2.29.1+forge-1.20.1-WM1.39.12-MM25.2.10.jar",
+        "path": "mods\\xaerominimap-forge-1.20.1-25.3.5.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\XaerosWorldMap_1.39.12_Forge_1.20.jar",
+        "path": "mods\\XaeroPlus-2.30.3+forge-1.20.1-WM1.40.6-MM25.3.5.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\Xaeros_Minimap_25.2.10_Forge_1.20.jar",
+        "path": "mods\\xaeroworldmap-forge-1.20.1-1.40.6.jar",
         "isSelected": true
       },
       {
@@ -8938,6 +9210,14 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World\\data\\DistantHorizons.sqlite-shm",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\data\\DistantHorizons.sqlite-wal",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World\\data\\draconic_item_config.dat",
         "isSelected": false
       },
@@ -9251,6 +9531,14 @@
       },
       {
         "path": "saves\\New World\\DIM-1\\data\\DistantHorizons.sqlite",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\DIM-1\\data\\DistantHorizons.sqlite-shm",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\DIM-1\\data\\DistantHorizons.sqlite-wal",
         "isSelected": false
       },
       {
@@ -9579,6 +9867,14 @@
       },
       {
         "path": "saves\\New World\\DIM1\\data\\DistantHorizons.sqlite",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\DIM1\\data\\DistantHorizons.sqlite-shm",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\DIM1\\data\\DistantHorizons.sqlite-wal",
         "isSelected": false
       },
       {
@@ -11094,6 +11390,14 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World\\dimensions\\ae2\\spatial_storage\\data\\DistantHorizons.sqlite-shm",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\dimensions\\ae2\\spatial_storage\\data\\DistantHorizons.sqlite-wal",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World\\dimensions\\ae2\\spatial_storage\\data\\raids.dat",
         "isSelected": false
       },
@@ -11811,6 +12115,758 @@
       },
       {
         "path": "saves\\New World\\xaeromap.txt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\advancements",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\advancements\\2fb773a4-b48b-46ab-9539-1fa4228635ac.json",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\betterdeserttemples",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\openpartiesandclaims",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\openpartiesandclaims\\parties",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\openpartiesandclaims\\player-claims",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\openpartiesandclaims\\player-claims\\00000000-0000-0000-0000-000000000000.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\openpartiesandclaims\\player-claims\\00000000-0000-0000-0000-000000000001.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\openpartiesandclaims\\player-claims\\2fb773a4-b48b-46ab-9539-1fa4228635ac.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\openpartiesandclaims\\player-configs",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\openpartiesandclaims\\player-configs\\sub-configs",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\openpartiesandclaims\\player-configs\\2fb773a4-b48b-46ab-9539-1fa4228635ac.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\openpartiesandclaims\\server-info.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\bclib.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\bclib_old.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\betternether.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\brandonscore_world_entity.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\createrailwaysnavigator_train_data.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\dimensionalwb.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\DistantHorizons.sqlite",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\DistantHorizons.sqlite-shm",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\DistantHorizons.sqlite-wal",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\fluxnetworksdata.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\mekanism_SecurityFrequencyHandler.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\mfix_strongholds.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\random_sequences.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\ritchiesprojectilelib_chunk_manager.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\sophisticatedbackpacks.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\worlds_together.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\datapacks",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\deaths",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\deaths\\2fb773a4-b48b-46ab-9539-1fa4228635ac",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\deaths\\2fb773a4-b48b-46ab-9539-1fa4228635ac\\757c57c4-064f-4c64-b506-d60937d96a06.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM-1",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM-1\\betterdeserttemples",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM-1\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM-1\\data\\brandonscore_world_entity.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM-1\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM-1\\data\\dimensionalwb.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM-1\\data\\DistantHorizons.sqlite",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM-1\\data\\DistantHorizons.sqlite-shm",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM-1\\data\\DistantHorizons.sqlite-wal",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM-1\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM-1\\data\\ritchiesprojectilelib_chunk_manager.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\betterdeserttemples",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\data\\brandonscore_world_entity.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\data\\dimensionalwb.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\data\\DistantHorizons.sqlite",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\data\\DistantHorizons.sqlite-shm",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\data\\DistantHorizons.sqlite-wal",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\data\\dragonfight.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\data\\raids_end.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\data\\ritchiesprojectilelib_chunk_manager.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\entities",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\entities\\r.-1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\entities\\r.-1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\entities\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\entities\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\poi",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\poi\\r.-1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\poi\\r.-1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\poi\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\poi\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\region",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\region\\r.-1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\region\\r.-1.-2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\region\\r.-1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\region\\r.-1.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\region\\r.-2.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\region\\r.-2.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\region\\r.-2.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\region\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\region\\r.0.-2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\region\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\region\\r.0.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\region\\r.1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\region\\r.1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\DIM1\\region\\r.1.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\ae2",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\ae2\\spatial_storage",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\ae2\\spatial_storage\\betterdeserttemples",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\ae2\\spatial_storage\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\ae2\\spatial_storage\\data\\brandonscore_world_entity.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\ae2\\spatial_storage\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\ae2\\spatial_storage\\data\\dimensionalwb.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\ae2\\spatial_storage\\data\\DistantHorizons.sqlite",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\ae2\\spatial_storage\\data\\DistantHorizons.sqlite-shm",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\ae2\\spatial_storage\\data\\DistantHorizons.sqlite-wal",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\ae2\\spatial_storage\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\ae2\\spatial_storage\\data\\ritchiesprojectilelib_chunk_manager.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\minecraft",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\minecraft\\server_faucet_test_level",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\minecraft\\server_faucet_test_level\\betterdeserttemples",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\dimensions\\minecraft\\server_faucet_test_level\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\entities",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\entities\\r.-1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\entities\\r.-1.-2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\entities\\r.-1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\entities\\r.-2.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\entities\\r.-2.-2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\entities\\r.-2.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\entities\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\entities\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\ftbquests",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\ftbquests\\2fb773a4-b48b-46ab-9539-1fa4228635ac.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\ftbteams",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\ftbteams\\party",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\ftbteams\\player",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\ftbteams\\player\\2fb773a4-b48b-46ab-9539-1fa4228635ac.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\ftbteams\\server",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\ftbteams\\ftbteams.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\playerdata",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\playerdata\\gamestages",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\playerdata\\gamestages\\2fb773a4-b48b-46ab-9539-1fa4228635ac.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\playerdata\\2fb773a4-b48b-46ab-9539-1fa4228635ac.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\playerdata\\2fb773a4-b48b-46ab-9539-1fa4228635ac.dat_old",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\poi",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\poi\\r.-1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\poi\\r.-1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\poi\\r.-2.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\poi\\r.-2.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\poi\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\poi\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.-1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.-1.-2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.-1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.-1.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.-2.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.-2.-2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.-2.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.-2.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.-3.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.-3.-2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.-3.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.-3.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.0.-2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.0.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.1.-2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\region\\r.1.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\bits_n_bobs-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\copycats-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\create-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\createbigcannons-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\create_connected-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\create_enchantment_industry-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\create_mob_spawners-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\create_power_loader-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\curios-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\easy_villagers-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\fastleafdecay-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\fluxnetworks-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\forge-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\gravestone-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\jei-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\openpartiesandclaims-default-player-config.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\openpartiesandclaims-expired-claim-config.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\openpartiesandclaims-server-claim-config.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\openpartiesandclaims-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\openpartiesandclaims-wilderness-config.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\railways-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\ritchiesprojectilelib-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\sfm-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\sophisticatedbackpacks-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\tfmg-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\toms_storage-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\serverconfig\\voicechat-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\stats",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\stats\\2fb773a4-b48b-46ab-9539-1fa4228635ac.json",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\icon.png",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\kubejs_persistent_data.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\level.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\level.dat_old",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\session.lock",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\xaeromap.txt",
         "isSelected": false
       },
       {
@@ -13334,6 +14390,46 @@
         "isSelected": false
       },
       {
+        "path": "screenshots\\2026-01-01_20.45.03.png",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\2026-01-03_12.21.21.png",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\2026-01-03_13.23.02.png",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\2026-01-03_13.32.40.png",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\2026-01-04_22.05.11.png",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\2026-01-05_20.20.24.png",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\2026-01-05_20.22.11.png",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\2026-01-05_20.24.02.png",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\2026-01-05_20.32.57.png",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\2026-01-10_18.51.27.png",
+        "isSelected": false
+      },
+      {
         "path": "shaderpacks",
         "isSelected": true
       },
@@ -13343,6 +14439,10 @@
       },
       {
         "path": "shaderpacks\\ComplementaryReimagined_r5.6.1.zip",
+        "isSelected": true
+      },
+      {
+        "path": "shaderpacks\\ComplementaryReimagined_r5.6.1.zip.txt",
         "isSelected": true
       },
       {
@@ -13386,11 +14486,27 @@
         "isSelected": false
       },
       {
+        "path": "xaero\\minimap\\Multiplayer_rhsmc.duckdns.org\\dim%-1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_rhsmc.duckdns.org\\dim%-1\\mw$-1979208265_1.txt",
+        "isSelected": false
+      },
+      {
         "path": "xaero\\minimap\\Multiplayer_rhsmc.duckdns.org\\dim%0",
         "isSelected": false
       },
       {
         "path": "xaero\\minimap\\Multiplayer_rhsmc.duckdns.org\\dim%0\\mw$-1979208265_1.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_rhsmc.duckdns.org\\dim%1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_rhsmc.duckdns.org\\dim%1\\mw$-1979208265_1.txt",
         "isSelected": false
       },
       {
@@ -13423,6 +14539,14 @@
       },
       {
         "path": "xaero\\minimap\\New World (1)",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\New World (1)\\dim%1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\New World (1)\\dim%1\\waypoints.txt",
         "isSelected": false
       },
       {
@@ -13970,6 +15094,22 @@
         "isSelected": false
       },
       {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\cache\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\cache_1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves",
         "isSelected": false
       },
@@ -13998,11 +15138,27 @@
         "isSelected": false
       },
       {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\-2147483648\\cache_1\\-1_1.xwmc",
+        "isSelected": false
+      },
+      {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\-2147483648\\cache_1\\0_-1.xwmc.outdated",
         "isSelected": false
       },
       {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\-2147483648\\cache_1\\0_0.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\-2147483648\\cache_1\\0_1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\-2147483648\\cache_1\\1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\-2147483648\\cache_1\\1_0.xwmc",
         "isSelected": false
       },
       {
@@ -14014,11 +15170,255 @@
         "isSelected": false
       },
       {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\-2147483648\\-1_1.zip",
+        "isSelected": false
+      },
+      {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\-2147483648\\0_-1.zip",
         "isSelected": false
       },
       {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\-2147483648\\0_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\-2147483648\\0_1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\-2147483648\\1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\-2147483648\\1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\0",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\0\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\0\\cache\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\0\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\0\\cache_1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\0\\cache_1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\0\\cache_1\\0_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\0\\cache_1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\0\\-1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\0\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\0\\0_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\0\\0_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\1\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\1\\cache\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\1\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\1\\cache_1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\1\\cache_1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\1\\cache_1\\0_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\1\\cache_1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\1\\-1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\1\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\1\\0_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\1\\0_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\15",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\15\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\15\\cache\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\15\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\15\\cache_1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\15\\cache_1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\15\\cache_1\\0_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\15\\cache_1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\15\\-1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\15\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\15\\0_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\15\\0_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\2",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\2\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\2\\cache\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\2\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\2\\cache_1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\2\\cache_1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\2\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\2\\0_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\3\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\3\\cache\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\3\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\3\\cache_1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\3\\cache_1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\3\\cache_1\\0_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\3\\cache_1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\3\\-1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\3\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\3\\0_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\caves\\3\\0_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM-1\\mw$-1979208265\\0_0.zip",
         "isSelected": false
       },
       {
@@ -14031,6 +15431,34 @@
       },
       {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\cache_1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\cache_1\\-1_0.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\cache_1\\0_-1.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\cache_1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\cache_1\\1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\cache_1\\1_0.xwmc",
         "isSelected": false
       },
       {
@@ -14063,6 +15491,14 @@
       },
       {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\caves\\-2147483648\\cache\\1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\caves\\-2147483648\\cache\\1\\1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\caves\\-2147483648\\cache\\1\\1_0.xwmc",
         "isSelected": false
       },
       {
@@ -14126,6 +15562,22 @@
         "isSelected": false
       },
       {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\caves\\-2147483648\\cache_1\\1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\caves\\-2147483648\\cache_1\\1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\caves\\-2147483648\\cache_1\\2_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\caves\\-2147483648\\cache_1\\2_0.xwmc",
+        "isSelected": false
+      },
+      {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\caves\\-2147483648\\-1_-1.zip",
         "isSelected": false
       },
@@ -14139,6 +15591,46 @@
       },
       {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\caves\\-2147483648\\0_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\caves\\-2147483648\\1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\caves\\-2147483648\\1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\caves\\-2147483648\\2_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\caves\\-2147483648\\2_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\-1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\0_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\0_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\DIM1\\mw$-1979208265\\1_0.zip",
         "isSelected": false
       },
       {
@@ -14326,7 +15818,19 @@
         "isSelected": false
       },
       {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\cache_1\\-1_-5.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\cache_1\\-1_-6.xwmc",
+        "isSelected": false
+      },
+      {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\cache_1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\cache_1\\-1_1.xwmc",
         "isSelected": false
       },
       {
@@ -14339,6 +15843,14 @@
       },
       {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\cache_1\\-2_-4.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\cache_1\\-2_-5.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\cache_1\\-2_-6.xwmc",
         "isSelected": false
       },
       {
@@ -14379,6 +15891,10 @@
       },
       {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\cache_1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\cache_1\\0_1.xwmc",
         "isSelected": false
       },
       {
@@ -14482,7 +15998,7 @@
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\caves\\-2147483648\\cache_1\\0_-1.xwmc",
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\caves\\-2147483648\\cache_1\\0_-1.xwmc.outdated",
         "isSelected": false
       },
       {
@@ -14491,6 +16007,10 @@
       },
       {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\caves\\-2147483648\\cache_1\\0_-3.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\caves\\-2147483648\\cache_1\\1_-1.xwmc.outdated",
         "isSelected": false
       },
       {
@@ -14511,6 +16031,10 @@
       },
       {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\caves\\-2147483648\\0_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\caves\\-2147483648\\1_-1.zip",
         "isSelected": false
       },
       {
@@ -14538,7 +16062,19 @@
         "isSelected": false
       },
       {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\-1_-5.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\-1_-6.zip",
+        "isSelected": false
+      },
+      {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\-1_1.zip",
         "isSelected": false
       },
       {
@@ -14551,6 +16087,14 @@
       },
       {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\-2_-4.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\-2_-5.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\-2_-6.zip",
         "isSelected": false
       },
       {
@@ -14591,6 +16135,10 @@
       },
       {
         "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\0_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_rhsmc.duckdns.org\\null\\mw$-1979208265\\0_1.zip",
         "isSelected": false
       },
       {
@@ -16118,7 +17666,63 @@
         "isSelected": false
       },
       {
+        "path": "xaero\\world-map\\New World (1)\\DIM1\\cache_1",
+        "isSelected": false
+      },
+      {
         "path": "xaero\\world-map\\New World (1)\\DIM1\\caves",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\DIM1\\caves\\-2147483648",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\DIM1\\caves\\-2147483648\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\DIM1\\caves\\-2147483648\\cache\\1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\DIM1\\caves\\-2147483648\\cache\\1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\DIM1\\caves\\-2147483648\\cache\\1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\DIM1\\caves\\-2147483648\\cache\\1\\0_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\DIM1\\caves\\-2147483648\\cache\\1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\DIM1\\caves\\-2147483648\\cache\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\DIM1\\caves\\-2147483648\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\DIM1\\caves\\-2147483648\\cache_1\\-1_-1.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\DIM1\\caves\\-2147483648\\cache_1\\-1_0.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\DIM1\\caves\\-2147483648\\cache_1\\0_-1.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\DIM1\\caves\\-2147483648\\cache_1\\0_0.xwmc.outdated",
         "isSelected": false
       },
       {
@@ -16142,11 +17746,15 @@
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\New World (1)\\null\\cache_1\\0_-1.xwmc",
+        "path": "xaero\\world-map\\New World (1)\\null\\cache_1\\0_-1.xwmc.outdated",
         "isSelected": false
       },
       {
         "path": "xaero\\world-map\\New World (1)\\null\\cache_1\\0_-2.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\null\\cache_1\\0_0.xwmc",
         "isSelected": false
       },
       {
@@ -16159,6 +17767,26 @@
       },
       {
         "path": "xaero\\world-map\\New World (1)\\null\\caves\\-2147483648\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\null\\caves\\-2147483648\\cache_1\\-1_-1.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\null\\caves\\-2147483648\\cache_1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\null\\caves\\-2147483648\\cache_1\\-2_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\null\\caves\\-2147483648\\cache_1\\-2_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World (1)\\null\\caves\\-2147483648\\cache_1\\0_-1.xwmc",
         "isSelected": false
       },
       {
@@ -17555,7 +19183,7 @@
       },
       {
         "path": "options.txt",
-        "isSelected": true
+        "isSelected": false
       },
       {
         "path": "patchouli_data.json",

@@ -3,14 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1767092949808
+  last_edited_time = 1768074665310
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   universal_layout_whitelist = titel_screen;title_screen;drippy_loading_overlay;options_screen;
-  [loading_requirement_container_meta:9068dd51-0bbb-4ac8-9449-a9325d22fe44-1767093396922] = [groups:][instances:]
+  [loading_requirement_container_meta:30cbbbb7-af05-4946-878e-1fe18e8de8bf-1768074595251] = [groups:][instances:]
 }
 
 menu_background {
@@ -46,7 +46,7 @@ layout_action_executable_blocks {
 
 element {
   button_element_executable_block_identifier = 8604f8fc-8b0c-4ff1-9a7f-3a3a0dcd6db3-1755519445684
-  [executable_action_instance:a7bc9c62-8c47-42ab-9124-1ee8822269ef-1755519661198][action_type:openlink] = https://discord.gg/gVGZyvR2
+  [executable_action_instance:a7bc9c62-8c47-42ab-9124-1ee8822269ef-1755519661198][action_type:openlink] = https://discord.gg/jS84EM9Zv5
   [executable_block:8604f8fc-8b0c-4ff1-9a7f-3a3a0dcd6db3-1755519445684][type:generic] = [executables:a7bc9c62-8c47-42ab-9124-1ee8822269ef-1755519661198;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
