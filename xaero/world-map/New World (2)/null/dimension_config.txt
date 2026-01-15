@@ -1,4 +1,0 @@
-confirmedMultiworld:
-MWName:cm$spawn:spawn
-caveModeType:2
-dimensionTypeId:minecraft:overworld

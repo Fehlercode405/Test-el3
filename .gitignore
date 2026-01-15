@@ -3,6 +3,10 @@ hs_err_pid15308.log
 replay_pid15308.log
 logs/*
 crash-reports/*
+local/*
+fancymenu_data/last_world.fmdata
+xaero/*
+XaeroWaypoints_BACKUP240807/*
 resourcepacks/
 /backups
 /xaero/world-map
