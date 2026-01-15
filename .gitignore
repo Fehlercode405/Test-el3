@@ -1,4 +1,8 @@
-
+hs_err_pid7584.log
+hs_err_pid15308.log
+replay_pid15308.log
+logs/*
+crash-reports/*
 resourcepacks/
 /backups
 /xaero/world-map
