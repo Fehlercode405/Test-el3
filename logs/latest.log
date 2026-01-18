@@ -33,7 +33,7 @@
 [14:15:53] [IO-Worker-4/INFO]: System default audio device has changed!
 [14:15:54] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
 [14:15:54] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[14:15:54] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Kopfhörer (JBL TUNE230NC TWS)
+[14:15:54] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Kopfhï¿½rer (JBL TUNE230NC TWS)
 [14:15:54] [Render thread/INFO]: Sound engine started
 [14:15:54] [Render thread/INFO]: [FANCYMENU] Reloading AudioResourceHandler after Minecraft SoundEngine reload..
 [14:16:52] [Render thread/INFO]: Audio device was lost!
@@ -51,7 +51,7 @@
 [14:17:36] [IO-Worker-4/INFO]: System default audio device has changed!
 [14:17:36] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
 [14:17:36] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[14:17:36] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Kopfhörer (JBL TUNE230NC TWS)
+[14:17:36] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Kopfhï¿½rer (JBL TUNE230NC TWS)
 [14:17:36] [Render thread/INFO]: Sound engine started
 [14:17:36] [Render thread/INFO]: [FANCYMENU] Reloading AudioResourceHandler after Minecraft SoundEngine reload..
 [14:21:46] [Render thread/INFO]: Listing events...
@@ -100,3 +100,4 @@
 [14:32:19] [Render thread/INFO]: All events have been closed.
 [14:32:19] [Thread-1000/INFO]: [EMI] Clearing data
 [14:32:19] [Render thread/INFO]: Released client Flux Networks cache
+dsgdfb
