@@ -1,0 +1,104 @@
+[
+  {
+    "id": "11ac8dbe-283c-45aa-b8f6-f89b2d265146",
+    "name": "",
+    "entries": [
+      {
+        "key": "key.draconicevolution.tool_modules",
+        "title": "Tool Modules"
+      },
+      {
+        "key": "key.draconicevolution.dislocator_gui",
+        "title": "Advanced Dislocator GUI"
+      },
+      {
+        "key": "key.draconicevolution.dislocator_teleport",
+        "title": "Advanced Dislocator Teleport"
+      },
+      {
+        "key": "key.draconicevolution.place_item",
+        "title": "Place Item"
+      },
+      {
+        "key": "key.draconicevolution.toggle_flight",
+        "title": "Toggle Flight"
+      },
+      {
+        "key": "key.draconicevolution.toggle_magnet",
+        "title": "Toggle Item Dislocator"
+      },
+      {
+        "key": "key.draconicevolution.tool_config",
+        "title": "Tool Config"
+      }
+    ]
+  },
+  {
+    "id": "3ea32b13-b00e-43a2-b8f0-bbec6e923253",
+    "name": "Meka",
+    "entries": [
+      {
+        "key": "key.mekanism.chest_mode",
+        "title": "Chest Mode Switch"
+      },
+      {
+        "key": "key.mekanism.feet_mode",
+        "title": "Feet Mode Switch"
+      },
+      {
+        "key": "key.mekanism.head_mode",
+        "title": "Head Mode Switch"
+      },
+      {
+        "key": "key.mekanism.mode",
+        "title": "Item Mode Switch"
+      },
+      {
+        "key": "key.mekanism.module_tweaker",
+        "title": "Module Tweaker"
+      },
+      {
+        "key": "key.mekanism.legs_mode",
+        "title": "Legs Mode Switch"
+      }
+    ]
+  },
+  {
+    "id": "2fde89cf-8254-4fdc-94c9-faa8d6fa68a1",
+    "name": "Wands",
+    "entries": [
+      {
+        "key": "key.wands.wand_action",
+        "title": "Action"
+      },
+      {
+        "key": "key.wands.inc_sel_block",
+        "title": "Include block in selection"
+      },
+      {
+        "key": "key.wands.wand_invert",
+        "title": "Invert"
+      },
+      {
+        "key": "key.wands.wand_mode",
+        "title": "Mode"
+      },
+      {
+        "key": "key.wands.wand_orientation",
+        "title": "Orientation"
+      },
+      {
+        "key": "key.wands.toggle_stair_slab",
+        "title": "Toggle Stairs/Slabs"
+      },
+      {
+        "key": "key.wands.wand_undo",
+        "title": "Undo"
+      },
+      {
+        "key": "key.wands.wand_menu",
+        "title": "Wand Menu"
+      }
+    ]
+  }
+]

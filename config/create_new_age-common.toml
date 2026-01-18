@@ -1,7 +1,7 @@
 #Responsible for how much energy is generated per 1 stress unit in a tick
 #Default value is supposed to be compatible with default configuration of Create: Crafts and Additions
 #Range: 0.0 ~ 1.7976931348623157E308
-suToEnergy = 1.0
+suToEnergy = 0.029296875
 #How many coils can the carbon brushes collect energy from
 #Range: > 0
 maxCoils = 8
@@ -13,16 +13,16 @@ maxRodsInDirection = 32
 conductivityMultiplier = 1.0
 #Maximum depth of network pathfinding
 #Range: > 1
-maxPathfindingDepth = 32
+maxPathfindingDepth = 24
 #Multiplier of energising speed
 #Range: 0.0 ~ 1.7976931348623157E308
 energiserSpeedMultiplier = 1.0
 #Multiplier for the temperature at which components overheat. Set to -1 to disable overheating.
 #Range: -1.0 ~ 1.7976931348623157E308
-overheatingMultiplier = 2.0
+overheatingMultiplier = 1.0
 #Multiplier for how much heat pipes obtain from passive heat sources like Lava or even Boilers.
 #Range: 0.0 ~ 1.7976931348623157E308
-passiveHeatSourceMultiplier = 20.0
+passiveHeatSourceMultiplier = 1.0
 #How much heat do pipes loose per second.
 #Range: 0.0 ~ 1.7976931348623157E308
 passivePipeHeatLoss = 1.0
@@ -40,21 +40,21 @@ ReactorRodHeatLoss = 25.0
 solarPanelHeatMultiplier = 1.0
 #Maximum wire length
 #Range: > 1
-maxWireLength = 32
+maxWireLength = 16
 
 [Motors]
 	#Maximum motor SU multiplier
 	#Range: 0.0 ~ 1.7976931348623157E308
-	motorSuMultiplier = 2.0
+	motorSuMultiplier = 1.0
 	#Internal energy capacity of a basic motor
 	#Range: > 1
-	basicMotorCapacity = 160000
+	basicMotorCapacity = 16000
 	#Internal energy capacity of an advanced motor
 	#Range: > 1
-	advancedMotorCapacity = 640000
+	advancedMotorCapacity = 64000
 	#Internal energy capacity of a reinforced motor
 	#Range: > 1
-	reinforcedMotorCapacity = 1280000
+	reinforcedMotorCapacity = 128000
 	#Top Speed of a basic motor
 	#Range: 1.0 ~ 1.7976931348623157E308
 	basicMotorSpeed = 128.0

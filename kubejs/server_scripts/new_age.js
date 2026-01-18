@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    event.remove({output:'create_new_age:basic_motor'})
+    event.remove({ output: 'create_new_age:basic_motor' })
     event.shaped(
         Item.of('create_new_age:basic_motor'),
         [
@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
             B: Item.of('create_new_age:overcharged_iron')
         }
     )
-    event.remove({output:'create_new_age:advanced_motor'})
+    event.remove({ output: 'create_new_age:advanced_motor' })
     event.shaped(
         Item.of('create_new_age:advanced_motor'),
         [
@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
             B: Item.of('create_new_age:overcharged_gold')
         }
     )
-    event.remove({output:'create_new_age:reinforced_motor'})
+    event.remove({ output: 'create_new_age:reinforced_motor' })
     event.recipes.create.mechanical_crafting(
         Item.of('create_new_age:reinforced_motor'),
         [
@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
             E: Item.of('create:shaft'),
         }
     )
-    event.remove({output:'create_new_age:redstone_magnet'})
+    event.remove({ output: 'create_new_age:redstone_magnet' })
     event.shaped(
         Item.of('create_new_age:redstone_magnet'),
         [
@@ -59,7 +59,7 @@ ServerEvents.recipes(event => {
             A: Item.of('create_new_age:magnetite_block')
         }
     )
-    event.remove({output:'create_new_age:layered_magnet'})
+    event.remove({ output: 'create_new_age:layered_magnet' })
     event.shaped(
         Item.of('create_new_age:layered_magnet'),
         [
@@ -73,7 +73,7 @@ ServerEvents.recipes(event => {
             A: Item.of('create_new_age:overcharged_gold')
         }
     )
-    event.remove({output:'create_new_age:fluxuated_magnetite'})
+    event.remove({ output: 'create_new_age:fluxuated_magnetite' })
     event.shaped(
         Item.of('create_new_age:fluxuated_magnetite'),
         [
@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
             B: Item.of('create_new_age:overcharged_diamond')
         }
     )
-    event.remove({output:'create_new_age:netherite_magnet'})
+    event.remove({ output: 'create_new_age:netherite_magnet' })
     event.shaped(
         Item.of('create_new_age:netherite_magnet'),
         [
@@ -101,7 +101,7 @@ ServerEvents.recipes(event => {
             B: Item.of('minecraft:netherite_scrap')
         }
     )
-    event.remove({output:'create_new_age:energiser_t1'})
+    event.remove({ output: 'create_new_age:energiser_t1' })
     event.shaped(
         Item.of('create_new_age:energiser_t1'),
         [
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
             B: Item.of('minecraft:lightning_rod')
         }
     )
-    event.remove({output:'create_new_age:energiser_t2'})
+    event.remove({ output: 'create_new_age:energiser_t2' })
     event.shaped(
         Item.of('create_new_age:energiser_t2'),
         [
@@ -129,7 +129,7 @@ ServerEvents.recipes(event => {
             A: Item.of('create_new_age:overcharged_iron')
         }
     )
-    event.remove({output:'create_new_age:energiser_t3'})
+    event.remove({ output: 'create_new_age:energiser_t3' })
     event.shaped(
         Item.of('create_new_age:energiser_t3'),
         [
@@ -143,7 +143,7 @@ ServerEvents.recipes(event => {
             A: Item.of('create_new_age:overcharged_diamond')
         }
     )
-    event.remove({output:'create_new_age:heat_pump'})
+    event.remove({ output: 'create_new_age:heat_pump' })
     event.shaped(
         Item.of('create_new_age:heat_pump'),
         [
@@ -156,7 +156,7 @@ ServerEvents.recipes(event => {
             A: 'create_new_age:heat_pipe'
         }
     )
-    event.remove({output:'create_new_age:reactor_fuel_acceptor'})
+    event.remove({ output: 'create_new_age:reactor_fuel_acceptor' })
     event.shaped(
         Item.of('create_new_age:reactor_fuel_acceptor'),
         [
@@ -171,7 +171,7 @@ ServerEvents.recipes(event => {
             A: 'create_new_age:reactor_casing'
         }
     )
-    event.remove({output:'create_new_age:reactor_heat_vent'})
+    event.remove({ output: 'create_new_age:reactor_heat_vent' })
     event.shaped(
         Item.of('create_new_age:reactor_heat_vent'),
         [
@@ -185,7 +185,7 @@ ServerEvents.recipes(event => {
             A: 'create_new_age:reactor_casing'
         }
     )
-    event.remove({output:'create_new_age:reactor_rod'})
+    event.remove({ output: 'create_new_age:reactor_rod' })
     event.recipes.create.mechanical_crafting(
         Item.of('create_new_age:reactor_rod'),
         [
@@ -199,6 +199,22 @@ ServerEvents.recipes(event => {
             B: Item.of('mekanism:alloy_atomic'),
             C: Item.of('create_new_age:reactor_glass'),
             D: Item.of('create_new_age:nuclear_fuel'),
+        }
+    )
+    event.custom(
+        {
+            "type": "create_new_age:energising",
+            "energy_needed": 100000,
+            "ingredients": [
+                {
+                    "item": 'create_new_age:overcharged_iron'
+                }
+            ],
+            "results": [
+                {
+                    "item": 'create_new_age:magnetite_block'
+                }
+            ]
         }
     )
 });

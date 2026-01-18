@@ -26,3 +26,21 @@ Distant_Horizons_server_data/rhsmc%2Educkdns%2Eorg25565/ggd4e1f11e8bk@minecraft@
 Distant_Horizons_server_data/rhsmc%2Educkdns%2Eorg25565/ggd4e1f11e8bk@minecraft@@overworld/DistantHorizons.sqlite
 mods/
 /mods
+/_IAS_ACCOUNTS_DO_NOT_SEND_TO_ANYONE
+config/ias.json
+/.vscode
+fancymenu_data/last_world.fmdata
+kubejs\ignore
+kubejs\probe
+crash-reports
+/crash-reports
+/kubejs/ignore
+/crash-reports
+/logs
+/map exports
+minecraftinstance.json
+options.txt
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json

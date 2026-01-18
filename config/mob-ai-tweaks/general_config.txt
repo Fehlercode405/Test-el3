@@ -1,6 +1,10 @@
 #All cooldowns and durations are in ticks (20 ticks is 1 second), chances are in multiplied percentage (50 * 15% is 7.5), boosts are in added percentage (200% means 3x more, -100% means zero), and local difficulty is in percentage (250% means 2.5 local difficulty)
 allay_rework=true
 animals_can_be_fed_chorus_fruit=true
+animals_can_be_groomed_with_brushes=true
+animals_drop_item_when_groomed_chance=10
+animals_panic_in_groups=true
+animals_panic_spread_radius=16
 blaze_attack_rework=true
 blaze_fireball_count_easy=2
 blaze_fireball_count_normal=3
@@ -121,9 +125,11 @@ squid_ink_debuff_duration=100
 glow_squid_night_vision_on_stare_duration=600
 stray_special_attacks=true
 stray_special_attack_cooldown=120
+striders_can_be_ridden_temporarily_when_fed=true
 tamed_mobs_regen_amount=1
 tamed_mobs_regen_cooldown=20
 throwable_fire_charges=true
+turtle_helmet_are_hard_hats=true
 undead_horses_burn_in_day=true
 vex_rework=true
 vex_charge_attack_min_distance=4
